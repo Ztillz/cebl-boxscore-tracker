@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CEBL Analytics Dashboard</title>
+
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="./app.js"></script>
+
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>CEBL Analytics Dashboard</h1>
+    <p>Live team trend charts powered by the GitHub data pipeline.</p>
+  </header>
+
+  <main>
+    <section class="controls">
+      <label for="statSelect">Stat</label>
+      <select id="statSelect"></select>
+    </section>
+
+    <section class="chart-card">
+      <div id="teamTrendChart"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
