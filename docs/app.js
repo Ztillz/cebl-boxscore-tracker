@@ -1,40 +1,28 @@
 const BASE_URL =
   "https://raw.githubusercontent.com/Ztillz/cebl-boxscore-tracker/main/data/processed";
 
-const TEAM_GAMES_URL = `${BASE_URL}/team_games_2026.csv`;
-const TEAM_COMPARISON_URL = `${BASE_URL}/team_comparison_2026.csv`;
-
-const TEAM_COLORS = {
-    "Montréal Alliance": "#4169E1",
-    "Ottawa BlackJacks": "#E5989B",
-    "Scarborough Shooting Stars": "#111111",
-    "Niagara River Lions": "#7ED957",
-    "Brampton Honey Badgers": "#FFD700",
-    "Calgary Surge": "#8B0000",
-    "Edmonton Stingers": "#DFFF00",
-    "Saskatchewan Rattlers": "#F2C230",
-    "Saskatoon Mamba": "#FF00FF",
-    "Winnipeg Sea Bears": "#00CFC8",
-    "Vancouver Bandits": "#FF6A00",
+const CSV_URLS = {
+  team_games: `${BASE_URL}/team_games_2026.csv`,
+  team_comparison: `${BASE_URL}/team_comparison_2026.csv`,
+  player_games: `${BASE_URL}/player_games_2026.csv`,
+  charting_metrics: `${BASE_URL}/charting_metrics_2026.csv`,
 };
 
-const STAT_OPTIONS = [
-  "Points From Turnovers",
-  "Points In The Paint",
-  "Second Chance Points",
-  "Fast Break Points",
-  "Bench Points",
-  "Biggest Lead",
-  "Biggest Scoring Run",
-  "2P%",
-  "3PA",
-  "FTA",
-  "OReb",
-  "Total Rebounds",
-  "Stocks"
-];
+const TEAM_COLORS = {
+  "Montréal Alliance": "#4169E1",
+  "Ottawa BlackJacks": "#E5989B",
+  "Scarborough Shooting Stars": "#111111",
+  "Niagara River Lions": "#7ED957",
+  "Brampton Honey Badgers": "#FFD700",
+  "Calgary Surge": "#8B0000",
+  "Edmonton Stingers": "#DFFF00",
+  "Saskatchewan Rattlers": "#F2C230",
+  "Saskatoon Mamba": "#FF00FF",
+  "Winnipeg Sea Bears": "#00CFC8",
+  "Vancouver Bandits": "#FF6A00",
+};
 
-const STAT_COLUMN_MAP = {
+const BOXSCORE_DIFF_STATS = {
   "Points From Turnovers": "points_from_turnovers",
   "Points In The Paint": "points_in_the_paint",
   "Second Chance Points": "second_chance_points",
@@ -42,16 +30,25 @@ const STAT_COLUMN_MAP = {
   "Bench Points": "bench_points",
   "Biggest Lead": "biggest_lead",
   "Biggest Scoring Run": "biggest_scoring_run",
+};
+
+const STANDARD_BOXSCORE_STATS = {
   "2P%": "two_point_percentage",
   "3PA": "three_point_field_goals_attempted",
-  "FTA": "free_throw_attempted",
+  "FTA": "free_throws_attempted",
   "OReb": "offensive_rebounds",
   "Total Rebounds": "rebounds",
-  "Stocks": "stocks"
+  "Stocks": "stocks",
+};
+
+const ALL_STATS = {
+  ...BOXSCORE_DIFF_STATS,
+  ...STANDARD_BOXSCORE_STATS,
 };
 
 let teamGames = [];
-let teamComparison = [];
+let teamDiffRows = [];
+let teamOrder = [];
 
 async function loadCSV(url) {
   return new Promise((resolve, reject) => {
@@ -61,178 +58,350 @@ async function loadCSV(url) {
       dynamicTyping: true,
       skipEmptyLines: true,
       complete: results => resolve(results.data),
-      error: err => reject(err)
+      error: error => reject(error),
     });
   });
 }
 
-function getTeamColumn(row) {
-  return row.team || row.team_name || row.Team || row.TEAM;
+function numberOrNull(value) {
+  const num = Number(value);
+  return Number.isFinite(num) ? num : null;
 }
 
-function getGameNumberColumn(row) {
-  return row.game_number || row.game_num || row.game_index || row.Game || row.GAME;
+function getAvailableStats(rows, statsDict) {
+  const firstRow = rows[0] || {};
+  const available = {};
+
+  Object.entries(statsDict).forEach(([label, col]) => {
+    if (Object.prototype.hasOwnProperty.call(firstRow, col)) {
+      available[label] = col;
+    }
+  });
+
+  return available;
 }
 
-function createDifferentialRows(rows, statColumn) {
-  return rows.map(row => {
-    const teamValue = Number(row[statColumn]);
+function createTeamGameDifferentials(rows, statsDict) {
+  const useStats = Object.values(statsDict);
 
-    const opponentValue =
-      Number(row[`opp_${statColumn}`]) ||
-      Number(row[`opponent_${statColumn}`]) ||
-      null;
+  const gameLookup = {};
 
-    return {
-      ...row,
-      differential_value:
-        opponentValue === null || Number.isNaN(opponentValue)
+  rows.forEach(row => {
+    if (!gameLookup[row.game_id]) {
+      gameLookup[row.game_id] = [];
+    }
+    gameLookup[row.game_id].push(row);
+  });
+
+  const mergedRows = [];
+
+  rows.forEach(row => {
+    const gameRows = gameLookup[row.game_id] || [];
+
+    const opponentRow = gameRows.find(
+      other => other.team_name !== row.team_name
+    );
+
+    if (!opponentRow) return;
+
+    const newRow = {
+      game_id: row.game_id,
+      season: row.season,
+      game_date: row.game_date,
+      game_number: row.game_number,
+      team_name: row.team_name,
+      short_name: row.short_name,
+      opponent_name: row.opponent_name,
+      matched_opponent_team_name: opponentRow.team_name,
+      matched_opponent_short_name: opponentRow.short_name,
+    };
+
+    useStats.forEach(col => {
+      const teamValue = numberOrNull(row[col]);
+      const opponentValue = numberOrNull(opponentRow[col]);
+
+      newRow[col] = teamValue;
+      newRow[`opp_${col}`] = opponentValue;
+      newRow[`${col}_diff`] =
+        teamValue === null || opponentValue === null
           ? null
-          : teamValue - opponentValue
-    };
+          : teamValue - opponentValue;
+    });
+
+    mergedRows.push(newRow);
+  });
+
+  return mergedRows;
+}
+
+function populateStatDropdown(availableStats) {
+  const select = document.getElementById("statSelect");
+  select.innerHTML = "";
+
+  Object.keys(availableStats).forEach(label => {
+    const option = document.createElement("option");
+    option.value = label;
+    option.textContent = label;
+    select.appendChild(option);
+  });
+
+  select.addEventListener("change", () => {
+    const statLabel = select.value;
+    renderTeamStatChart(statLabel, availableStats[statLabel], "Differential");
   });
 }
 
-function makeTraces(rows, statName, mode) {
-  const statColumn = STAT_COLUMN_MAP[statName];
+function sortTeamRows(rows) {
+  return rows.sort((a, b) => {
+    const dateCompare = new Date(a.game_date) - new Date(b.game_date);
+    if (dateCompare !== 0) return dateCompare;
+    return Number(a.game_number) - Number(b.game_number);
+  });
+}
 
-  const plotRows =
+function buildTrace(team, statLabel, statCol, mode) {
+  const isPercentage = statLabel.includes("%");
+  const diffCol = `${statCol}_diff`;
+
+  const teamRows = sortTeamRows(
+    teamDiffRows.filter(row => row.team_name === team)
+  );
+
+  const yValues =
     mode === "Differential"
-      ? createDifferentialRows(rows, statColumn)
-      : rows;
+      ? teamRows.map(row => row[diffCol])
+      : teamRows.map(row => row[statCol]);
 
-  const teams = [...new Set(plotRows.map(getTeamColumn).filter(Boolean))];
+  const customData = teamRows.map(row => [
+    row.game_date,
+    row.opponent_name,
+    row[statCol],
+    row[`opp_${statCol}`],
+  ]);
 
-  return teams.map(team => {
-    const teamRows = plotRows
-      .filter(row => getTeamColumn(row) === team)
-      .sort((a, b) => Number(getGameNumberColumn(a)) - Number(getGameNumberColumn(b)));
+  const numFormat = isPercentage ? ".1f" : "";
 
-    const yValues =
-      mode === "Differential"
-        ? teamRows.map(row => row.differential_value)
-        : teamRows.map(row => Number(row[statColumn]));
-
-    return {
-      x: teamRows.map(getGameNumberColumn),
-      y: yValues,
-      type: "scatter",
-      mode: "lines+markers",
-      name: team,
-      line: {
-        color: TEAM_COLORS[team] || "#6b7280",
-        width: 3
-      },
-      marker: {
-        size: 7
-      },
-      hovertemplate:
-        `<b>${team}</b><br>` +
+  const hoverTemplate =
+    mode === "Differential"
+      ? `<b>${team}</b><br>` +
         `Game: %{x}<br>` +
-        `${statName} ${mode}: %{y}<extra></extra>`
-    };
-  });
+        `Date: %{customdata[0]}<br>` +
+        `Opponent: %{customdata[1]}<br>` +
+        `Differential: %{y:${numFormat}}<br>` +
+        `Team total: %{customdata[2]:${numFormat}}<br>` +
+        `Opponent total: %{customdata[3]:${numFormat}}` +
+        `<extra></extra>`
+      : `<b>${team}</b><br>` +
+        `Game: %{x}<br>` +
+        `Date: %{customdata[0]}<br>` +
+        `Opponent: %{customdata[1]}<br>` +
+        `Team total: %{y:${numFormat}}` +
+        `<extra></extra>`;
+
+  return {
+    x: teamRows.map(row => row.game_number),
+    y: yValues,
+    customdata: customData,
+    type: "scatter",
+    mode: "lines+markers",
+    name: team,
+    line: {
+      color: TEAM_COLORS[team] || "#999999",
+      width: 3,
+    },
+    marker: {
+      size: 8,
+      color: TEAM_COLORS[team] || "#999999",
+    },
+    hovertemplate: hoverTemplate,
+  };
 }
 
-function renderChart(statName, mode = "Differential") {
-  const traces = makeTraces(teamGames, statName, mode);
+function buildTraces(statLabel, statCol, mode) {
+  return teamOrder.map(team => buildTrace(team, statLabel, statCol, mode));
+}
+
+function getYAxisTitle(statLabel, mode) {
+  const isPercentage = statLabel.includes("%");
+
+  if (mode === "Differential" && isPercentage) {
+    return `${statLabel} Differential (percentage points)`;
+  }
+
+  if (mode === "Total" && isPercentage) {
+    return `${statLabel} Total (%)`;
+  }
+
+  return `${statLabel} ${mode}`;
+}
+
+function getZeroLineShape(mode) {
+  if (mode !== "Differential") return [];
+
+  return [
+    {
+      type: "line",
+      xref: "paper",
+      x0: 0,
+      x1: 1,
+      y0: 0,
+      y1: 0,
+      line: {
+        color: "gray",
+        width: 1,
+        dash: "dash",
+      },
+      opacity: 0.7,
+    },
+  ];
+}
+
+function renderTeamStatChart(statLabel, statCol, mode = "Differential") {
+  const traces = buildTraces(statLabel, statCol, mode);
 
   const layout = {
-    title: `${statName} - ${mode}`,
-    paper_bgcolor: "#ffffff",
-    plot_bgcolor: "#ffffff",
+    title: {
+      text: `${statLabel} ${mode} by Game`,
+      x: 0.5,
+      font: { size: 24 },
+    },
+    height: 725,
+    template: "plotly_white",
     hovermode: "closest",
     xaxis: {
-      title: "Game Number",
+      title: "Team Game Number",
+      tickmode: "linear",
+      tick0: 1,
       dtick: 1,
-      tick0: 1
+      showgrid: true,
     },
     yaxis: {
-      title: mode
+      title: getYAxisTitle(statLabel, mode),
+      showgrid: true,
+      zeroline: true,
     },
+    legend: {
+      title: { text: "Team" },
+      orientation: "v",
+      yanchor: "top",
+      y: 1,
+      xanchor: "left",
+      x: 1.02,
+    },
+    margin: {
+      l: 70,
+      r: 220,
+      t: 120,
+      b: 70,
+    },
+    shapes: getZeroLineShape(mode),
     updatemenus: [
       {
         type: "buttons",
         direction: "right",
-        x: 0,
-        y: 1.15,
+        x: 0.02,
+        y: 1.18,
+        xanchor: "left",
+        yanchor: "top",
         buttons: [
           {
             label: "Differential",
             method: "update",
             args: [
               {
-                y: makeTraces(teamGames, statName, "Differential").map(trace => trace.y)
+                y: buildTraces(statLabel, statCol, "Differential").map(
+                  trace => trace.y
+                ),
+                customdata: buildTraces(statLabel, statCol, "Differential").map(
+                  trace => trace.customdata
+                ),
+                hovertemplate: buildTraces(
+                  statLabel,
+                  statCol,
+                  "Differential"
+                ).map(trace => trace.hovertemplate),
               },
               {
-                title: `${statName} - Differential`,
-                "yaxis.title.text": "Differential"
-              }
-            ]
+                title: `${statLabel} Differential by Game`,
+                "yaxis.title.text": getYAxisTitle(statLabel, "Differential"),
+                shapes: getZeroLineShape("Differential"),
+              },
+            ],
           },
           {
             label: "Total",
             method: "update",
             args: [
               {
-                y: makeTraces(teamGames, statName, "Total").map(trace => trace.y)
+                y: buildTraces(statLabel, statCol, "Total").map(
+                  trace => trace.y
+                ),
+                customdata: buildTraces(statLabel, statCol, "Total").map(
+                  trace => trace.customdata
+                ),
+                hovertemplate: buildTraces(statLabel, statCol, "Total").map(
+                  trace => trace.hovertemplate
+                ),
               },
               {
-                title: `${statName} - Total`,
-                "yaxis.title.text": "Total"
-              }
-            ]
-          }
-        ]
-      }
+                title: `${statLabel} Total by Game`,
+                "yaxis.title.text": getYAxisTitle(statLabel, "Total"),
+                shapes: getZeroLineShape("Total"),
+              },
+            ],
+          },
+        ],
+      },
     ],
-    legend: {
-      orientation: "h",
-      y: -0.25
-    },
-    margin: {
-      t: 90,
-      r: 30,
-      b: 110,
-      l: 70
-    }
   };
 
   Plotly.newPlot("teamTrendChart", traces, layout, {
     responsive: true,
-    displayModeBar: true
+    displayModeBar: true,
   });
 }
 
-function populateStatDropdown() {
-  const select = document.getElementById("statSelect");
+function renderDataSummary(availableStats) {
+  const status = document.getElementById("statusMessage");
+  if (!status) return;
 
-  STAT_OPTIONS.forEach(stat => {
-    const option = document.createElement("option");
-    option.value = stat;
-    option.textContent = stat;
-    select.appendChild(option);
-  });
+  const teams = [...new Set(teamGames.map(row => row.team_name).filter(Boolean))];
+  const games = [...new Set(teamGames.map(row => row.game_id).filter(Boolean))];
 
-  select.addEventListener("change", () => {
-    renderChart(select.value, "Differential");
-  });
+  status.textContent = `Loaded ${teamGames.length} team-game rows, ${games.length} games, ${teams.length} teams, ${Object.keys(availableStats).length} available stats.`;
 }
 
 async function initDashboard() {
-  try {
-    teamGames = await loadCSV(TEAM_GAMES_URL);
-    teamComparison = await loadCSV(TEAM_COMPARISON_URL);
+  const status = document.getElementById("statusMessage");
 
-    populateStatDropdown();
-    renderChart(STAT_OPTIONS[0], "Differential");
+  try {
+    teamGames = await loadCSV(CSV_URLS.team_games);
+
+    const availableStats = getAvailableStats(teamGames, ALL_STATS);
+
+    if (Object.keys(availableStats).length === 0) {
+      throw new Error("No stat columns matched. Check ALL_STATS column names.");
+    }
+
+    teamDiffRows = createTeamGameDifferentials(teamGames, availableStats);
+
+    teamOrder = [...new Set(teamDiffRows.map(row => row.team_name))]
+      .filter(Boolean)
+      .sort();
+
+    populateStatDropdown(availableStats);
+
+    const firstStatLabel = Object.keys(availableStats)[0];
+    renderTeamStatChart(firstStatLabel, availableStats[firstStatLabel]);
+
+    renderDataSummary(availableStats);
   } catch (error) {
     console.error("Dashboard failed to load:", error);
-    document.body.innerHTML += `
-      <p style="color:red; padding: 40px;">
-        Failed to load dashboard data. Check CSV URLs or column names.
-      </p>
-    `;
+
+    if (status) {
+      status.textContent = "Dashboard failed to load. Check browser console.";
+      status.classList.add("error");
+    }
   }
 }
 
