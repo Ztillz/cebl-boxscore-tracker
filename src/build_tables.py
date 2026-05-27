@@ -13,7 +13,6 @@ def normalize_text(value: str) -> str:
 
     value = str(value)
 
-    # Remove accents
     value = unicodedata.normalize(
         "NFKD",
         value
@@ -24,10 +23,8 @@ def normalize_text(value: str) -> str:
         "utf-8"
     )
 
-    # Lowercase
     value = value.lower()
 
-    # Remove extra spaces
     value = " ".join(value.split())
 
     return value
@@ -39,13 +36,86 @@ def ensure_dirs() -> None:
 def load_raw_data(season: int):
     schedule = pd.read_csv(RAW_DIR / f"schedule_{season}.csv")
 
-    team_box = pd.read_csv(
-        RAW_DIR / f"team_boxscores_{season}.csv"
-    )
+    team_box_cols = [
+        "game_id",
+        "fiba_id",
+        "season",
+        "team_name",
+        "short_name",
+        "team_code",
+        "team_score",
+        "field_goals_made",
+        "field_goals_attempted",
+        "field_goal_percentage",
+        "two_point_field_goals_made",
+        "two_point_field_goals_attempted",
+        "two_point_percentage",
+        "three_point_field_goals_made",
+        "three_point_field_goals_attempted",
+        "three_point_percentage",
+        "free_throws_made",
+        "free_throws_attempted",
+        "free_throw_percentage",
+        "offensive_rebounds",
+        "defensive_rebounds",
+        "rebounds",
+        "assists",
+        "steals",
+        "turnovers",
+        "blocks",
+        "personal_fouls",
+        "fouls_drawn",
+        "points_in_the_paint",
+        "second_chance_points",
+        "points_from_turnovers",
+        "bench_points",
+        "fast_break_points",
+    ]
 
-    player_box = pd.read_csv(
-        RAW_DIR / f"player_boxscores_{season}.csv"
-    )
+    player_box_cols = [
+        "game_id",
+        "fiba_id",
+        "season",
+        "team_name",
+        "team_code",
+        "player_id",
+        "player_name",
+        "first_name",
+        "family_name",
+        "shirt_number",
+        "position",
+        "starter",
+        "minutes",
+        "field_goals_made",
+        "field_goals_attempted",
+        "field_goal_percentage",
+        "two_point_field_goals_made",
+        "two_point_field_goals_attempted",
+        "two_point_percentage",
+        "three_point_field_goals_made",
+        "three_point_field_goals_attempted",
+        "three_point_percentage",
+        "free_throws_made",
+        "free_throws_attempted",
+        "free_throw_percentage",
+        "offensive_rebounds",
+        "defensive_rebounds",
+        "rebounds",
+        "assists",
+        "steals",
+        "turnovers",
+        "blocks",
+        "personal_fouls",
+        "fouls_drawn",
+        "points",
+        "second_chance_points",
+        "fast_break_points",
+        "plus_minus",
+        "points_in_the_paint",
+    ]
+
+    team_box = pd.DataFrame(columns=team_box_cols)
+    player_box = pd.DataFrame(columns=player_box_cols)
 
     return schedule, team_box, player_box
 
@@ -53,7 +123,6 @@ def load_raw_data(season: int):
 def build_team_games(schedule: pd.DataFrame,
                      team_box: pd.DataFrame) -> pd.DataFrame:
 
-    # Home team rows
     home_df = schedule[[
     "fiba_id",
     "home_team_name",
@@ -68,7 +137,6 @@ def build_team_games(schedule: pd.DataFrame,
         "game_date"
     ]
 
-    # Away team rows
     away_df = schedule[[
     "fiba_id",
     "away_team_name",
@@ -83,10 +151,8 @@ def build_team_games(schedule: pd.DataFrame,
         "game_date"
     ]
 
-    # Combine both perspectives
     opponents_df = pd.concat([home_df, away_df], ignore_index=True)
 
-    # Ensure matching merge types
     team_box["game_id"] = team_box["game_id"].astype(str)
     opponents_df["game_id"] = opponents_df["game_id"].astype(str)
     team_box["team_name_clean"] = (
@@ -98,31 +164,26 @@ def build_team_games(schedule: pd.DataFrame,
     opponents_df["team_name"]
     .apply(normalize_text)
     )
-    # Merge onto team boxscores
     team_games = team_box.merge(
     opponents_df.drop(columns=["team_name"]),
     on=["game_id", "team_name_clean"],
     how="left"
     )
 
-    # Sort chronologically
     team_games = team_games.sort_values(
         ["team_name", "game_date"]
     )
 
-    # Create game number per team
     team_games["game_number"] = (
         team_games.groupby("team_name")
         .cumcount() + 1
     )
 
-    # Create STOCKS metric
     team_games["stocks"] = (
         team_games["steals"] +
         team_games["blocks"]
     )
 
-    # Create FT text
     team_games["ft"] = (
         team_games["free_throws_made"].astype(str)
         + "-"
