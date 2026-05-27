@@ -34,8 +34,10 @@ const BOXSCORE_DIFF_STATS = {
 
 const STANDARD_BOXSCORE_STATS = {
   "2P%": "two_point_percentage",
+  "3P%": "three_point_percentage",
   "3PA": "three_point_field_goals_attempted",
   "FTA": "free_throws_attempted",
+  "TO": "turnovers",
   "OReb": "offensive_rebounds",
   "Total Rebounds": "rebounds",
   "Stocks": "stocks",
@@ -49,6 +51,7 @@ const ALL_STATS = {
 let teamGames = [];
 let teamDiffRows = [];
 let teamOrder = [];
+let queryConditions = [];
 
 async function loadCSV(url) {
   return new Promise((resolve, reject) => {
@@ -371,6 +374,206 @@ function renderDataSummary(availableStats) {
   status.textContent = `Loaded ${teamGames.length} team-game rows, ${games.length} games, ${teams.length} teams, ${Object.keys(availableStats).length} available stats.`;
 }
 
+function compareValues(actual, operator, target) {
+  if (actual === null || Number.isNaN(actual)) return false;
+
+  if (operator === "<") return actual < target;
+  if (operator === "<=") return actual <= target;
+  if (operator === ">") return actual > target;
+  if (operator === ">=") return actual >= target;
+  if (operator === "==") return actual === target;
+
+  return false;
+}
+
+function getTeamResult(row) {
+  const teamScore =
+    numberOrNull(row.points) ??
+    numberOrNull(row.team_score) ??
+    numberOrNull(row.score);
+
+  const opponentScore =
+    numberOrNull(row.opponent_points) ??
+    numberOrNull(row.opp_points) ??
+    numberOrNull(row.opponent_score);
+
+  if (teamScore === null || opponentScore === null) return null;
+
+  return teamScore > opponentScore ? "W" : "L";
+}
+
+function populateQueryControls(availableStats) {
+  const teamSelect = document.getElementById("queryTeamSelect");
+  const statSelect = document.getElementById("queryStatSelect");
+
+  if (!teamSelect || !statSelect) return;
+
+  teamSelect.innerHTML = `<option value="ALL">All Teams</option>`;
+  statSelect.innerHTML = "";
+
+  teamOrder.forEach(team => {
+    const option = document.createElement("option");
+    option.value = team;
+    option.textContent = team;
+    teamSelect.appendChild(option);
+  });
+
+  Object.entries(availableStats).forEach(([label, col]) => {
+    const option = document.createElement("option");
+    option.value = col;
+    option.textContent = label;
+    statSelect.appendChild(option);
+  });
+}
+
+function renderActiveConditions() {
+  const box = document.getElementById("activeConditions");
+  if (!box) return;
+
+  if (queryConditions.length === 0) {
+    box.textContent = "No active conditions.";
+    return;
+  }
+
+  box.innerHTML = queryConditions
+    .map(
+      condition =>
+        `<span>${condition.label} ${condition.operator} ${condition.value}</span>`
+    )
+    .join(" AND ");
+}
+
+function addQueryCondition() {
+  const statSelect = document.getElementById("queryStatSelect");
+  const operatorSelect = document.getElementById("queryOperatorSelect");
+  const valueInput = document.getElementById("queryValueInput");
+
+  if (!statSelect || !operatorSelect || !valueInput) return;
+
+  if (valueInput.value === "") {
+    alert("Enter a value before adding the condition.");
+    return;
+  }
+
+  const selectedOption = statSelect.options[statSelect.selectedIndex];
+
+  queryConditions.push({
+    label: selectedOption.textContent,
+    col: statSelect.value,
+    operator: operatorSelect.value,
+    value: Number(valueInput.value),
+  });
+
+  valueInput.value = "";
+  renderActiveConditions();
+}
+
+function runTeamQuery() {
+  const teamSelect = document.getElementById("queryTeamSelect");
+  const resultsBox = document.getElementById("queryResults");
+
+  if (!teamSelect || !resultsBox) return;
+
+  const selectedTeam = teamSelect.value;
+
+  let filteredRows = [...teamGames];
+
+  if (selectedTeam !== "ALL") {
+    filteredRows = filteredRows.filter(row => row.team_name === selectedTeam);
+  }
+
+  queryConditions.forEach(condition => {
+    filteredRows = filteredRows.filter(row => {
+      const actual = numberOrNull(row[condition.col]);
+      return compareValues(actual, condition.operator, condition.value);
+    });
+  });
+
+  const grouped = {};
+
+  filteredRows.forEach(row => {
+    const team = row.team_name;
+    const result = getTeamResult(row);
+
+    if (!grouped[team]) {
+      grouped[team] = {
+        team,
+        games: 0,
+        wins: 0,
+        losses: 0,
+      };
+    }
+
+    grouped[team].games += 1;
+
+    if (result === "W") grouped[team].wins += 1;
+    if (result === "L") grouped[team].losses += 1;
+  });
+
+  const summaryRows = Object.values(grouped)
+    .map(row => ({
+      ...row,
+      winPct: row.games > 0 ? row.wins / row.games : 0,
+    }))
+    .sort((a, b) => b.winPct - a.winPct);
+
+  if (summaryRows.length === 0) {
+    resultsBox.innerHTML = `<p>No games matched this query.</p>`;
+    return;
+  }
+
+  resultsBox.innerHTML = `
+    <table>
+      <thead>
+        <tr>
+          <th>Team</th>
+          <th>Games</th>
+          <th>Wins</th>
+          <th>Losses</th>
+          <th>Win %</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${summaryRows
+          .map(
+            row => `
+              <tr>
+                <td>${row.team}</td>
+                <td>${row.games}</td>
+                <td>${row.wins}</td>
+                <td>${row.losses}</td>
+                <td>${(row.winPct * 100).toFixed(1)}%</td>
+              </tr>
+            `
+          )
+          .join("")}
+      </tbody>
+    </table>
+  `;
+}
+
+function clearQuery() {
+  queryConditions = [];
+  renderActiveConditions();
+
+  const resultsBox = document.getElementById("queryResults");
+  if (resultsBox) resultsBox.innerHTML = "";
+}
+
+function setupQueryButtons() {
+  document
+    .getElementById("addConditionBtn")
+    ?.addEventListener("click", addQueryCondition);
+
+  document
+    .getElementById("runQueryBtn")
+    ?.addEventListener("click", runTeamQuery);
+
+  document
+    .getElementById("clearQueryBtn")
+    ?.addEventListener("click", clearQuery);
+}
+
 async function initDashboard() {
   const status = document.getElementById("statusMessage");
 
@@ -390,6 +593,9 @@ async function initDashboard() {
       .sort();
 
     populateStatDropdown(availableStats);
+    populateQueryControls(availableStats);
+    setupQueryButtons();
+    renderActiveConditions();
 
     const firstStatLabel = Object.keys(availableStats)[0];
     renderTeamStatChart(firstStatLabel, availableStats[firstStatLabel]);
