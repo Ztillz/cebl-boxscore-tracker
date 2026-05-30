@@ -232,6 +232,18 @@ game_id,fiba_id,season,team_name,team_code,player_id,player_name,first_name,fami
 2798735,2798735,2026,Niagara River Lions,NRL,14,K. Warrens,Kameron,Warrens,10,G,0,18:50,2,6,33,0,3,0,2,3,66,2,2,100,0,3,3,3,0,0,0,2,1,8,3,0,7,0,niagara river lions,Montreal Alliance,2026-05-26T23:30:00Z,4
 2798735,2798735,2026,Niagara River Lions,NRL,5,P. Tchuente,Phil Jordan,Tchuente,1,F,0,15:39,1,1,100,1,1,100,0,0,0,1,2,50,1,2,3,0,2,0,2,3,1,3,1,0,-12,2,niagara river lions,Montreal Alliance,2026-05-26T23:30:00Z,4
 2798735,2798735,2026,Niagara River Lions,NRL,3,C. Long,Cole,Long,15,F,0,11:09,2,5,40,2,2,100,0,3,0,0,0,0,0,0,0,0,0,0,1,1,0,4,0,0,-4,2,niagara river lions,Montreal Alliance,2026-05-26T23:30:00Z,4
+2798740,2798740,2026,Niagara River Lions,NRL,6,E. Lufile,Elijah,Lufile,22,F,1,9:12,2,2,100,2,2,100,0,0,0,0,0,0,1,0,1,1,1,0,1,1,2,4,0,0,-4,4,niagara river lions,Vancouver Bandits,2026-05-29T23:00:00Z,5
+2798740,2798740,2026,Niagara River Lions,NRL,10,N. Cayo,Nathan,Cayo,13,F,1,30:22,5,12,41,4,7,57,1,5,20,2,4,50,0,1,1,3,2,2,0,0,2,13,3,0,-5,6,niagara river lions,Vancouver Bandits,2026-05-29T23:00:00Z,5
+2798740,2798740,2026,Niagara River Lions,NRL,17,D. Carey Jr,Donald,Carey Jr,17,G,1,30:21,5,9,55,1,2,50,4,7,57,1,2,50,0,4,4,5,1,1,0,1,3,15,3,0,-15,2,niagara river lions,Vancouver Bandits,2026-05-29T23:00:00Z,5
+2798740,2798740,2026,Niagara River Lions,NRL,9,C. Vreeken,Connor,Vreeken,14,G,0,2:34,1,2,50,0,0,0,1,2,50,1,1,100,0,0,0,0,0,0,0,2,0,4,0,0,2,0,niagara river lions,Vancouver Bandits,2026-05-29T23:00:00Z,5
+2798740,2798740,2026,Niagara River Lions,NRL,16,K. Kennedy,Keonte,Kennedy,23,G,1,27:55,5,11,45,4,7,57,1,4,25,2,2,100,2,1,3,6,1,2,1,2,1,13,0,2,-2,8,niagara river lions,Vancouver Bandits,2026-05-29T23:00:00Z,5
+2798740,2798740,2026,Niagara River Lions,NRL,11,C. Hollis,Curtis,Hollis,0,F,1,24:50,5,11,45,4,6,66,1,5,20,1,2,50,2,4,6,4,3,2,0,4,1,12,4,0,-7,8,niagara river lions,Vancouver Bandits,2026-05-29T23:00:00Z,5
+2798740,2798740,2026,Niagara River Lions,NRL,14,K. Warrens,Kameron,Warrens,10,G,0,18:33,4,7,57,3,3,100,1,4,25,0,0,0,1,1,2,3,0,1,0,1,1,9,2,0,-6,6,niagara river lions,Vancouver Bandits,2026-05-29T23:00:00Z,5
+2798740,2798740,2026,Niagara River Lions,NRL,5,P. Tchuente,Phil Jordan,Tchuente,1,F,0,14:58,5,6,83,5,6,83,0,0,0,1,2,50,0,2,2,2,1,2,0,1,1,11,2,2,-15,10,niagara river lions,Vancouver Bandits,2026-05-29T23:00:00Z,5
+2798740,2798740,2026,Niagara River Lions,NRL,8,J. Muila,Jean-David,Muila,21,F,0,14:19,2,2,100,2,2,100,0,0,0,0,2,0,1,5,6,2,0,2,1,1,2,4,0,0,-3,4,niagara river lions,Vancouver Bandits,2026-05-29T23:00:00Z,5
+2798740,2798740,2026,Niagara River Lions,NRL,3,C. Long,Cole,Long,15,F,0,13:29,3,7,42,2,3,66,1,4,25,4,4,100,1,2,3,0,1,0,0,3,1,11,0,4,5,4,niagara river lions,Vancouver Bandits,2026-05-29T23:00:00Z,5
+2798740,2798740,2026,Niagara River Lions,NRL,13,B. Tchoukuiegno,Blondeau,Tchoukuiegno,9,G,0,13:27,2,2,100,2,2,100,0,0,0,0,0,0,0,1,1,1,0,0,0,2,1,4,2,0,0,4,niagara river lions,Vancouver Bandits,2026-05-29T23:00:00Z,5
+2798740,2798740,2026,Niagara River Lions,NRL,7,A. Nurhussien,Ayub,Nurhussien,2,F,0,0:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,niagara river lions,Vancouver Bandits,2026-05-29T23:00:00Z,5
 2798718,2798718,2026,Ottawa BlackJacks,OTT,11,C. Martynov,Cyril,Martynov,22,C,0,7:21,0,3,0,0,3,0,0,0,0,1,2,50,2,0,2,0,1,0,0,2,1,1,0,0,-4,0,ottawa blackjacks,Calgary Surge,2026-05-12T23:30:00Z,1
 2798718,2798718,2026,Ottawa BlackJacks,OTT,1,C. Rohlehr,Christian,Rohlehr,17,F,0,4:45,0,0,0,0,0,0,0,0,0,1,2,50,0,0,0,0,0,1,0,1,1,1,0,0,-7,0,ottawa blackjacks,Calgary Surge,2026-05-12T23:30:00Z,1
 2798718,2798718,2026,Ottawa BlackJacks,OTT,7,J. Smart,Javonte,Smart,1,G,1,33:08,10,19,52,6,10,60,4,9,44,6,6,100,1,8,9,9,0,3,0,2,3,30,2,4,0,12,ottawa blackjacks,Calgary Surge,2026-05-12T23:30:00Z,1
@@ -326,6 +338,16 @@ game_id,fiba_id,season,team_name,team_code,player_id,player_name,first_name,fami
 2798719,2798719,2026,Saskatoon Mamba,SSK,9,M. Mahadhi,Mohamed,Mahadhi,11,G,0,22:03,2,9,22,2,8,25,0,1,0,0,0,0,1,1,2,10,3,2,1,1,1,4,0,2,-2,4,saskatoon mamba,Scarborough Shooting Stars,2026-05-21T15:00:00Z,4
 2798719,2798719,2026,Saskatoon Mamba,SSK,10,T. Townsend,Trey,Townsend,00,F,1,21:27,2,5,40,2,4,50,0,1,0,0,0,0,0,3,3,0,0,2,1,1,0,4,0,0,-2,4,saskatoon mamba,Scarborough Shooting Stars,2026-05-21T15:00:00Z,4
 2798719,2798719,2026,Saskatoon Mamba,SSK,12,M. Harding,Markus,Harding,22,C,0,0:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,saskatoon mamba,Scarborough Shooting Stars,2026-05-21T15:00:00Z,4
+2798742,2798742,2026,Saskatoon Mamba,SSK,5,K. Mané,Karim,Mané,4,G,0,7:16,3,4,75,3,3,100,0,1,0,0,0,0,0,2,2,1,0,2,0,2,1,6,2,0,-3,6,saskatoon mamba,Winnipeg Sea Bears,2026-05-30T01:30:00Z,5
+2798742,2798742,2026,Saskatoon Mamba,SSK,8,T. Dunn-Martin,Tavian,Dunn-Martin,7,G,1,38:18,8,17,47,5,8,62,3,9,33,2,2,100,0,2,2,8,1,3,0,2,4,21,0,2,1,8,saskatoon mamba,Winnipeg Sea Bears,2026-05-30T01:30:00Z,5
+2798742,2798742,2026,Saskatoon Mamba,SSK,4,J. Williams,Jaylin,Williams,2,F,1,31:08,3,11,27,1,5,20,2,6,33,0,0,0,1,7,8,5,0,1,1,0,0,8,0,0,12,2,saskatoon mamba,Winnipeg Sea Bears,2026-05-30T01:30:00Z,5
+2798742,2798742,2026,Saskatoon Mamba,SSK,6,J. Chaplin,Jamir,Chaplin,24,F/G,1,27:57,5,12,41,4,9,44,1,3,33,7,10,70,3,3,6,2,1,2,0,4,9,18,5,3,7,8,saskatoon mamba,Winnipeg Sea Bears,2026-05-30T01:30:00Z,5
+2798742,2798742,2026,Saskatoon Mamba,SSK,9,M. Mahadhi,Mohamed,Mahadhi,11,G,0,25:24,4,10,40,3,6,50,1,4,25,0,0,0,1,3,4,5,3,3,0,5,2,9,0,0,14,6,saskatoon mamba,Winnipeg Sea Bears,2026-05-30T01:30:00Z,5
+2798742,2798742,2026,Saskatoon Mamba,SSK,3,J. Bediako,Jaden,Bediako,15,C,1,23:20,7,9,77,7,9,77,0,0,0,3,3,100,4,6,10,0,0,4,1,3,3,17,9,0,5,12,saskatoon mamba,Winnipeg Sea Bears,2026-05-30T01:30:00Z,5
+2798742,2798742,2026,Saskatoon Mamba,SSK,10,T. Townsend,Trey,Townsend,00,F,0,21:14,3,5,60,0,1,0,3,4,75,2,2,100,0,1,1,0,0,1,0,0,1,11,3,0,-15,0,saskatoon mamba,Winnipeg Sea Bears,2026-05-30T01:30:00Z,5
+2798742,2798742,2026,Saskatoon Mamba,SSK,7,E. Thimm,Easton,Thimm,55,F,0,13:46,3,4,75,3,4,75,0,0,0,0,0,0,1,5,6,2,1,0,0,2,0,6,0,4,-4,6,saskatoon mamba,Winnipeg Sea Bears,2026-05-30T01:30:00Z,5
+2798742,2798742,2026,Saskatoon Mamba,SSK,11,J. Fuller,Jamal,Fuller,33,F,1,11:37,1,4,25,1,3,33,0,1,0,2,2,100,0,1,1,0,0,0,0,1,2,4,2,2,-7,2,saskatoon mamba,Winnipeg Sea Bears,2026-05-30T01:30:00Z,5
+2798742,2798742,2026,Saskatoon Mamba,SSK,1,D. Bernard,D'andre,Bernard,1,F,0,0:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,saskatoon mamba,Winnipeg Sea Bears,2026-05-30T01:30:00Z,5
 2798722,2798722,2026,Scarborough Shooting Stars,SSS,4,M. Powell,Myles,Powell,13,G,1,34:03,6,19,31,3,12,25,3,7,42,13,13,100,0,2,2,5,2,1,0,0,6,28,3,4,15,6,scarborough shooting stars,Montreal Alliance,2026-05-15T23:30:00Z,1
 2798722,2798722,2026,Scarborough Shooting Stars,SSS,12,J. Johnson,Javan,Johnson,1,G,1,33:44,7,15,46,5,6,83,2,9,22,0,0,0,1,5,6,4,1,4,1,1,0,16,2,0,6,10,scarborough shooting stars,Montreal Alliance,2026-05-15T23:30:00Z,1
 2798722,2798722,2026,Scarborough Shooting Stars,SSS,2,P. Wyse,Phoenyx,Wyse,10,F,0,2:28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,scarborough shooting stars,Montreal Alliance,2026-05-15T23:30:00Z,1
@@ -406,6 +428,16 @@ game_id,fiba_id,season,team_name,team_code,player_id,player_name,first_name,fami
 2798731,2798731,2026,Vancouver Bandits,VAN,8,D. Parolin,Dominic,Parolin,9,F,0,17:19,3,4,75,3,4,75,0,0,0,0,0,0,2,2,4,0,3,2,2,2,1,6,4,2,17,6,vancouver bandits,Calgary Surge,2026-05-25T00:00:00Z,4
 2798731,2798731,2026,Vancouver Bandits,VAN,13,J. Knight Iii,John,Knight Iii,0,G,0,0:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,vancouver bandits,Calgary Surge,2026-05-25T00:00:00Z,4
 2798731,2798731,2026,Vancouver Bandits,VAN,11,S. Smid,Shadynn,Smid,27,F,0,0:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,vancouver bandits,Calgary Surge,2026-05-25T00:00:00Z,4
+2798740,2798740,2026,Vancouver Bandits,VAN,6,D. Mutabazi,David,Mutabazi,6,G,1,6:09,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,3,0,vancouver bandits,Niagara River Lions,2026-05-29T23:00:00Z,5
+2798740,2798740,2026,Vancouver Bandits,VAN,11,M. Kopp,Miller,Kopp,12,F,1,34:07,6,14,42,1,2,50,5,12,41,1,1,100,0,4,4,1,1,0,0,1,1,18,0,6,11,2,vancouver bandits,Niagara River Lions,2026-05-29T23:00:00Z,5
+2798740,2798740,2026,Vancouver Bandits,VAN,4,T. Samuel,Tyrese,Samuel,5,F,1,32:59,11,12,91,9,10,90,2,2,100,5,6,83,6,8,14,2,0,6,0,4,4,29,9,1,3,18,vancouver bandits,Niagara River Lions,2026-05-29T23:00:00Z,5
+2798740,2798740,2026,Vancouver Bandits,VAN,16,J. House,Jaelen,House,23,G,1,31:24,5,13,38,3,9,33,2,4,50,3,3,100,0,2,2,13,3,3,0,5,6,15,3,5,12,4,vancouver bandits,Niagara River Lions,2026-05-29T23:00:00Z,5
+2798740,2798740,2026,Vancouver Bandits,VAN,1,D. Notice,Duane,Notice,10,G,0,25:55,1,2,50,0,1,0,1,1,100,4,4,100,0,2,2,2,0,2,0,2,5,7,0,2,2,0,vancouver bandits,Niagara River Lions,2026-05-29T23:00:00Z,5
+2798740,2798740,2026,Vancouver Bandits,VAN,17,J. Joiner,Jarkel,Joiner,1,G,0,22:09,8,14,57,7,10,70,1,4,25,0,0,0,0,0,0,1,0,2,0,1,0,17,0,0,-2,6,vancouver bandits,Niagara River Lions,2026-05-29T23:00:00Z,5
+2798740,2798740,2026,Vancouver Bandits,VAN,9,D. Parolin,Dominic,Parolin,9,F,0,18:50,6,7,85,5,6,83,1,1,100,1,1,100,3,4,7,1,2,2,0,1,2,14,2,0,13,8,vancouver bandits,Niagara River Lions,2026-05-29T23:00:00Z,5
+2798740,2798740,2026,Vancouver Bandits,VAN,8,M. Mulder,Mychal,Mulder,11,G,1,18:24,3,8,37,1,3,33,2,5,40,0,0,0,0,2,2,2,0,0,0,0,0,8,3,2,12,2,vancouver bandits,Niagara River Lions,2026-05-29T23:00:00Z,5
+2798740,2798740,2026,Vancouver Bandits,VAN,18,D. Davis,D'andre,Davis,34,G,0,10:03,1,4,25,1,4,25,0,0,0,0,0,0,1,2,3,1,0,0,0,1,0,2,0,0,-4,2,vancouver bandits,Niagara River Lions,2026-05-29T23:00:00Z,5
+2798740,2798740,2026,Vancouver Bandits,VAN,3,G. Shephard,Grant,Shephard,7,F,0,0:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,vancouver bandits,Niagara River Lions,2026-05-29T23:00:00Z,5
 2798717,2798717,2026,Winnipeg Sea Bears,WPG,14,K. Cross,Kevin,Cross,24,F,0,4:45,1,2,50,1,1,100,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,2,0,0,-3,2,winnipeg sea bears,Edmonton Stingers,2026-05-09T19:30:00Z,1
 2798717,2798717,2026,Winnipeg Sea Bears,WPG,3,T. Allen,Teddy,Allen,8,G,1,37:51,8,21,38,6,11,54,2,10,20,6,7,85,1,9,10,5,6,4,0,1,6,24,3,4,1,10,winnipeg sea bears,Edmonton Stingers,2026-05-09T19:30:00Z,1
 2798717,2798717,2026,Winnipeg Sea Bears,WPG,6,E. Akot,Emmanuel,Akot,7,F,1,34:26,3,8,37,2,3,66,1,5,20,0,0,0,4,6,10,5,3,2,1,4,1,7,2,0,1,4,winnipeg sea bears,Edmonton Stingers,2026-05-09T19:30:00Z,1
@@ -461,3 +493,14 @@ game_id,fiba_id,season,team_name,team_code,player_id,player_name,first_name,fami
 2798733,2798733,2026,Winnipeg Sea Bears,WPG,4,S. Hildebrandt,Simon,Hildebrandt,15,F,1,18:19,2,4,50,2,2,100,0,2,0,0,0,0,0,4,4,2,0,1,1,2,0,4,0,0,-2,4,winnipeg sea bears,Brampton Honey Badgers,2026-05-25T23:30:00Z,5
 2798733,2798733,2026,Winnipeg Sea Bears,WPG,14,N. Bilamu,Nathan,Bilamu,13,F,0,17:07,2,2,100,1,1,100,1,1,100,2,2,100,0,1,1,0,0,0,0,3,1,7,0,2,0,2,winnipeg sea bears,Brampton Honey Badgers,2026-05-25T23:30:00Z,5
 2798733,2798733,2026,Winnipeg Sea Bears,WPG,12,K. Filewich,Kyler,Filewich,14,F,0,0:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,winnipeg sea bears,Brampton Honey Badgers,2026-05-25T23:30:00Z,5
+2798742,2798742,2026,Winnipeg Sea Bears,WPG,6,D. Walker,David,Walker,1,G,0,9:11,2,4,50,2,3,66,0,1,0,0,0,0,1,2,3,0,0,1,0,2,0,4,0,0,3,4,winnipeg sea bears,Saskatoon Mamba,2026-05-30T01:30:00Z,6
+2798742,2798742,2026,Winnipeg Sea Bears,WPG,4,S. Hildebrandt,Simon,Hildebrandt,15,F,1,6:29,1,3,33,0,1,0,1,2,50,0,0,0,1,1,2,0,0,0,0,2,0,3,0,0,-7,0,winnipeg sea bears,Saskatoon Mamba,2026-05-30T01:30:00Z,6
+2798742,2798742,2026,Winnipeg Sea Bears,WPG,12,K. Filewich,Kyler,Filewich,14,F,0,5:02,0,2,0,0,2,0,0,0,0,0,0,0,1,2,3,0,0,0,1,1,0,0,0,0,-3,0,winnipeg sea bears,Saskatoon Mamba,2026-05-30T01:30:00Z,6
+2798742,2798742,2026,Winnipeg Sea Bears,WPG,3,T. Allen,Teddy,Allen,8,G,1,38:20,9,17,52,5,8,62,4,9,44,6,7,85,2,5,7,4,2,4,2,1,5,28,3,5,-2,10,winnipeg sea bears,Saskatoon Mamba,2026-05-30T01:30:00Z,6
+2798742,2798742,2026,Winnipeg Sea Bears,WPG,7,E. Akot,Emmanuel,Akot,7,F,1,31:53,4,8,50,0,3,0,4,5,80,2,4,50,0,3,3,3,0,0,0,1,3,14,6,1,-11,0,winnipeg sea bears,Saskatoon Mamba,2026-05-30T01:30:00Z,6
+2798742,2798742,2026,Winnipeg Sea Bears,WPG,2,J. Tilmon Jr.,Jeremiah,Tilmon Jr.,35,F,1,25:03,4,4,100,4,4,100,0,0,0,0,2,0,2,4,6,0,0,2,2,4,1,8,6,0,0,8,winnipeg sea bears,Saskatoon Mamba,2026-05-30T01:30:00Z,6
+2798742,2798742,2026,Winnipeg Sea Bears,WPG,11,T. Mcgowens,Trey,Mcgowens,9,G,1,22:34,5,16,31,4,11,36,1,5,20,3,4,75,3,1,4,4,0,1,0,2,4,14,0,0,-1,8,winnipeg sea bears,Saskatoon Mamba,2026-05-30T01:30:00Z,6
+2798742,2798742,2026,Winnipeg Sea Bears,WPG,13,M. Kraus,Mason,Kraus,5,G,0,20:01,3,4,75,2,2,100,1,2,50,0,0,0,1,1,2,1,0,0,1,2,0,7,3,4,9,4,winnipeg sea bears,Saskatoon Mamba,2026-05-30T01:30:00Z,6
+2798742,2798742,2026,Winnipeg Sea Bears,WPG,16,A. Chaney,Armani,Chaney,11,G,0,18:08,5,10,50,2,4,50,3,6,50,1,2,50,0,2,2,5,2,4,0,3,4,14,2,0,0,4,winnipeg sea bears,Saskatoon Mamba,2026-05-30T01:30:00Z,6
+2798742,2798742,2026,Winnipeg Sea Bears,WPG,10,D. Warren,Davion,Warren,3,G,0,11:53,3,9,33,3,7,42,0,2,0,0,0,0,2,0,2,1,1,0,0,1,2,6,2,0,3,6,winnipeg sea bears,Saskatoon Mamba,2026-05-30T01:30:00Z,6
+2798742,2798742,2026,Winnipeg Sea Bears,WPG,14,N. Bilamu,Nathan,Bilamu,13,F,0,11:26,0,1,0,0,0,0,0,1,0,0,0,0,1,1,2,0,0,1,0,3,0,0,0,0,-1,0,winnipeg sea bears,Saskatoon Mamba,2026-05-30T01:30:00Z,6
