@@ -84,6 +84,38 @@ function getAvailableStats(rows, statsDict) {
   return available;
 }
 
+function getAllNumericQueryStats(rows) {
+  const firstRow = rows[0] || {};
+
+  const excludedCols = new Set([
+    "game_id",
+    "fiba_id",
+    "season",
+    "game_number",
+  ]);
+
+  const queryStats = {};
+
+  Object.keys(firstRow).forEach(col => {
+    if (excludedCols.has(col)) return;
+
+    const hasNumericValue = rows.some(row => {
+      const value = numberOrNull(row[col]);
+      return value !== null;
+    });
+
+    if (!hasNumericValue) return;
+
+    const label = col
+      .replaceAll("_", " ")
+      .replace(/\b\w/g, char => char.toUpperCase());
+
+    queryStats[label] = col;
+  });
+
+  return queryStats;
+}
+
 function createTeamGameDifferentials(rows, statsDict) {
   const useStats = Object.values(statsDict);
 
@@ -387,15 +419,17 @@ function compareValues(actual, operator, target) {
 }
 
 function getTeamResult(row) {
-  const teamScore =
-    numberOrNull(row.points) ??
-    numberOrNull(row.team_score) ??
-    numberOrNull(row.score);
+  const teamScore = numberOrNull(row.team_score);
 
-  const opponentScore =
-    numberOrNull(row.opponent_points) ??
-    numberOrNull(row.opp_points) ??
-    numberOrNull(row.opponent_score);
+  const opponentRow = teamGames.find(
+    other =>
+      other.game_id === row.game_id &&
+      other.team_name !== row.team_name
+  );
+
+  const opponentScore = opponentRow
+    ? numberOrNull(opponentRow.team_score)
+    : null;
 
   if (teamScore === null || opponentScore === null) return null;
 
@@ -592,8 +626,10 @@ async function initDashboard() {
       .filter(Boolean)
       .sort();
 
+    const queryStats = getAllNumericQueryStats(teamGames);
+
     populateStatDropdown(availableStats);
-    populateQueryControls(availableStats);
+    populateQueryControls(queryStats);
     setupQueryButtons();
     renderActiveConditions();
 
