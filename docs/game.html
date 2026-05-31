@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>CEBL Game Detail</title>
+
+  <link rel="stylesheet" href="./styles.css" />
+
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1 id="gameTitle">Game Detail</h1>
+    <p id="gameSubtitle"></p>
+  </header>
+
+  <main>
+    <section class="chart-card">
+      <h2>Team Stat Comparison</h2>
+      <div id="gameTeamChart"></div>
+    </section>
+
+    <section class="chart-card">
+      <h2>Player Scoring</h2>
+      <div id="gamePlayerChart"></div>
+    </section>
+  </main>
+
+  <script src="./game.js"></script>
+</body>
+</html>

@@ -558,11 +558,10 @@ function runTeamQuery() {
 const gameRows = sortTeamRows(filteredRows);
 
 resultsBox.innerHTML = `
-  <h3>Query Summary</h3>
-
   <table>
     <thead>
       <tr>
+        <th></th>
         <th>Team</th>
         <th>Games</th>
         <th>Wins</th>
@@ -572,47 +571,56 @@ resultsBox.innerHTML = `
     </thead>
     <tbody>
       ${summaryRows
-        .map(
-          row => `
-            <tr>
+        .map(row => {
+          const teamGamesForQuery = sortTeamRows(
+            filteredRows.filter(game => game.team_name === row.team)
+          );
+
+          return `
+            <tr class="query-team-row" onclick="toggleQueryGames('${row.team.replaceAll("'", "\\'")}')">
+              <td class="expand-arrow">▶</td>
               <td>${row.team}</td>
               <td>${row.games}</td>
               <td>${row.wins}</td>
               <td>${row.losses}</td>
               <td>${(row.winPct * 100).toFixed(1)}%</td>
             </tr>
-          `
-        )
-        .join("")}
-    </tbody>
-  </table>
 
-  <h3>Matching Games</h3>
-
-  <table>
-    <thead>
-      <tr>
-        <th>Date</th>
-        <th>Game #</th>
-        <th>Team</th>
-        <th>Opponent</th>
-        <th>Result</th>
-        <th>Team Score</th>
-      </tr>
-    </thead>
-    <tbody>
-      ${gameRows
-        .map(row => {
-          const result = getTeamResult(row) || "-";
-
-          return `
-            <tr>
-              <td>${row.game_date || ""}</td>
-              <td>${row.game_number || ""}</td>
-              <td>${row.team_name || ""}</td>
-              <td>${row.opponent_name || ""}</td>
-              <td>${result}</td>
-              <td>${row.team_score ?? ""}</td>
+            <tr class="query-games-row" id="query-games-${row.team.replaceAll(" ", "-").replaceAll("'", "")}" style="display: none;">
+              <td colspan="6">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Date</th>
+                      <th>Game #</th>
+                      <th>Opponent</th>
+                      <th>Result</th>
+                      <th>Team Score</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${teamGamesForQuery
+                      .map(game => `
+                        <tr>
+                          <td>
+                            <a
+                              class="game-detail-link"
+                              href="./game.html?game_id=${encodeURIComponent(game.game_id)}"
+                              target="_blank"
+                            >
+                              ${game.game_date || ""} — Game ${game.game_number || ""}
+                            </a>
+                          </td>
+                          <td>${game.game_number || ""}</td>
+                          <td>${game.opponent_name || ""}</td>
+                          <td>${getTeamResult(game) || "-"}</td>
+                          <td>${game.team_score ?? ""}</td>
+                        </tr>
+                      `)
+                      .join("")}
+                  </tbody>
+                </table>
+              </td>
             </tr>
           `;
         })
@@ -620,6 +628,25 @@ resultsBox.innerHTML = `
     </tbody>
   </table>
 `;
+}
+
+function toggleQueryGames(teamName) {
+  const safeId = teamName.replaceAll(" ", "-").replaceAll("'", "");
+
+  const row = document.getElementById(`query-games-${safeId}`);
+
+  if (!row) return;
+
+  const isHidden = row.style.display === "none";
+
+  row.style.display = isHidden ? "table-row" : "none";
+
+  const triggerRow = row.previousElementSibling;
+  const arrow = triggerRow.querySelector(".expand-arrow");
+
+  if (arrow) {
+    arrow.textContent = isHidden ? "▼" : "▶";
+  }
 }
 
 function clearQuery() {

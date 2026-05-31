@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111827;
+  color: #f9fafb;
+}
+
+header {
+  padding: 28px 40px;
+  border-bottom: 1px solid #374151;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+header p {
+  margin-top: 8px;
+  color: #d1d5db;
+}
+
+main {
+  padding: 28px 40px;
+}
+
+.controls {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #4b5563;
+  background: #1f2937;
+  color: #f9fafb;
+}
+
+.chart-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 16px;
+}
+
+#teamTrendChart {
+  width: 100%;
+  height: 700px;
+}
+.query-card {
+  margin-top: 28px;
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 14px;
+  padding: 20px;
+}
+
+.query-card h2 {
+  margin-top: 0;
+}
+
+.query-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.query-controls input,
+.query-controls select,
+.query-controls button {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #4b5563;
+}
+
+.query-controls button {
+  cursor: pointer;
+  background: #2563eb;
+  color: white;
+}
+
+#activeConditions {
+  margin-top: 14px;
+  color: #d1d5db;
+}
+
+#queryResults {
+  margin-top: 16px;
+  overflow-x: auto;
+}
+
+#queryResults table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  color: #111827;
+}
+
+.query-team-row,
+.query-team-row td {
+  cursor: pointer;
+}
+
+.query-team-row td {
+  user-select: none;
+}
+
+.query-team-row {
+  transition: background-color 0.15s ease;
+}
+
+.query-team-row:hover {
+  background-color: rgba(0, 123, 255, 0.08);
+}
+
+.query-team-row td:nth-child(2) {
+  color: #1e6bd6;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.game-detail-link {
+  color: #1e6bd6;
+  text-decoration: underline;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.game-detail-link:hover {
+  color: #0b4fad;
+}
