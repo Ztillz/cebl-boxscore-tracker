@@ -131,3 +131,102 @@ select {
 .game-detail-link:hover {
   color: #0b4fad;
 }
+
+.query-results-card {
+  margin-top: 24px;
+  background: #ffffff;
+  border: 1px solid #d9dee7;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.query-results-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.query-results-table th,
+.query-results-table td {
+  padding: 16px 18px;
+  border-bottom: 1px solid #e4e8ef;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.query-results-table th:first-child,
+.query-results-table td:first-child,
+.query-results-table th:nth-child(2),
+.query-results-table td:nth-child(2) {
+  text-align: left;
+}
+
+.query-results-table thead th {
+  font-weight: 700;
+  color: #111827;
+  background: #ffffff;
+}
+
+.query-team-row,
+.query-team-row * {
+  cursor: pointer !important;
+  user-select: none;
+}
+
+.query-team-row:hover {
+  background: #f5f8ff;
+}
+
+.query-team-name {
+  color: #111827;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.expand-arrow {
+  width: 24px;
+  color: #111827;
+  font-weight: 700;
+}
+
+.query-games-row td {
+  padding: 0 24px 24px 56px;
+  background: #ffffff;
+}
+
+.query-games-inner {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #d9dee7;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.query-games-inner th,
+.query-games-inner td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e4e8ef;
+  text-align: left;
+}
+
+.query-games-inner th {
+  background: #ffffff;
+  font-weight: 700;
+}
+
+.query-games-inner tr:last-child td {
+  border-bottom: none;
+}
+
+.game-detail-link {
+  color: #0b5ed7;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.game-detail-link:hover {
+  text-decoration: underline;
+}
