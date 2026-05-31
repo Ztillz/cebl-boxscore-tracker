@@ -1,0 +1,594 @@
+﻿game_id,quarter,team_slot,team_name,action_type,sub_type,success,scoring,player,pno,clock,s1,s2,lead,fga,fgm,two_pa,two_pm,three_pa,three_pm,fta,ftm
+2798717,4,1,Edmonton Stingers,assist,,1,0,A. Toney,11,03:54:00,75,73,2,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,freethrow,2of2,1,1,M. Kraus,11,03:54:00,75,77,-2,0,0,0,0,0,0,1,1
+2798717,4,2,Winnipeg Sea Bears,assist,,1,0,A. Chaney,13,03:54:00,75,76,-1,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,freethrow,1of2,1,1,M. Kraus,11,03:54:00,75,76,-1,0,0,0,0,0,0,1,1
+2798717,4,2,Winnipeg Sea Bears,foulon,,1,0,M. Kraus,11,03:54:00,75,75,0,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,foul,personal,1,0,E. Bandoumel,6,03:54:00,75,75,0,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,steal,,1,0,A. Chaney,13,03:54:00,75,75,0,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,turnover,ballhandling,1,0,T. King,10,03:54:00,75,75,0,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,rebound,offensive,1,0,T. King,10,03:54:00,75,75,0,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,2pt,layup,0,1,T. Donald,7,03:54:00,75,75,0,1,0,1,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,timeout,full,1,0,,0,03:54:00,75,75,0,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,freethrow,2of2,1,1,T. Allen,3,03:54:00,75,75,0,0,0,0,0,0,0,1,1
+2798717,4,2,Winnipeg Sea Bears,freethrow,1of2,1,1,T. Allen,3,03:54:00,75,74,1,0,0,0,0,0,0,1,1
+2798717,4,2,Winnipeg Sea Bears,foulon,,1,0,T. Allen,3,03:54:00,75,73,2,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,foul,personal,1,0,E. Bandoumel,6,03:54:00,75,73,2,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,2pt,layup,1,1,D. Dainja,14,03:54:00,75,73,2,1,1,1,1,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,2pt,layup,1,1,J. Tilmon Jr.,2,03:54:00,73,73,0,1,1,1,1,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,rebound,offensive,1,0,J. Tilmon Jr.,2,03:54:00,73,71,2,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,T. Allen,3,03:54:00,73,71,2,1,0,0,0,1,0,0,0
+2798717,4,2,Winnipeg Sea Bears,rebound,offensive,1,0,T. Allen,3,03:54:00,73,71,2,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,A. Chaney,13,03:54:00,73,71,2,1,0,0,0,1,0,0,0
+2798717,4,2,Winnipeg Sea Bears,rebound,defensive,1,0,M. Kraus,11,03:54:00,73,71,2,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,2pt,layup,0,1,E. Bandoumel,6,03:54:00,73,71,2,1,0,1,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,steal,,1,0,D. Dainja,14,03:54:00,73,71,2,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,turnover,badpass,1,0,T. Allen,3,03:54:00,73,71,2,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,foulon,,1,0,M. Kraus,11,03:54:00,73,71,2,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,foul,personal,1,0,T. King,10,03:54:00,73,71,2,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,rebound,offensive,1,0,M. Kraus,11,03:54:00,73,71,2,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,E. Akot,6,03:54:00,73,71,2,1,0,0,0,1,0,0,0
+2798717,4,1,Edmonton Stingers,2pt,stepbackjumpshot,1,1,T. King,10,03:54:00,73,71,2,1,1,1,1,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,2pt,tipindunk,1,1,J. Tilmon Jr.,2,03:54:00,71,71,0,1,1,1,1,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,rebound,offensive,1,0,J. Tilmon Jr.,2,03:54:00,71,69,2,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,T. Allen,3,03:54:00,71,69,2,1,0,0,0,1,0,0,0
+2798717,4,1,Edmonton Stingers,freethrow,2of2,1,1,D. Dainja,14,03:54:00,71,69,2,0,0,0,0,0,0,1,1
+2798717,4,1,Edmonton Stingers,freethrow,1of2,0,1,D. Dainja,14,03:54:00,70,69,1,0,0,0,0,0,0,1,0
+2798717,4,1,Edmonton Stingers,foulon,,1,0,D. Dainja,14,03:54:00,70,69,1,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,foul,personal,1,0,E. Akot,6,03:54:00,70,69,1,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,assist,,1,0,A. Chaney,13,03:54:00,70,69,1,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,3pt,jumpshot,1,1,M. Kraus,11,03:54:00,70,69,1,1,1,0,0,1,1,0,0
+2798717,4,2,Winnipeg Sea Bears,rebound,defensive,1,0,,0,03:54:00,70,66,4,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,2pt,jumpshot,0,1,T. King,10,03:54:00,70,66,4,1,0,1,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,freethrow,1of1,1,1,T. Allen,3,03:54:00,70,66,4,0,0,0,0,0,0,1,1
+2798717,4,2,Winnipeg Sea Bears,foulon,,1,0,T. Allen,3,03:54:00,70,65,5,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,foul,personal,1,0,A. Toney,11,03:54:00,70,65,5,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,2pt,turnaroundjumpshot,1,1,T. Allen,3,03:54:00,70,65,5,1,1,1,1,0,0,0,0
+2798717,4,1,Edmonton Stingers,assist,,1,0,E. Bandoumel,6,03:54:00,70,63,7,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,2pt,dunk,1,1,D. Dainja,14,03:54:00,70,63,7,1,1,1,1,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,substitution,out,1,0,D. Walker,5,03:54:00,68,63,5,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,substitution,in,1,0,M. Kraus,11,03:54:00,68,63,5,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,freethrow,1of1,0,1,A. Toney,11,04:02:00,68,63,5,0,0,0,0,0,0,1,0
+2798717,4,1,Edmonton Stingers,foulon,,1,0,A. Toney,11,04:02:00,68,63,5,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,foul,unsportsmanlike,1,0,T. Allen,3,04:02:00,68,63,5,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,assist,,1,0,T. King,10,04:02:00,68,63,5,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,2pt,layup,1,1,A. Toney,11,04:02:00,68,63,5,1,1,1,1,0,0,0,0
+2798717,4,1,Edmonton Stingers,steal,,1,0,D. Dainja,14,04:07:00,66,63,3,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,turnover,badpass,1,0,T. Allen,3,04:07:00,66,63,3,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,2pt,tipindunk,1,1,D. Dainja,14,04:24:00,66,63,3,1,1,1,1,0,0,0,0
+2798717,4,1,Edmonton Stingers,rebound,offensive,1,0,D. Dainja,14,04:24:00,64,63,1,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,2pt,layup,0,1,T. Donald,7,04:28:00,64,63,1,1,0,1,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,rebound,offensive,1,0,T. Donald,7,04:29:00,64,63,1,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,3pt,jumpshot,0,1,A. Toney,11,04:33:00,64,63,1,1,0,0,0,1,0,0,0
+2798717,4,1,Edmonton Stingers,rebound,defensive,1,0,T. King,10,04:36:00,64,63,1,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,2pt,drivinglayup,0,1,D. Walker,5,04:39:00,64,63,1,1,0,1,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,steal,,1,0,D. Walker,5,04:43:00,64,63,1,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,turnover,ballhandling,1,0,E. Bandoumel,6,04:43:00,64,63,1,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,rebound,defensive,1,0,D. Dainja,14,04:50:00,64,63,1,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,3pt,stepbackjumpshot,0,1,E. Akot,6,04:52:00,64,63,1,1,0,0,0,1,0,0,0
+2798717,4,1,Edmonton Stingers,substitution,in,1,0,A. Toney,11,05:08:00,64,63,1,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,substitution,in,1,0,T. King,10,05:08:00,64,63,1,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,substitution,out,1,0,S. Teel,12,05:08:00,64,63,1,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,substitution,out,1,0,A. Rhooms,3,05:08:00,64,63,1,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,assist,,1,0,A. Rhooms,3,05:19:00,64,63,1,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,2pt,drivinglayup,1,1,D. Dainja,14,05:19:00,64,63,1,1,1,1,1,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,assist,,1,0,T. Allen,3,05:32:00,62,63,-1,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,2pt,jumpshot,1,1,J. Tilmon Jr.,2,05:32:00,62,63,-1,1,1,1,1,0,0,0,0
+2798717,4,1,Edmonton Stingers,assist,,1,0,T. Donald,7,05:56:00,62,61,1,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,3pt,jumpshot,1,1,E. Bandoumel,6,05:56:00,62,61,1,1,1,0,0,1,1,0,0
+2798717,4,1,Edmonton Stingers,rebound,defensive,1,0,A. Rhooms,3,05:58:00,59,61,-2,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,2pt,layup,0,1,T. Allen,3,06:00:00,59,61,-2,1,0,1,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,freethrow,2of2,1,1,D. Dainja,14,06:28:00,59,61,-2,0,0,0,0,0,0,1,1
+2798717,4,1,Edmonton Stingers,freethrow,1of2,1,1,D. Dainja,14,06:28:00,58,61,-3,0,0,0,0,0,0,1,1
+2798717,4,2,Winnipeg Sea Bears,timeout,full,1,0,,0,06:28:00,57,61,-4,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,foulon,,1,0,D. Dainja,14,06:28:00,57,61,-4,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,foul,personal,1,0,E. Akot,6,06:28:00,57,61,-4,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,rebound,defensive,1,0,D. Dainja,14,06:33:00,57,61,-4,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,D. Walker,5,06:36:00,57,61,-4,1,0,0,0,1,0,0,0
+2798717,4,1,Edmonton Stingers,2pt,turnaroundjumpshot,1,1,A. Rhooms,3,06:56:00,57,61,-4,1,1,1,1,0,0,0,0
+2798717,4,1,Edmonton Stingers,rebound,defensive,1,0,T. Donald,7,07:04:00,55,61,-6,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,2pt,floatingjumpshot,0,1,A. Chaney,13,07:07:00,55,61,-6,1,0,1,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,rebound,offensive,1,0,J. Tilmon Jr.,2,07:16:00,55,61,-6,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,T. Allen,3,07:21:00,55,61,-6,1,0,0,0,1,0,0,0
+2798717,4,1,Edmonton Stingers,2pt,layup,1,1,E. Bandoumel,6,07:37:00,55,61,-6,1,1,1,1,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,freethrow,2of2,1,1,T. Allen,3,07:59:00,53,61,-8,0,0,0,0,0,0,1,1
+2798717,4,2,Winnipeg Sea Bears,freethrow,1of2,1,1,T. Allen,3,07:59:00,53,60,-7,0,0,0,0,0,0,1,1
+2798717,4,1,Edmonton Stingers,substitution,in,1,0,A. Rhooms,3,07:59:00,53,59,-6,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,substitution,in,1,0,E. Bandoumel,6,07:59:00,53,59,-6,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,substitution,out,1,0,A. Toney,11,07:59:00,53,59,-6,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,substitution,out,1,0,M. Bourcier,1,07:59:00,53,59,-6,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,foulon,,1,0,T. Allen,3,07:59:00,53,59,-6,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,foul,personal,1,0,M. Bourcier,1,07:59:00,53,59,-6,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,rebound,defensive,1,0,E. Akot,6,08:02:00,53,59,-6,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,3pt,jumpshot,0,1,T. Donald,7,08:05:00,53,59,-6,1,0,0,0,1,0,0,0
+2798717,4,2,Winnipeg Sea Bears,2pt,layup,1,1,T. Allen,3,08:18:00,53,59,-6,1,1,1,1,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,rebound,defensive,1,0,T. Allen,3,08:24:00,53,57,-4,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,3pt,jumpshot,0,1,S. Teel,12,08:27:00,53,57,-4,1,0,0,0,1,0,0,0
+2798717,4,2,Winnipeg Sea Bears,substitution,in,1,0,J. Tilmon Jr.,2,08:39:00,53,57,-4,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,substitution,in,1,0,D. Walker,5,08:39:00,53,57,-4,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,substitution,out,1,0,D. Warren,9,08:39:00,53,57,-4,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,substitution,out,1,0,S. Hildebrandt,4,08:39:00,53,57,-4,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,substitution,in,1,0,D. Dainja,14,08:39:00,53,57,-4,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,substitution,in,1,0,M. Bourcier,1,08:39:00,53,57,-4,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,substitution,out,1,0,E. Bandoumel,6,08:39:00,53,57,-4,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,substitution,in,1,0,T. Donald,7,08:39:00,53,57,-4,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,substitution,out,1,0,T. King,10,08:39:00,53,57,-4,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,substitution,out,1,0,A. Mohamed,2,08:39:00,53,57,-4,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,rebound,defensive,1,0,,0,08:39:00,53,57,-4,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,D. Warren,9,08:41:00,53,57,-4,1,0,0,0,1,0,0,0
+2798717,4,1,Edmonton Stingers,assist,,1,0,A. Mohamed,2,09:05:00,53,57,-4,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,2pt,layup,1,1,A. Toney,11,09:05:00,53,57,-4,1,1,1,1,0,0,0,0
+2798717,4,1,Edmonton Stingers,rebound,offensive,1,0,,0,09:07:00,51,57,-6,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,3pt,jumpshot,0,1,S. Teel,12,09:08:00,51,57,-6,1,0,0,0,1,0,0,0
+2798717,4,2,Winnipeg Sea Bears,assist,,1,0,E. Akot,6,09:16:00,51,57,-6,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,2pt,drivinglayup,1,1,D. Warren,9,09:16:00,51,57,-6,1,1,1,1,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,rebound,defensive,1,0,E. Akot,6,09:18:00,51,55,-4,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,block,,1,0,E. Akot,6,09:21:00,51,55,-4,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,2pt,layup,0,1,A. Mohamed,2,09:21:00,51,55,-4,1,0,1,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,assist,,1,0,E. Akot,6,09:37:00,51,55,-4,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,3pt,jumpshot,1,1,T. Allen,3,09:37:00,51,55,-4,1,1,0,0,1,1,0,0
+2798717,4,2,Winnipeg Sea Bears,rebound,offensive,1,0,E. Akot,6,09:39:00,51,52,-1,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,A. Chaney,13,09:41:00,51,52,-1,1,0,0,0,1,0,0,0
+2798717,4,2,Winnipeg Sea Bears,substitution,out,1,0,M. Kraus,11,10:00:00,51,52,-1,0,0,0,0,0,0,0,0
+2798717,4,2,Winnipeg Sea Bears,substitution,in,1,0,A. Chaney,13,10:00:00,51,52,-1,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,substitution,in,1,0,A. Toney,11,10:00:00,51,52,-1,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,substitution,in,1,0,T. King,10,10:00:00,51,52,-1,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,substitution,out,1,0,A. Rhooms,3,10:00:00,51,52,-1,0,0,0,0,0,0,0,0
+2798717,4,1,Edmonton Stingers,substitution,out,1,0,I. Jack,13,10:00:00,51,52,-1,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,S. Hildebrandt,4,00:00:10,51,52,-1,1,0,0,0,1,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,out,1,0,T. King,10,00:22:80,51,52,-1,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,in,1,0,I. Jack,13,00:22:80,51,52,-1,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,rebound,defensive,1,0,,0,00:22:80,51,52,-1,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,3pt,jumpshot,0,1,T. King,10,00:25:80,51,52,-1,1,0,0,0,1,0,0,0
+2798717,3,1,Edmonton Stingers,freethrow,1of1,0,1,S. Teel,12,00:34:30,51,52,-1,0,0,0,0,0,0,1,0
+2798717,3,2,Winnipeg Sea Bears,substitution,out,1,0,J. Tilmon Jr.,2,00:34:30,51,52,-1,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,in,1,0,S. Hildebrandt,4,00:34:30,51,52,-1,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,foul,technical,1,0,J. Tilmon Jr.,2,00:34:30,51,52,-1,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,out,1,0,I. Jack,13,00:34:30,51,52,-1,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,in,1,0,T. King,10,00:34:30,51,52,-1,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,foulon,,1,0,A. Mohamed,2,00:34:30,51,52,-1,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,turnover,offensive,1,0,J. Tilmon Jr.,2,00:34:30,51,52,-1,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,foul,offensive,1,0,J. Tilmon Jr.,2,00:34:30,51,52,-1,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,out,1,0,T. King,10,00:46:40,51,52,-1,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,in,1,0,I. Jack,13,00:46:40,51,52,-1,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,in,1,0,E. Akot,6,00:55:10,51,52,-1,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,in,1,0,D. Warren,9,00:55:10,51,52,-1,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,out,1,0,D. Walker,5,00:55:10,51,52,-1,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,out,1,0,A. Chaney,13,00:55:10,51,52,-1,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,freethrow,2of2,1,1,A. Mohamed,2,00:55:10,51,52,-1,0,0,0,0,0,0,1,1
+2798717,3,1,Edmonton Stingers,freethrow,1of2,1,1,A. Mohamed,2,00:55:10,50,52,-2,0,0,0,0,0,0,1,1
+2798717,3,1,Edmonton Stingers,foulon,,1,0,A. Mohamed,2,00:55:10,49,52,-3,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,foul,personal,1,0,A. Chaney,13,00:55:10,49,52,-3,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,rebound,offensive,1,0,A. Mohamed,2,00:55:10,49,52,-3,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,3pt,jumpshot,0,1,E. Bandoumel,6,00:57:90,49,52,-3,1,0,0,0,1,0,0,0
+2798717,3,1,Edmonton Stingers,rebound,defensive,1,0,S. Teel,12,01:01:00,49,52,-3,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,2pt,jumpshot,0,1,J. Tilmon Jr.,2,01:03:00,49,52,-3,1,0,1,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,rebound,offensive,1,0,J. Tilmon Jr.,2,01:04:00,49,52,-3,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,T. Allen,3,01:09:00,49,52,-3,1,0,0,0,1,0,0,0
+2798717,3,1,Edmonton Stingers,3pt,jumpshot,1,1,S. Teel,12,01:26:00,49,52,-3,1,1,0,0,1,1,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,out,1,0,E. Akot,6,01:29:00,46,52,-6,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,in,1,0,M. Kraus,11,01:29:00,46,52,-6,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,out,1,0,T. Donald,7,01:29:00,46,52,-6,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,in,1,0,E. Bandoumel,6,01:29:00,46,52,-6,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,out,1,0,I. Jack,13,01:29:00,46,52,-6,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,in,1,0,T. King,10,01:29:00,46,52,-6,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,foulon,,1,0,A. Mohamed,2,01:29:00,46,52,-6,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,foul,personal,1,0,E. Akot,6,01:29:00,46,52,-6,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,steal,,1,0,A. Mohamed,2,01:30:00,46,52,-6,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,turnover,badpass,1,0,A. Chaney,13,01:30:00,46,52,-6,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,rebound,defensive,1,0,A. Chaney,13,01:31:00,46,52,-6,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,3pt,jumpshot,0,1,A. Rhooms,3,01:34:00,46,52,-6,1,0,0,0,1,0,0,0
+2798717,3,2,Winnipeg Sea Bears,2pt,tipinlayup,1,1,E. Akot,6,01:48:00,46,52,-6,1,1,1,1,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,rebound,offensive,1,0,E. Akot,6,01:48:00,46,50,-4,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,T. Allen,3,01:53:00,46,50,-4,1,0,0,0,1,0,0,0
+2798717,3,2,Winnipeg Sea Bears,steal,,1,0,D. Walker,5,01:58:00,46,50,-4,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,turnover,ballhandling,1,0,A. Rhooms,3,01:58:00,46,50,-4,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,assist,,1,0,D. Walker,5,02:11:00,46,50,-4,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,3pt,jumpshot,1,1,T. Allen,3,02:11:00,46,50,-4,1,1,0,0,1,1,0,0
+2798717,3,2,Winnipeg Sea Bears,steal,,1,0,T. Allen,3,02:21:00,46,47,-1,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,turnover,ballhandling,1,0,A. Mohamed,2,02:21:00,46,47,-1,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,rebound,defensive,1,0,I. Jack,13,02:31:00,46,47,-1,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,T. Allen,3,02:33:00,46,47,-1,1,0,0,0,1,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,out,1,0,K. Cross,14,02:39:00,46,47,-1,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,in,1,0,J. Tilmon Jr.,2,02:39:00,46,47,-1,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,rebound,offensive,1,0,,0,02:39:00,46,47,-1,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,block,,1,0,I. Jack,13,02:39:00,46,47,-1,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,2pt,layup,0,1,D. Walker,5,02:39:00,46,47,-1,1,0,1,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,3pt,jumpshot,1,1,S. Teel,12,03:01:00,46,47,-1,1,1,0,0,1,1,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,in,1,0,T. Allen,3,03:11:00,43,47,-4,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,in,1,0,D. Walker,5,03:11:00,43,47,-4,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,out,1,0,D. Warren,9,03:11:00,43,47,-4,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,out,1,0,M. Kraus,11,03:11:00,43,47,-4,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,out,1,0,A. Toney,11,03:11:00,43,47,-4,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,in,1,0,A. Mohamed,2,03:11:00,43,47,-4,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,freethrow,2of2,1,1,D. Warren,9,03:11:00,43,47,-4,0,0,0,0,0,0,1,1
+2798717,3,2,Winnipeg Sea Bears,freethrow,1of2,0,1,D. Warren,9,03:11:00,43,46,-3,0,0,0,0,0,0,1,0
+2798717,3,2,Winnipeg Sea Bears,foulon,,1,0,D. Warren,9,03:11:00,43,46,-3,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,foul,personal,1,0,I. Jack,13,03:11:00,43,46,-3,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,rebound,offensive,1,0,,0,03:20:00,43,46,-3,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,2pt,fadeaway,0,1,E. Akot,6,03:23:00,43,46,-3,1,0,1,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,turnover,travel,1,0,I. Jack,13,03:39:00,43,46,-3,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,rebound,offensive,1,0,I. Jack,13,03:40:00,43,46,-3,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,3pt,jumpshot,0,1,A. Rhooms,3,03:43:00,43,46,-3,1,0,0,0,1,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,in,1,0,K. Cross,14,03:54:00,43,46,-3,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,in,1,0,A. Chaney,13,03:54:00,43,46,-3,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,out,1,0,J. Tilmon Jr.,2,03:54:00,43,46,-3,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,in,1,0,E. Akot,6,03:54:00,43,46,-3,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,out,1,0,T. Allen,3,03:54:00,43,46,-3,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,out,1,0,S. Hildebrandt,4,03:54:00,43,46,-3,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,in,1,0,A. Rhooms,3,03:54:00,43,46,-3,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,in,1,0,S. Teel,12,03:54:00,43,46,-3,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,out,1,0,T. King,10,03:54:00,43,46,-3,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,out,1,0,E. Bandoumel,6,03:54:00,43,46,-3,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,rebound,defensive,1,0,,0,04:02:00,43,46,-3,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,D. Warren,9,04:04:00,43,46,-3,1,0,0,0,1,0,0,0
+2798717,3,2,Winnipeg Sea Bears,rebound,defensive,1,0,T. Allen,3,04:11:00,43,46,-3,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,3pt,pullupjumpshot,0,1,E. Bandoumel,6,04:14:00,43,46,-3,1,0,0,0,1,0,0,0
+2798717,3,1,Edmonton Stingers,steal,,1,0,T. Donald,7,04:19:00,43,46,-3,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,turnover,ballhandling,1,0,T. Allen,3,04:19:00,43,46,-3,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,rebound,defensive,1,0,T. Allen,3,04:24:00,43,46,-3,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,3pt,jumpshot,0,1,T. King,10,04:26:00,43,46,-3,1,0,0,0,1,0,0,0
+2798717,3,2,Winnipeg Sea Bears,assist,,1,0,D. Warren,9,04:40:00,43,46,-3,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,2pt,layup,1,1,J. Tilmon Jr.,2,04:40:00,43,46,-3,1,1,1,1,0,0,0,0
+2798717,3,1,Edmonton Stingers,assist,,1,0,E. Bandoumel,6,05:02:00,43,44,-1,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,3pt,jumpshot,1,1,T. King,10,05:02:00,43,44,-1,1,1,0,0,1,1,0,0
+2798717,3,2,Winnipeg Sea Bears,assist,,1,0,T. Allen,3,05:16:00,40,44,-4,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,2pt,layup,1,1,S. Hildebrandt,4,05:16:00,40,44,-4,1,1,1,1,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,rebound,defensive,1,0,T. Allen,3,05:20:00,40,42,-2,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,2pt,fadeaway,0,1,T. King,10,05:23:00,40,42,-2,1,0,1,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,freethrow,2of2,1,1,D. Warren,9,05:40:00,40,42,-2,0,0,0,0,0,0,1,1
+2798717,3,2,Winnipeg Sea Bears,assist,,1,0,T. Allen,3,05:40:00,40,41,-1,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,freethrow,1of2,1,1,D. Warren,9,05:40:00,40,41,-1,0,0,0,0,0,0,1,1
+2798717,3,2,Winnipeg Sea Bears,foulon,,1,0,D. Warren,9,05:40:00,40,40,0,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,foul,personal,1,0,T. King,10,05:40:00,40,40,0,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,rebound,defensive,1,0,T. Allen,3,05:42:00,40,40,0,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,2pt,jumpshot,0,1,T. Donald,7,05:44:00,40,40,0,1,0,1,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,out,1,0,A. Chaney,13,05:46:00,40,40,0,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,in,1,0,D. Warren,9,05:46:00,40,40,0,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,in,1,0,S. Hildebrandt,4,05:46:00,40,40,0,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,in,1,0,M. Kraus,11,05:46:00,40,40,0,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,out,1,0,D. Walker,5,05:46:00,40,40,0,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,out,1,0,E. Akot,6,05:46:00,40,40,0,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,foulon,,1,0,T. Donald,7,05:46:00,40,40,0,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,foul,personal,1,0,A. Chaney,13,05:46:00,40,40,0,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,assist,,1,0,E. Akot,6,05:59:00,40,40,0,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,2pt,layup,1,1,J. Tilmon Jr.,2,05:59:00,40,40,0,1,1,1,1,0,0,0,0
+2798717,3,1,Edmonton Stingers,2pt,layup,1,1,T. King,10,06:09:00,40,38,2,1,1,1,1,0,0,0,0
+2798717,3,1,Edmonton Stingers,foulon,,1,0,T. Donald,7,06:23:00,38,38,0,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,foul,personal,1,0,A. Chaney,13,06:23:00,38,38,0,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,freethrow,2of2,1,1,J. Tilmon Jr.,2,06:23:00,38,38,0,0,0,0,0,0,0,1,1
+2798717,3,2,Winnipeg Sea Bears,assist,,1,0,T. Allen,3,06:23:00,38,37,1,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,freethrow,1of2,1,1,J. Tilmon Jr.,2,06:23:00,38,37,1,0,0,0,0,0,0,1,1
+2798717,3,1,Edmonton Stingers,substitution,out,1,0,D. Dainja,14,06:23:00,38,36,2,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,in,1,0,I. Jack,13,06:23:00,38,36,2,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,foulon,,1,0,J. Tilmon Jr.,2,06:23:00,38,36,2,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,foul,personal,1,0,D. Dainja,14,06:23:00,38,36,2,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,out,1,0,M. Bourcier,1,06:41:00,38,36,2,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,in,1,0,T. Donald,7,06:41:00,38,36,2,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,foulon,,1,0,J. Tilmon Jr.,2,06:41:00,38,36,2,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,foul,personal,1,0,D. Dainja,14,06:41:00,38,36,2,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,rebound,defensive,1,0,J. Tilmon Jr.,2,06:41:00,38,36,2,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,2pt,stepbackjumpshot,0,1,A. Toney,11,06:42:00,38,36,2,1,0,1,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,rebound,offensive,1,0,A. Toney,11,06:44:00,38,36,2,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,3pt,jumpshot,0,1,E. Bandoumel,6,06:48:00,38,36,2,1,0,0,0,1,0,0,0
+2798717,3,2,Winnipeg Sea Bears,assist,,1,0,E. Akot,6,07:08:00,38,36,2,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,2pt,drivinglayup,1,1,A. Chaney,13,07:08:00,38,36,2,1,1,1,1,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,steal,,1,0,E. Akot,6,07:11:00,38,34,4,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,turnover,ballhandling,1,0,M. Bourcier,1,07:11:00,38,34,4,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,3pt,jumpshot,1,1,A. Chaney,13,07:30:00,38,34,4,1,1,0,0,1,1,0,0
+2798717,3,2,Winnipeg Sea Bears,rebound,defensive,1,0,E. Akot,6,07:45:00,38,31,7,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,2pt,jumpshot,0,1,D. Dainja,14,07:48:00,38,31,7,1,0,1,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,foulon,,1,0,A. Toney,11,07:55:00,38,31,7,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,foul,personal,1,0,D. Walker,5,07:55:00,38,31,7,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,turnover,outofbounds,1,0,T. Allen,3,08:00:00,38,31,7,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,2pt,drivinglayup,1,1,D. Dainja,14,08:23:00,38,31,7,1,1,1,1,0,0,0,0
+2798717,3,1,Edmonton Stingers,rebound,defensive,1,0,D. Dainja,14,08:28:00,36,31,5,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,2pt,stepbackjumpshot,0,1,T. Allen,3,08:31:00,36,31,5,1,0,1,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,assist,,1,0,D. Dainja,14,08:54:00,36,31,5,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,2pt,layup,1,1,A. Toney,11,08:54:00,36,31,5,1,1,1,1,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,assist,,1,0,D. Walker,5,09:10:00,34,31,3,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,3pt,jumpshot,1,1,E. Akot,6,09:10:00,34,31,3,1,1,0,0,1,1,0,0
+2798717,3,2,Winnipeg Sea Bears,steal,,1,0,T. Allen,3,09:23:00,34,28,6,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,turnover,ballhandling,1,0,D. Dainja,14,09:23:00,34,28,6,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,assist,,1,0,E. Akot,6,09:36:00,34,28,6,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,freethrow,2of2,1,1,T. Allen,3,09:36:00,34,28,6,0,0,0,0,0,0,1,1
+2798717,3,2,Winnipeg Sea Bears,freethrow,1of2,0,1,T. Allen,3,09:36:00,34,27,7,0,0,0,0,0,0,1,0
+2798717,3,2,Winnipeg Sea Bears,foulon,,1,0,T. Allen,3,09:36:00,34,27,7,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,foul,personal,1,0,E. Bandoumel,6,09:36:00,34,27,7,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,steal,,1,0,D. Walker,5,09:46:00,34,27,7,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,turnover,ballhandling,1,0,M. Bourcier,1,09:46:00,34,27,7,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,in,1,0,A. Chaney,13,10:00:00,34,27,7,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,in,1,0,D. Walker,5,10:00:00,34,27,7,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,out,1,0,D. Warren,9,10:00:00,34,27,7,0,0,0,0,0,0,0,0
+2798717,3,2,Winnipeg Sea Bears,substitution,out,1,0,M. Kraus,11,10:00:00,34,27,7,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,in,1,0,D. Dainja,14,10:00:00,34,27,7,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,in,1,0,M. Bourcier,1,10:00:00,34,27,7,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,out,1,0,I. Jack,13,10:00:00,34,27,7,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,in,1,0,T. King,10,10:00:00,34,27,7,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,out,1,0,S. Teel,12,10:00:00,34,27,7,0,0,0,0,0,0,0,0
+2798717,3,1,Edmonton Stingers,substitution,out,1,0,A. Rhooms,3,10:00:00,34,27,7,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,2pt,tipinlayup,1,1,A. Toney,11,00:17:70,34,27,7,1,1,1,1,0,0,0,0
+2798717,2,1,Edmonton Stingers,rebound,offensive,1,0,A. Toney,11,00:17:70,32,27,5,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,3pt,jumpshot,0,1,A. Rhooms,3,00:21:10,32,27,5,1,0,0,0,1,0,0,0
+2798717,2,1,Edmonton Stingers,rebound,offensive,1,0,A. Rhooms,3,00:22:50,32,27,5,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,2pt,drivinglayup,0,1,E. Bandoumel,6,00:25:30,32,27,5,1,0,1,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,rebound,defensive,1,0,S. Teel,12,00:34:80,32,27,5,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,D. Warren,9,00:37:60,32,27,5,1,0,0,0,1,0,0,0
+2798717,2,2,Winnipeg Sea Bears,rebound,defensive,1,0,E. Akot,6,00:44:20,32,27,5,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,3pt,jumpshot,0,1,E. Bandoumel,6,00:46:50,32,27,5,1,0,0,0,1,0,0,0
+2798717,2,1,Edmonton Stingers,rebound,offensive,1,0,E. Bandoumel,6,00:48:80,32,27,5,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,block,,1,0,J. Tilmon Jr.,2,00:52:00,32,27,5,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,2pt,jumpshot,0,1,S. Teel,12,00:52:00,32,27,5,1,0,1,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,substitution,out,1,0,M. Bourcier,1,01:06:00,32,27,5,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,substitution,in,1,0,S. Teel,12,01:06:00,32,27,5,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,timeout,full,1,0,,0,01:06:00,32,27,5,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,foulon,,1,0,E. Bandoumel,6,01:06:00,32,27,5,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,turnover,offensive,1,0,E. Akot,6,01:06:00,32,27,5,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,foul,offensive,1,0,E. Akot,6,01:06:00,32,27,5,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,steal,,1,0,E. Akot,6,01:10:00,32,27,5,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,turnover,badpass,1,0,M. Bourcier,1,01:10:00,32,27,5,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,turnover,ballhandling,1,0,D. Warren,9,01:18:00,32,27,5,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,2pt,turnaroundjumpshot,1,1,E. Bandoumel,6,01:32:00,32,27,5,1,1,1,1,0,0,0,0
+2798717,2,1,Edmonton Stingers,rebound,defensive,1,0,A. Rhooms,3,01:46:00,30,27,3,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,M. Kraus,11,01:49:00,30,27,3,1,0,0,0,1,0,0,0
+2798717,2,2,Winnipeg Sea Bears,foulon,,1,0,J. Tilmon Jr.,2,02:00:00,30,27,3,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,foul,personal,1,0,I. Jack,13,02:00:00,30,27,3,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,rebound,offensive,1,0,J. Tilmon Jr.,2,02:00:00,30,27,3,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,E. Akot,6,02:02:00,30,27,3,1,0,0,0,1,0,0,0
+2798717,2,2,Winnipeg Sea Bears,rebound,offensive,1,0,E. Akot,6,02:04:00,30,27,3,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,2pt,fadeaway,0,1,D. Warren,9,02:07:00,30,27,3,1,0,1,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,substitution,in,1,0,E. Bandoumel,6,02:22:00,30,27,3,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,substitution,in,1,0,A. Toney,11,02:22:00,30,27,3,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,substitution,out,1,0,T. King,10,02:22:00,30,27,3,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,substitution,out,1,0,T. Donald,7,02:22:00,30,27,3,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,rebound,defensive,1,0,J. Tilmon Jr.,2,02:31:00,30,27,3,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,freethrow,2of2,0,1,T. Donald,7,02:31:00,30,27,3,0,0,0,0,0,0,1,0
+2798717,2,1,Edmonton Stingers,freethrow,1of2,1,1,T. Donald,7,02:32:00,30,27,3,0,0,0,0,0,0,1,1
+2798717,2,1,Edmonton Stingers,foulon,,1,0,T. Donald,7,02:32:00,29,27,2,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,foul,personal,1,0,D. Warren,9,02:32:00,29,27,2,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,substitution,in,1,0,M. Kraus,11,02:46:00,29,27,2,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,substitution,in,1,0,D. Warren,9,02:46:00,29,27,2,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,substitution,out,1,0,A. Chaney,13,02:46:00,29,27,2,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,substitution,out,1,0,S. Hildebrandt,4,02:46:00,29,27,2,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,substitution,out,1,0,A. Mohamed,2,02:46:00,29,27,2,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,substitution,in,1,0,T. King,10,02:46:00,29,27,2,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,rebound,defensive,1,0,A. Rhooms,3,02:46:00,29,27,2,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,2pt,jumpshot,0,1,J. Tilmon Jr.,2,02:48:00,29,27,2,1,0,1,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,substitution,out,1,0,S. Teel,12,02:55:00,29,27,2,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,substitution,in,1,0,M. Bourcier,1,02:55:00,29,27,2,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,foulon,,1,0,J. Tilmon Jr.,2,03:12:00,29,27,2,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,turnover,offensive,1,0,I. Jack,13,03:12:00,29,27,2,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,foul,offensive,1,0,I. Jack,13,03:12:00,29,27,2,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,rebound,offensive,1,0,A. Mohamed,2,03:23:00,29,27,2,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,3pt,jumpshot,0,1,A. Rhooms,3,03:29:00,29,27,2,1,0,0,0,1,0,0,0
+2798717,2,2,Winnipeg Sea Bears,2pt,layup,1,1,T. Allen,3,03:38:00,29,27,2,1,1,1,1,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,steal,,1,0,T. Allen,3,03:42:00,29,25,4,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,turnover,ballhandling,1,0,S. Teel,12,03:42:00,29,25,4,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,rebound,defensive,1,0,,0,03:48:00,29,25,4,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,T. Allen,3,03:48:00,29,25,4,1,0,0,0,1,0,0,0
+2798717,2,1,Edmonton Stingers,substitution,out,1,0,T. King,10,04:11:00,29,25,4,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,substitution,in,1,0,A. Mohamed,2,04:11:00,29,25,4,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,timeout,full,1,0,,0,04:11:00,29,25,4,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,2pt,turnaroundjumpshot,1,1,T. King,10,04:11:00,29,25,4,1,1,1,1,0,0,0,0
+2798717,2,1,Edmonton Stingers,rebound,defensive,1,0,T. Donald,7,04:23:00,27,25,2,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,S. Hildebrandt,4,04:26:00,27,25,2,1,0,0,0,1,0,0,0
+2798717,2,1,Edmonton Stingers,substitution,out,1,0,D. Dainja,14,04:46:00,27,25,2,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,substitution,in,1,0,I. Jack,13,04:46:00,27,25,2,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,foulon,,1,0,E. Akot,6,04:46:00,27,25,2,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,turnover,offensive,1,0,D. Dainja,14,04:46:00,27,25,2,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,foul,offensive,1,0,D. Dainja,14,04:46:00,27,25,2,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,turnover,outofbounds,1,0,S. Hildebrandt,4,05:02:00,27,25,2,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,freethrow,2of2,1,1,D. Dainja,14,05:09:00,27,25,2,0,0,0,0,0,0,1,1
+2798717,2,1,Edmonton Stingers,freethrow,1of2,1,1,D. Dainja,14,05:09:00,26,25,1,0,0,0,0,0,0,1,1
+2798717,2,2,Winnipeg Sea Bears,substitution,out,1,0,D. Warren,9,05:09:00,25,25,0,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,substitution,in,1,0,J. Tilmon Jr.,2,05:09:00,25,25,0,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,substitution,out,1,0,A. Toney,11,05:09:00,25,25,0,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,substitution,in,1,0,T. King,10,05:09:00,25,25,0,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,foulon,,1,0,D. Dainja,14,05:09:00,25,25,0,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,foul,personal,1,0,S. Hildebrandt,4,05:09:00,25,25,0,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,rebound,offensive,1,0,,0,05:21:00,25,25,0,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,2pt,turnaroundjumpshot,0,1,D. Dainja,14,05:22:00,25,25,0,1,0,1,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,rebound,defensive,1,0,D. Dainja,14,05:36:00,25,25,0,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,2pt,floatingjumpshot,0,1,T. Allen,3,05:39:00,25,25,0,1,0,1,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,3pt,stepbackjumpshot,1,1,T. Donald,7,06:04:00,25,25,0,1,1,0,0,1,1,0,0
+2798717,2,2,Winnipeg Sea Bears,substitution,in,1,0,A. Chaney,13,06:27:00,22,25,-3,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,substitution,in,1,0,E. Akot,6,06:27:00,22,25,-3,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,substitution,out,1,0,M. Kraus,11,06:27:00,22,25,-3,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,substitution,out,1,0,J. Tilmon Jr.,2,06:27:00,22,25,-3,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,substitution,out,1,0,E. Bandoumel,6,06:27:00,22,25,-3,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,substitution,in,1,0,A. Rhooms,3,06:27:00,22,25,-3,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,timeout,full,1,0,,0,06:27:00,22,25,-3,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,assist,,1,0,D. Warren,9,06:30:00,22,25,-3,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,3pt,jumpshot,1,1,M. Kraus,11,06:30:00,22,25,-3,1,1,0,0,1,1,0,0
+2798717,2,2,Winnipeg Sea Bears,steal,,1,0,T. Allen,3,06:36:00,22,22,0,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,turnover,badpass,1,0,S. Teel,12,06:36:00,22,22,0,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,2pt,drivinglayup,1,1,D. Warren,9,06:45:00,22,22,0,1,1,1,1,0,0,0,0
+2798717,2,1,Edmonton Stingers,2pt,drivinglayup,1,1,T. Donald,7,07:10:00,22,20,2,1,1,1,1,0,0,0,0
+2798717,2,1,Edmonton Stingers,rebound,defensive,1,0,T. Donald,7,07:18:00,20,20,0,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,T. Allen,3,07:22:00,20,20,0,1,0,0,0,1,0,0,0
+2798717,2,1,Edmonton Stingers,substitution,out,1,0,M. Bourcier,1,07:31:00,20,20,0,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,substitution,in,1,0,S. Teel,12,07:31:00,20,20,0,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,turnover,travel,1,0,E. Bandoumel,6,07:31:00,20,20,0,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,assist,,1,0,J. Tilmon Jr.,2,07:42:00,20,20,0,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,2pt,reverselayup,1,1,T. Allen,3,07:42:00,20,20,0,1,1,1,1,0,0,0,0
+2798717,2,1,Edmonton Stingers,substitution,out,1,0,A. Mohamed,2,07:56:00,20,18,2,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,substitution,in,1,0,T. Donald,7,07:56:00,20,18,2,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,foulon,,1,0,D. Warren,9,07:56:00,20,18,2,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,turnover,offensive,1,0,D. Dainja,14,07:56:00,20,18,2,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,foul,offensive,1,0,D. Dainja,14,07:56:00,20,18,2,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,steal,,1,0,D. Dainja,14,08:04:00,20,18,2,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,turnover,badpass,1,0,D. Warren,9,08:04:00,20,18,2,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,2pt,jumpshot,1,1,M. Bourcier,1,08:29:00,20,18,2,1,1,1,1,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,substitution,out,1,0,E. Akot,6,08:34:00,18,18,0,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,substitution,in,1,0,S. Hildebrandt,4,08:34:00,18,18,0,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,rebound,defensive,1,0,M. Bourcier,1,08:46:00,18,18,0,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,2pt,turnaroundjumpshot,0,1,T. Allen,3,08:48:00,18,18,0,1,0,1,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,rebound,defensive,1,0,D. Warren,9,08:59:00,18,18,0,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,2pt,jumpshot,0,1,M. Bourcier,1,09:02:00,18,18,0,1,0,1,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,rebound,defensive,1,0,A. Mohamed,2,09:19:00,18,18,0,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,D. Warren,9,09:22:00,18,18,0,1,0,0,0,1,0,0,0
+2798717,2,2,Winnipeg Sea Bears,rebound,defensive,1,0,M. Kraus,11,09:31:00,18,18,0,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,2pt,jumpshot,0,1,D. Dainja,14,09:34:00,18,18,0,1,0,1,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,substitution,out,1,0,D. Walker,5,09:46:00,18,18,0,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,substitution,in,1,0,D. Warren,9,09:46:00,18,18,0,0,0,0,0,0,0,0,0
+2798717,2,1,Edmonton Stingers,foulon,,1,0,A. Mohamed,2,09:46:00,18,18,0,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,turnover,offensive,1,0,D. Walker,5,09:46:00,18,18,0,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,foul,offensive,1,0,D. Walker,5,09:46:00,18,18,0,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,substitution,out,1,0,K. Cross,14,10:00:00,18,18,0,0,0,0,0,0,0,0,0
+2798717,2,2,Winnipeg Sea Bears,substitution,in,1,0,J. Tilmon Jr.,2,10:00:00,18,18,0,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,M. Kraus,11,00:00:10,18,18,0,1,0,0,0,1,0,0,0
+2798717,1,2,Winnipeg Sea Bears,rebound,defensive,1,0,M. Kraus,11,00:00:20,18,18,0,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,3pt,jumpshot,0,1,A. Toney,11,00:03:90,18,18,0,1,0,0,0,1,0,0,0
+2798717,1,2,Winnipeg Sea Bears,assist,,1,0,D. Walker,5,00:19:70,18,18,0,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,3pt,jumpshot,1,1,M. Kraus,11,00:19:70,18,18,0,1,1,0,0,1,1,0,0
+2798717,1,2,Winnipeg Sea Bears,substitution,out,1,0,A. Chaney,13,00:38:40,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,substitution,in,1,0,M. Kraus,11,00:38:40,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,turnover,badpass,1,0,E. Bandoumel,6,00:38:40,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,steal,,1,0,E. Bandoumel,6,00:38:40,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,turnover,badpass,1,0,A. Chaney,13,00:38:40,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,rebound,defensive,1,0,A. Chaney,13,00:53:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,3pt,jumpshot,0,1,M. Bourcier,1,00:57:50,18,15,3,1,0,0,0,1,0,0,0
+2798717,1,1,Edmonton Stingers,rebound,defensive,1,0,A. Mohamed,2,01:00:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,block,,1,0,A. Toney,11,01:04:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,2pt,layup,0,1,A. Chaney,13,01:04:00,18,15,3,1,0,1,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,steal,,1,0,E. Akot,6,01:07:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,turnover,badpass,1,0,M. Bourcier,1,01:07:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,substitution,out,1,0,A. Rhooms,3,01:15:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,substitution,in,1,0,A. Mohamed,2,01:15:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,steal,,1,0,M. Bourcier,1,01:15:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,turnover,ballhandling,1,0,A. Chaney,13,01:15:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,substitution,out,1,0,J. Tilmon Jr.,2,01:17:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,substitution,in,1,0,K. Cross,14,01:17:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,substitution,in,1,0,M. Bourcier,1,01:17:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,substitution,in,1,0,A. Toney,11,01:17:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,substitution,out,1,0,T. King,10,01:17:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,substitution,out,1,0,S. Teel,12,01:17:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,foulon,,1,0,T. Allen,3,01:17:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,foul,personal,1,0,T. King,10,01:17:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,rebound,defensive,1,0,T. Allen,3,01:17:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,3pt,jumpshot,0,1,A. Rhooms,3,01:21:00,18,15,3,1,0,0,0,1,0,0,0
+2798717,1,1,Edmonton Stingers,rebound,defensive,1,0,S. Teel,12,01:23:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,block,,1,0,D. Dainja,14,01:27:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,2pt,layup,0,1,J. Tilmon Jr.,2,01:27:00,18,15,3,1,0,1,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,rebound,offensive,1,0,E. Akot,6,01:29:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,A. Chaney,13,01:31:00,18,15,3,1,0,0,0,1,0,0,0
+2798717,1,2,Winnipeg Sea Bears,rebound,defensive,1,0,T. Allen,3,01:38:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,3pt,jumpshot,0,1,S. Teel,12,01:40:00,18,15,3,1,0,0,0,1,0,0,0
+2798717,1,1,Edmonton Stingers,rebound,defensive,1,0,S. Teel,12,01:45:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,E. Akot,6,01:48:00,18,15,3,1,0,0,0,1,0,0,0
+2798717,1,1,Edmonton Stingers,substitution,out,1,0,T. Donald,7,02:04:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,substitution,in,1,0,E. Bandoumel,6,02:04:00,18,15,3,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,freethrow,2of2,1,1,T. Donald,7,02:04:00,18,15,3,0,0,0,0,0,0,1,1
+2798717,1,1,Edmonton Stingers,freethrow,1of2,1,1,T. Donald,7,02:04:00,17,15,2,0,0,0,0,0,0,1,1
+2798717,1,1,Edmonton Stingers,substitution,out,1,0,I. Jack,13,02:04:00,16,15,1,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,substitution,in,1,0,D. Dainja,14,02:04:00,16,15,1,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,foulon,,1,0,T. Donald,7,02:04:00,16,15,1,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,foul,personal,1,0,D. Walker,5,02:04:00,16,15,1,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,assist,,1,0,A. Chaney,13,02:15:00,16,15,1,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,2pt,jumpshot,1,1,D. Walker,5,02:15:00,16,15,1,1,1,1,1,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,rebound,defensive,1,0,E. Akot,6,02:22:00,16,13,3,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,2pt,jumpshot,0,1,S. Teel,12,02:24:00,16,13,3,1,0,1,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,substitution,in,1,0,A. Chaney,13,02:32:00,16,13,3,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,substitution,in,1,0,D. Walker,5,02:32:00,16,13,3,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,substitution,out,1,0,D. Warren,9,02:32:00,16,13,3,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,substitution,out,1,0,M. Kraus,11,02:32:00,16,13,3,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,2pt,turnaroundjumpshot,1,1,D. Warren,9,02:44:00,16,13,3,1,1,1,1,0,0,0,0
+2798717,1,1,Edmonton Stingers,assist,,1,0,I. Jack,13,03:03:00,16,11,5,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,3pt,jumpshot,1,1,T. Donald,7,03:03:00,16,11,5,1,1,0,0,1,1,0,0
+2798717,1,1,Edmonton Stingers,rebound,offensive,1,0,A. Rhooms,3,03:06:00,13,11,2,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,2pt,jumpshot,0,1,T. King,10,03:11:00,13,11,2,1,0,1,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,substitution,out,1,0,S. Hildebrandt,4,03:25:00,13,11,2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,substitution,in,1,0,J. Tilmon Jr.,2,03:25:00,13,11,2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,turnover,backcourt,1,0,E. Akot,6,03:25:00,13,11,2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,rebound,defensive,1,0,,0,03:30:00,13,11,2,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,freethrow,2of2,0,1,T. Donald,7,03:30:00,13,11,2,0,0,0,0,0,0,1,0
+2798717,1,1,Edmonton Stingers,freethrow,1of2,1,1,T. Donald,7,03:30:00,13,11,2,0,0,0,0,0,0,1,1
+2798717,1,1,Edmonton Stingers,foulon,,1,0,T. Donald,7,03:30:00,12,11,1,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,foul,personal,1,0,M. Kraus,11,03:30:00,12,11,1,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,freethrow,2of2,1,1,D. Warren,9,03:43:00,12,11,1,0,0,0,0,0,0,1,1
+2798717,1,2,Winnipeg Sea Bears,freethrow,1of2,0,1,D. Warren,9,03:43:00,12,10,2,0,0,0,0,0,0,1,0
+2798717,1,2,Winnipeg Sea Bears,substitution,in,1,0,T. Allen,3,03:43:00,12,10,2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,substitution,in,1,0,M. Kraus,11,03:43:00,12,10,2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,substitution,out,1,0,A. Chaney,13,03:43:00,12,10,2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,substitution,out,1,0,K. Cross,14,03:43:00,12,10,2,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,substitution,out,1,0,A. Toney,11,03:43:00,12,10,2,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,substitution,in,1,0,T. King,10,03:43:00,12,10,2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,foulon,,1,0,D. Warren,9,03:43:00,12,10,2,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,foul,personal,1,0,S. Teel,12,03:43:00,12,10,2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,rebound,defensive,1,0,S. Hildebrandt,4,03:45:00,12,10,2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,block,,1,0,D. Warren,9,03:49:00,12,10,2,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,2pt,drivinglayup,0,1,T. Donald,7,03:49:00,12,10,2,1,0,1,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,steal,,1,0,T. Donald,7,03:53:00,12,10,2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,turnover,ballhandling,1,0,D. Warren,9,03:53:00,12,10,2,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,assist,,1,0,I. Jack,13,04:12:00,12,10,2,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,2pt,drivinglayup,1,1,S. Teel,12,04:12:00,12,10,2,1,1,1,1,0,0,0,0
+2798717,1,1,Edmonton Stingers,steal,,1,0,I. Jack,13,04:17:00,10,10,0,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,turnover,badpass,1,0,K. Cross,14,04:17:00,10,10,0,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,rebound,defensive,1,0,K. Cross,14,04:23:00,10,10,0,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,3pt,jumpshot,0,1,T. Donald,7,04:26:00,10,10,0,1,0,0,0,1,0,0,0
+2798717,1,1,Edmonton Stingers,substitution,out,1,0,D. Dainja,14,04:30:00,10,10,0,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,substitution,in,1,0,I. Jack,13,04:30:00,10,10,0,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,assist,,1,0,D. Warren,9,04:53:00,10,10,0,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,2pt,layup,1,1,K. Cross,14,04:53:00,10,10,0,1,1,1,1,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,substitution,out,1,0,T. Allen,3,05:09:00,10,8,2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,substitution,in,1,0,D. Warren,9,05:09:00,10,8,2,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,assist,,1,0,T. Donald,7,05:09:00,10,8,2,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,2pt,layup,1,1,D. Dainja,14,05:09:00,10,8,2,1,1,1,1,0,0,0,0
+2798717,1,1,Edmonton Stingers,rebound,defensive,1,0,T. Donald,7,05:13:00,8,8,0,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,K. Cross,14,05:16:00,8,8,0,1,0,0,0,1,0,0,0
+2798717,1,1,Edmonton Stingers,assist,,1,0,T. Donald,7,05:29:00,8,8,0,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,2pt,jumpshot,1,1,A. Rhooms,3,05:29:00,8,8,0,1,1,1,1,0,0,0,0
+2798717,1,1,Edmonton Stingers,steal,,1,0,T. Donald,7,05:36:00,6,8,-2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,turnover,ballhandling,1,0,A. Chaney,13,05:36:00,6,8,-2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,steal,,1,0,T. Allen,3,05:41:00,6,8,-2,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,turnover,badpass,1,0,A. Toney,11,05:41:00,6,8,-2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,substitution,in,1,0,K. Cross,14,05:56:00,6,8,-2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,substitution,in,1,0,E. Akot,6,05:56:00,6,8,-2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,substitution,out,1,0,D. Walker,5,05:56:00,6,8,-2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,substitution,out,1,0,J. Tilmon Jr.,2,05:56:00,6,8,-2,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,substitution,in,1,0,A. Rhooms,3,05:56:00,6,8,-2,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,substitution,in,1,0,T. Donald,7,05:56:00,6,8,-2,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,substitution,out,1,0,M. Bourcier,1,05:56:00,6,8,-2,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,substitution,in,1,0,S. Teel,12,05:56:00,6,8,-2,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,substitution,out,1,0,T. King,10,05:56:00,6,8,-2,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,substitution,out,1,0,E. Bandoumel,6,05:56:00,6,8,-2,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,foulon,,1,0,M. Bourcier,1,05:56:00,6,8,-2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,turnover,offensive,1,0,J. Tilmon Jr.,2,05:56:00,6,8,-2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,foul,offensive,1,0,J. Tilmon Jr.,2,05:56:00,6,8,-2,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,turnover,badpass,1,0,E. Bandoumel,6,06:07:00,6,8,-2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,2pt,dunk,1,1,J. Tilmon Jr.,2,06:28:00,6,8,-2,1,1,1,1,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,rebound,offensive,1,0,J. Tilmon Jr.,2,06:29:00,6,6,0,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,2pt,layup,0,1,T. Allen,3,06:34:00,6,6,0,1,0,1,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,assist,,1,0,A. Toney,11,06:55:00,6,6,0,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,2pt,layup,1,1,T. King,10,06:55:00,6,6,0,1,1,1,1,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,substitution,out,1,0,E. Akot,6,06:57:00,4,6,-2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,substitution,in,1,0,S. Hildebrandt,4,06:57:00,4,6,-2,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,rebound,offensive,1,0,,0,06:57:00,4,6,-2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,block,,1,0,J. Tilmon Jr.,2,06:57:00,4,6,-2,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,2pt,layup,0,1,D. Dainja,14,06:57:00,4,6,-2,1,0,1,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,turnover,badpass,1,0,A. Chaney,13,07:14:00,4,6,-2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,rebound,defensive,1,0,T. Allen,3,07:16:00,4,6,-2,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,2pt,jumpshot,0,1,T. King,10,07:19:00,4,6,-2,1,0,1,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,assist,,1,0,A. Chaney,13,07:35:00,4,6,-2,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,2pt,floatingjumpshot,1,1,T. Allen,3,07:35:00,4,6,-2,1,1,1,1,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,foulon,,1,0,T. Allen,3,07:48:00,4,4,0,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,foul,personal,1,0,T. King,10,07:48:00,4,4,0,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,steal,,1,0,T. Allen,3,07:51:00,4,4,0,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,turnover,ballhandling,1,0,D. Dainja,14,07:51:00,4,4,0,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,2pt,turnaroundjumpshot,1,1,T. Allen,3,08:13:00,4,4,0,1,1,1,1,0,0,0,0
+2798717,1,1,Edmonton Stingers,2pt,layup,1,1,T. King,10,08:27:00,4,2,2,1,1,1,1,0,0,0,0
+2798717,1,1,Edmonton Stingers,rebound,defensive,1,0,A. Toney,11,08:32:00,2,2,0,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,3pt,jumpshot,0,1,A. Chaney,13,08:36:00,2,2,0,1,0,0,0,1,0,0,0
+2798717,1,2,Winnipeg Sea Bears,rebound,defensive,1,0,E. Akot,6,08:45:00,2,2,0,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,3pt,jumpshot,0,1,T. King,10,08:48:00,2,2,0,1,0,0,0,1,0,0,0
+2798717,1,1,Edmonton Stingers,steal,,1,0,A. Toney,11,09:09:00,2,2,0,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,turnover,badpass,1,0,D. Walker,5,09:09:00,2,2,0,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,rebound,defensive,1,0,T. Allen,3,09:13:00,2,2,0,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,2pt,floatingjumpshot,0,1,M. Bourcier,1,09:16:00,2,2,0,1,0,1,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,assist,,1,0,T. Allen,3,09:28:00,2,2,0,0,0,0,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,2pt,reverselayup,1,1,E. Akot,6,09:28:00,2,2,0,1,1,1,1,0,0,0,0
+2798717,1,1,Edmonton Stingers,2pt,tipinlayup,1,1,D. Dainja,14,09:38:00,2,0,2,1,1,1,1,0,0,0,0
+2798717,1,1,Edmonton Stingers,rebound,offensive,1,0,D. Dainja,14,09:38:00,0,0,0,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,2pt,floatingjumpshot,0,1,E. Bandoumel,6,09:45:00,0,0,0,1,0,1,0,0,0,0,0
+2798717,1,2,Winnipeg Sea Bears,jumpball,lost,1,0,J. Tilmon Jr.,2,09:59:00,0,0,0,0,0,0,0,0,0,0,0
+2798717,1,1,Edmonton Stingers,jumpball,won,1,0,D. Dainja,14,09:59:00,0,0,0,0,0,0,0,0,0,0,0

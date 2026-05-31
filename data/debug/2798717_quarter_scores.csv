@@ -1,0 +1,9 @@
+﻿game_id,team_slot,team_name,team_short_name,team_code,opponent_name,quarter,points,opponent_points,point_diff
+2798717,1,Edmonton Stingers,Edmonton,EDM,Winnipeg Sea Bears,1,18,18,0
+2798717,1,Edmonton Stingers,Edmonton,EDM,Winnipeg Sea Bears,2,16,9,7
+2798717,1,Edmonton Stingers,Edmonton,EDM,Winnipeg Sea Bears,3,17,25,-8
+2798717,1,Edmonton Stingers,Edmonton,EDM,Winnipeg Sea Bears,4,24,25,-1
+2798717,2,Winnipeg Sea Bears,Winnipeg,WPG,Edmonton Stingers,1,18,18,0
+2798717,2,Winnipeg Sea Bears,Winnipeg,WPG,Edmonton Stingers,2,9,16,-7
+2798717,2,Winnipeg Sea Bears,Winnipeg,WPG,Edmonton Stingers,3,25,17,8
+2798717,2,Winnipeg Sea Bears,Winnipeg,WPG,Edmonton Stingers,4,25,24,1

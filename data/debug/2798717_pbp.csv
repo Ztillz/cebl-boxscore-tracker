@@ -1,0 +1,607 @@
+﻿gt,clock,s1,s2,lead,tno,period,periodType,pno,player,success,actionType,actionNumber,previousAction,qualifier,subType,scoring,shirtNumber,firstName,familyName,internationalFirstName,internationalFamilyName,firstNameInitial,familyNameInitial,internationalFirstNameInitial,internationalFamilyNameInitial,scoreboardName
+00:00,00:00:00,75,77,-2,0,4,REGULAR,0,,1,game,788,,[],end,0,,,,,,,,,,
+00:00,00:00:00,75,77,-2,0,4,REGULAR,0,,1,period,786,,['confirmed'],end,0,,,,,,,,,,
+03:54,03:54:00,75,73,2,1,4,REGULAR,11,A. Toney,1,assist,787,767,[],,0,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+03:54,03:54:00,75,77,-2,2,4,REGULAR,11,M. Kraus,1,freethrow,784,,['fromturnover'],2of2,1,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+03:54,03:54:00,75,76,-1,2,4,REGULAR,13,A. Chaney,1,assist,783,782,[],,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+03:54,03:54:00,75,76,-1,2,4,REGULAR,11,M. Kraus,1,freethrow,782,,['fromturnover'],1of2,1,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+03:54,03:54:00,75,75,0,2,4,REGULAR,11,M. Kraus,1,foulon,781,780,[],,0,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+03:54,03:54:00,75,75,0,1,4,REGULAR,6,E. Bandoumel,1,foul,780,,"['shooting', '2freethrow']",personal,0,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+03:54,03:54:00,75,75,0,2,4,REGULAR,13,A. Chaney,1,steal,778,777,[],,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+03:54,03:54:00,75,75,0,1,4,REGULAR,10,T. King,1,turnover,777,,[],ballhandling,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+03:54,03:54:00,75,75,0,1,4,REGULAR,10,T. King,1,rebound,776,775,[],offensive,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+03:54,03:54:00,75,75,0,1,4,REGULAR,7,T. Donald,0,2pt,775,,['pointsinthepaint'],layup,1,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+03:54,03:54:00,75,75,0,1,4,REGULAR,0,,1,timeout,774,,[],full,0,,,,,,,,,,
+03:54,03:54:00,75,75,0,2,4,REGULAR,3,T. Allen,1,freethrow,773,,[],2of2,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+03:54,03:54:00,75,74,1,2,4,REGULAR,3,T. Allen,1,freethrow,772,,[],1of2,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+03:54,03:54:00,75,73,2,2,4,REGULAR,3,T. Allen,1,foulon,771,770,[],,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+03:54,03:54:00,75,73,2,1,4,REGULAR,6,E. Bandoumel,1,foul,770,,"['shooting', '2freethrow']",personal,0,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+03:54,03:54:00,75,73,2,1,4,REGULAR,14,D. Dainja,1,2pt,767,,['pointsinthepaint'],layup,1,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+03:54,03:54:00,73,73,0,2,4,REGULAR,2,J. Tilmon Jr.,1,2pt,766,,"['2ndchance', 'pointsinthepaint']",layup,1,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+03:54,03:54:00,73,71,2,2,4,REGULAR,2,J. Tilmon Jr.,1,rebound,765,764,[],offensive,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+03:54,03:54:00,73,71,2,2,4,REGULAR,3,T. Allen,0,3pt,764,,['2ndchance'],jumpshot,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+03:54,03:54:00,73,71,2,2,4,REGULAR,3,T. Allen,1,rebound,763,762,[],offensive,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+03:54,03:54:00,73,71,2,2,4,REGULAR,13,A. Chaney,0,3pt,762,,[],jumpshot,1,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+03:54,03:54:00,73,71,2,2,4,REGULAR,11,M. Kraus,1,rebound,761,760,[],defensive,0,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+03:54,03:54:00,73,71,2,1,4,REGULAR,6,E. Bandoumel,0,2pt,760,,"['fromturnover', 'pointsinthepaint']",layup,1,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+03:54,03:54:00,73,71,2,1,4,REGULAR,14,D. Dainja,1,steal,759,758,[],,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+03:54,03:54:00,73,71,2,2,4,REGULAR,3,T. Allen,1,turnover,758,,[],badpass,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+03:54,03:54:00,73,71,2,2,4,REGULAR,11,M. Kraus,1,foulon,757,756,[],,0,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+03:54,03:54:00,73,71,2,1,4,REGULAR,10,T. King,1,foul,756,,[],personal,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+03:54,03:54:00,73,71,2,2,4,REGULAR,11,M. Kraus,1,rebound,755,754,[],offensive,0,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+03:54,03:54:00,73,71,2,2,4,REGULAR,6,E. Akot,0,3pt,754,,[],jumpshot,1,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+03:54,03:54:00,73,71,2,1,4,REGULAR,10,T. King,1,2pt,753,,[],stepbackjumpshot,1,0,Tre,King,Tre,King,T,K,T,K,T. King
+03:54,03:54:00,71,71,0,2,4,REGULAR,2,J. Tilmon Jr.,1,2pt,752,,"['2ndchance', 'pointsinthepaint']",tipindunk,1,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+03:54,03:54:00,71,69,2,2,4,REGULAR,2,J. Tilmon Jr.,1,rebound,751,750,[],offensive,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+03:54,03:54:00,71,69,2,2,4,REGULAR,3,T. Allen,0,3pt,750,,[],jumpshot,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+03:54,03:54:00,71,69,2,1,4,REGULAR,14,D. Dainja,1,freethrow,749,,[],2of2,1,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+03:54,03:54:00,70,69,1,1,4,REGULAR,14,D. Dainja,0,freethrow,748,,[],1of2,1,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+03:54,03:54:00,70,69,1,1,4,REGULAR,14,D. Dainja,1,foulon,747,746,[],,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+03:54,03:54:00,70,69,1,2,4,REGULAR,6,E. Akot,1,foul,746,,"['shooting', '2freethrow']",personal,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+03:54,03:54:00,70,69,1,2,4,REGULAR,13,A. Chaney,1,assist,745,744,[],,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+03:54,03:54:00,70,69,1,2,4,REGULAR,11,M. Kraus,1,3pt,744,,[],jumpshot,1,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+03:54,03:54:00,70,66,4,2,4,REGULAR,0,,1,rebound,742,741,['team'],defensive,0,,,,,,,,,,
+03:54,03:54:00,70,66,4,1,4,REGULAR,10,T. King,0,2pt,741,,['pointsinthepaint'],jumpshot,1,0,Tre,King,Tre,King,T,K,T,K,T. King
+03:54,03:54:00,70,66,4,2,4,REGULAR,3,T. Allen,1,freethrow,740,,[],1of1,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+03:54,03:54:00,70,65,5,2,4,REGULAR,3,T. Allen,1,foulon,739,738,[],,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+03:54,03:54:00,70,65,5,1,4,REGULAR,11,A. Toney,1,foul,738,,"['shooting', '1freethrow']",personal,0,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+03:54,03:54:00,70,65,5,2,4,REGULAR,3,T. Allen,1,2pt,737,,['pointsinthepaint'],turnaroundjumpshot,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+03:54,03:54:00,70,63,7,1,4,REGULAR,6,E. Bandoumel,1,assist,736,735,[],,0,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+03:54,03:54:00,70,63,7,1,4,REGULAR,14,D. Dainja,1,2pt,735,,['pointsinthepaint'],dunk,1,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+03:54,03:54:00,68,63,5,2,4,REGULAR,5,D. Walker,1,substitution,733,,[],out,0,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+03:54,03:54:00,68,63,5,2,4,REGULAR,11,M. Kraus,1,substitution,734,,[],in,0,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+04:02,04:02:00,68,63,5,1,4,REGULAR,11,A. Toney,0,freethrow,729,,['fastbreak'],1of1,1,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+04:02,04:02:00,68,63,5,1,4,REGULAR,11,A. Toney,1,foulon,728,727,[],,0,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+04:02,04:02:00,68,63,5,2,4,REGULAR,3,T. Allen,1,foul,727,,['1freethrow'],unsportsmanlike,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+04:02,04:02:00,68,63,5,1,4,REGULAR,10,T. King,1,assist,726,725,[],,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+04:02,04:02:00,68,63,5,1,4,REGULAR,11,A. Toney,1,2pt,725,,"['fromturnover', 'pointsinthepaint', 'fastbreak']",layup,1,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+04:07,04:07:00,66,63,3,1,4,REGULAR,14,D. Dainja,1,steal,723,722,[],,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+04:07,04:07:00,66,63,3,2,4,REGULAR,3,T. Allen,1,turnover,722,,[],badpass,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+04:24,04:24:00,66,63,3,1,4,REGULAR,14,D. Dainja,1,2pt,721,,"['2ndchance', 'pointsinthepaint']",tipindunk,1,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+04:24,04:24:00,64,63,1,1,4,REGULAR,14,D. Dainja,1,rebound,720,719,[],offensive,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+04:28,04:28:00,64,63,1,1,4,REGULAR,7,T. Donald,0,2pt,719,,"['2ndchance', 'pointsinthepaint']",layup,1,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+04:29,04:29:00,64,63,1,1,4,REGULAR,7,T. Donald,1,rebound,718,717,[],offensive,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+04:33,04:33:00,64,63,1,1,4,REGULAR,11,A. Toney,0,3pt,717,,[],jumpshot,1,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+04:36,04:36:00,64,63,1,1,4,REGULAR,10,T. King,1,rebound,716,715,[],defensive,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+04:39,04:39:00,64,63,1,2,4,REGULAR,5,D. Walker,0,2pt,715,,"['fromturnover', 'pointsinthepaint']",drivinglayup,1,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+04:43,04:43:00,64,63,1,2,4,REGULAR,5,D. Walker,1,steal,714,713,[],,0,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+04:43,04:43:00,64,63,1,1,4,REGULAR,6,E. Bandoumel,1,turnover,713,,[],ballhandling,0,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+04:50,04:50:00,64,63,1,1,4,REGULAR,14,D. Dainja,1,rebound,712,711,[],defensive,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+04:52,04:52:00,64,63,1,2,4,REGULAR,6,E. Akot,0,3pt,711,,[],stepbackjumpshot,1,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+05:08,05:08:00,64,63,1,1,4,REGULAR,11,A. Toney,1,substitution,709,,[],in,0,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+05:08,05:08:00,64,63,1,1,4,REGULAR,10,T. King,1,substitution,708,,[],in,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+05:08,05:08:00,64,63,1,1,4,REGULAR,12,S. Teel,1,substitution,706,,[],out,0,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+05:08,05:08:00,64,63,1,1,4,REGULAR,3,A. Rhooms,1,substitution,707,,[],out,0,12,Aaron,Rhooms,Aaron,Rhooms,A,R,A,R,A. Rhooms
+05:19,05:19:00,64,63,1,1,4,REGULAR,3,A. Rhooms,1,assist,704,703,[],,0,12,Aaron,Rhooms,Aaron,Rhooms,A,R,A,R,A. Rhooms
+05:19,05:19:00,64,63,1,1,4,REGULAR,14,D. Dainja,1,2pt,703,,['pointsinthepaint'],drivinglayup,1,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+05:32,05:32:00,62,63,-1,2,4,REGULAR,3,T. Allen,1,assist,702,701,[],,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+05:32,05:32:00,62,63,-1,2,4,REGULAR,2,J. Tilmon Jr.,1,2pt,701,,['pointsinthepaint'],jumpshot,1,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+05:56,05:56:00,62,61,1,1,4,REGULAR,7,T. Donald,1,assist,700,699,[],,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+05:56,05:56:00,62,61,1,1,4,REGULAR,6,E. Bandoumel,1,3pt,699,,[],jumpshot,1,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+05:58,05:58:00,59,61,-2,1,4,REGULAR,3,A. Rhooms,1,rebound,698,697,[],defensive,0,12,Aaron,Rhooms,Aaron,Rhooms,A,R,A,R,A. Rhooms
+06:00,06:00:00,59,61,-2,2,4,REGULAR,3,T. Allen,0,2pt,697,,['pointsinthepaint'],layup,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+06:28,06:28:00,59,61,-2,1,4,REGULAR,14,D. Dainja,1,freethrow,694,,[],2of2,1,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+06:28,06:28:00,58,61,-3,1,4,REGULAR,14,D. Dainja,1,freethrow,693,,[],1of2,1,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+06:28,06:28:00,57,61,-4,2,4,REGULAR,0,,1,timeout,692,,[],full,0,,,,,,,,,,
+06:28,06:28:00,57,61,-4,1,4,REGULAR,14,D. Dainja,1,foulon,691,690,[],,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+06:28,06:28:00,57,61,-4,2,4,REGULAR,6,E. Akot,1,foul,690,,"['shooting', '2freethrow']",personal,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+06:33,06:33:00,57,61,-4,1,4,REGULAR,14,D. Dainja,1,rebound,688,687,[],defensive,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+06:36,06:36:00,57,61,-4,2,4,REGULAR,5,D. Walker,0,3pt,687,,[],jumpshot,1,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+06:56,06:56:00,57,61,-4,1,4,REGULAR,3,A. Rhooms,1,2pt,686,,['pointsinthepaint'],turnaroundjumpshot,1,12,Aaron,Rhooms,Aaron,Rhooms,A,R,A,R,A. Rhooms
+07:04,07:04:00,55,61,-6,1,4,REGULAR,7,T. Donald,1,rebound,685,684,[],defensive,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+07:07,07:07:00,55,61,-6,2,4,REGULAR,13,A. Chaney,0,2pt,684,,"['2ndchance', 'pointsinthepaint']",floatingjumpshot,1,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+07:16,07:16:00,55,61,-6,2,4,REGULAR,2,J. Tilmon Jr.,1,rebound,683,682,[],offensive,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+07:21,07:21:00,55,61,-6,2,4,REGULAR,3,T. Allen,0,3pt,682,,[],jumpshot,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+07:37,07:37:00,55,61,-6,1,4,REGULAR,6,E. Bandoumel,1,2pt,681,,['pointsinthepaint'],layup,1,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+07:59,07:59:00,53,61,-8,2,4,REGULAR,3,T. Allen,1,freethrow,679,,[],2of2,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+07:59,07:59:00,53,60,-7,2,4,REGULAR,3,T. Allen,1,freethrow,678,,[],1of2,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+07:59,07:59:00,53,59,-6,1,4,REGULAR,3,A. Rhooms,1,substitution,677,,[],in,0,12,Aaron,Rhooms,Aaron,Rhooms,A,R,A,R,A. Rhooms
+07:59,07:59:00,53,59,-6,1,4,REGULAR,6,E. Bandoumel,1,substitution,676,,[],in,0,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+07:59,07:59:00,53,59,-6,1,4,REGULAR,11,A. Toney,1,substitution,674,,[],out,0,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+07:59,07:59:00,53,59,-6,1,4,REGULAR,1,M. Bourcier,1,substitution,675,,[],out,0,13,Mason,Bourcier,Mason,Bourcier,M,B,M,B,M. Bourcier
+07:59,07:59:00,53,59,-6,2,4,REGULAR,3,T. Allen,1,foulon,673,672,[],,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+07:59,07:59:00,53,59,-6,1,4,REGULAR,1,M. Bourcier,1,foul,672,,"['shooting', '2freethrow']",personal,0,13,Mason,Bourcier,Mason,Bourcier,M,B,M,B,M. Bourcier
+08:02,08:02:00,53,59,-6,2,4,REGULAR,6,E. Akot,1,rebound,669,668,[],defensive,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+08:05,08:05:00,53,59,-6,1,4,REGULAR,7,T. Donald,0,3pt,668,,[],jumpshot,1,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+08:18,08:18:00,53,59,-6,2,4,REGULAR,3,T. Allen,1,2pt,667,,"['pointsinthepaint', 'fastbreak']",layup,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+08:24,08:24:00,53,57,-4,2,4,REGULAR,3,T. Allen,1,rebound,666,665,[],defensive,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+08:27,08:27:00,53,57,-4,1,4,REGULAR,12,S. Teel,0,3pt,665,,[],jumpshot,1,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+08:39,08:39:00,53,57,-4,2,4,REGULAR,2,J. Tilmon Jr.,1,substitution,663,,[],in,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+08:39,08:39:00,53,57,-4,2,4,REGULAR,5,D. Walker,1,substitution,662,,[],in,0,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+08:39,08:39:00,53,57,-4,2,4,REGULAR,9,D. Warren,1,substitution,660,,[],out,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+08:39,08:39:00,53,57,-4,2,4,REGULAR,4,S. Hildebrandt,1,substitution,661,,[],out,0,15,Simon,Hildebrandt,Simon,Hildebrandt,S,H,S,H,S. Hildebrandt
+08:39,08:39:00,53,57,-4,1,4,REGULAR,14,D. Dainja,1,substitution,659,,[],in,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+08:39,08:39:00,53,57,-4,1,4,REGULAR,1,M. Bourcier,1,substitution,658,,[],in,0,13,Mason,Bourcier,Mason,Bourcier,M,B,M,B,M. Bourcier
+08:39,08:39:00,53,57,-4,1,4,REGULAR,6,E. Bandoumel,1,substitution,656,,[],out,0,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+08:39,08:39:00,53,57,-4,1,4,REGULAR,7,T. Donald,1,substitution,657,,[],in,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+08:39,08:39:00,53,57,-4,1,4,REGULAR,10,T. King,1,substitution,654,,[],out,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+08:39,08:39:00,53,57,-4,1,4,REGULAR,2,A. Mohamed,1,substitution,655,,[],out,0,7,Abdul,Mohamed,Abdul,Mohamed,A,M,A,M,A. Mohamed
+08:39,08:39:00,53,57,-4,1,4,REGULAR,0,,1,rebound,653,651,['team'],defensive,0,,,,,,,,,,
+08:41,08:41:00,53,57,-4,2,4,REGULAR,9,D. Warren,0,3pt,651,,[],jumpshot,1,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+09:05,09:05:00,53,57,-4,1,4,REGULAR,2,A. Mohamed,1,assist,650,649,[],,0,7,Abdul,Mohamed,Abdul,Mohamed,A,M,A,M,A. Mohamed
+09:05,09:05:00,53,57,-4,1,4,REGULAR,11,A. Toney,1,2pt,649,,"['2ndchance', 'pointsinthepaint']",layup,1,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+09:07,09:07:00,51,57,-6,1,4,REGULAR,0,,1,rebound,647,646,['team'],offensive,0,,,,,,,,,,
+09:08,09:08:00,51,57,-6,1,4,REGULAR,12,S. Teel,0,3pt,646,,[],jumpshot,1,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+09:16,09:16:00,51,57,-6,2,4,REGULAR,6,E. Akot,1,assist,732,644,[],,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+09:16,09:16:00,51,57,-6,2,4,REGULAR,9,D. Warren,1,2pt,644,,"['pointsinthepaint', 'fastbreak']",drivinglayup,1,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+09:18,09:18:00,51,55,-4,2,4,REGULAR,6,E. Akot,1,rebound,643,641,[],defensive,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+09:21,09:21:00,51,55,-4,2,4,REGULAR,6,E. Akot,1,block,642,641,[],,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+09:21,09:21:00,51,55,-4,1,4,REGULAR,2,A. Mohamed,0,2pt,641,,"['pointsinthepaint', 'blocked']",layup,1,7,Abdul,Mohamed,Abdul,Mohamed,A,M,A,M,A. Mohamed
+09:37,09:37:00,51,55,-4,2,4,REGULAR,6,E. Akot,1,assist,640,639,[],,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+09:37,09:37:00,51,55,-4,2,4,REGULAR,3,T. Allen,1,3pt,639,,['2ndchance'],jumpshot,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+09:39,09:39:00,51,52,-1,2,4,REGULAR,6,E. Akot,1,rebound,638,637,[],offensive,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+09:41,09:41:00,51,52,-1,2,4,REGULAR,13,A. Chaney,0,3pt,637,,[],jumpshot,1,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+10:00,10:00:00,51,52,-1,0,4,REGULAR,0,,1,period,635,,[],start,0,,,,,,,,,,
+10:00,10:00:00,51,52,-1,2,4,REGULAR,11,M. Kraus,1,substitution,633,,[],out,0,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+10:00,10:00:00,51,52,-1,2,4,REGULAR,13,A. Chaney,1,substitution,634,,[],in,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+10:00,10:00:00,51,52,-1,1,4,REGULAR,11,A. Toney,1,substitution,632,,[],in,0,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+10:00,10:00:00,51,52,-1,1,4,REGULAR,10,T. King,1,substitution,631,,[],in,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+10:00,10:00:00,51,52,-1,1,4,REGULAR,3,A. Rhooms,1,substitution,629,,[],out,0,12,Aaron,Rhooms,Aaron,Rhooms,A,R,A,R,A. Rhooms
+10:00,10:00:00,51,52,-1,1,4,REGULAR,13,I. Jack,1,substitution,630,,[],out,0,14,Isaac,Jack,Isaac,Jack,I,J,I,J,I. Jack
+00:00,00:00:00,51,52,-1,0,3,REGULAR,0,,1,period,628,,['confirmed'],end,0,,,,,,,,,,
+00:00,00:00:10,51,52,-1,2,3,REGULAR,4,S. Hildebrandt,0,3pt,625,,[],jumpshot,1,15,Simon,Hildebrandt,Simon,Hildebrandt,S,H,S,H,S. Hildebrandt
+00:22,00:22:80,51,52,-1,1,3,REGULAR,10,T. King,1,substitution,616,,[],out,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+00:22,00:22:80,51,52,-1,1,3,REGULAR,13,I. Jack,1,substitution,617,,[],in,0,14,Isaac,Jack,Isaac,Jack,I,J,I,J,I. Jack
+00:22,00:22:80,51,52,-1,2,3,REGULAR,0,,1,rebound,614,613,['team'],defensive,0,,,,,,,,,,
+00:25,00:25:80,51,52,-1,1,3,REGULAR,10,T. King,0,3pt,613,,['fromturnover'],jumpshot,1,0,Tre,King,Tre,King,T,K,T,K,T. King
+00:34,00:34:30,51,52,-1,1,3,REGULAR,12,S. Teel,0,freethrow,609,,[],1of1,1,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+00:34,00:34:30,51,52,-1,2,3,REGULAR,2,J. Tilmon Jr.,1,substitution,607,,[],out,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+00:34,00:34:30,51,52,-1,2,3,REGULAR,4,S. Hildebrandt,1,substitution,608,,[],in,0,15,Simon,Hildebrandt,Simon,Hildebrandt,S,H,S,H,S. Hildebrandt
+00:34,00:34:30,51,52,-1,2,3,REGULAR,2,J. Tilmon Jr.,1,foul,606,,['1freethrow'],technical,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+00:34,00:34:30,51,52,-1,1,3,REGULAR,13,I. Jack,1,substitution,604,,[],out,0,14,Isaac,Jack,Isaac,Jack,I,J,I,J,I. Jack
+00:34,00:34:30,51,52,-1,1,3,REGULAR,10,T. King,1,substitution,605,,[],in,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+00:34,00:34:30,51,52,-1,1,3,REGULAR,2,A. Mohamed,1,foulon,603,601,[],,0,7,Abdul,Mohamed,Abdul,Mohamed,A,M,A,M,A. Mohamed
+00:34,00:34:30,51,52,-1,2,3,REGULAR,2,J. Tilmon Jr.,1,turnover,602,601,[],offensive,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+00:34,00:34:30,51,52,-1,2,3,REGULAR,2,J. Tilmon Jr.,1,foul,601,,[],offensive,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+00:46,00:46:40,51,52,-1,1,3,REGULAR,10,T. King,1,substitution,597,,[],out,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+00:46,00:46:40,51,52,-1,1,3,REGULAR,13,I. Jack,1,substitution,598,,[],in,0,14,Isaac,Jack,Isaac,Jack,I,J,I,J,I. Jack
+00:55,00:55:10,51,52,-1,2,3,REGULAR,6,E. Akot,1,substitution,594,,[],in,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+00:55,00:55:10,51,52,-1,2,3,REGULAR,9,D. Warren,1,substitution,593,,[],in,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+00:55,00:55:10,51,52,-1,2,3,REGULAR,5,D. Walker,1,substitution,591,,[],out,0,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+00:55,00:55:10,51,52,-1,2,3,REGULAR,13,A. Chaney,1,substitution,592,,[],out,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+00:55,00:55:10,51,52,-1,1,3,REGULAR,2,A. Mohamed,1,freethrow,590,,['2ndchance'],2of2,1,7,Abdul,Mohamed,Abdul,Mohamed,A,M,A,M,A. Mohamed
+00:55,00:55:10,50,52,-2,1,3,REGULAR,2,A. Mohamed,1,freethrow,589,,['2ndchance'],1of2,1,7,Abdul,Mohamed,Abdul,Mohamed,A,M,A,M,A. Mohamed
+00:55,00:55:10,49,52,-3,1,3,REGULAR,2,A. Mohamed,1,foulon,588,587,[],,0,7,Abdul,Mohamed,Abdul,Mohamed,A,M,A,M,A. Mohamed
+00:55,00:55:10,49,52,-3,2,3,REGULAR,13,A. Chaney,1,foul,587,,"['shooting', '2freethrow']",personal,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+00:55,00:55:10,49,52,-3,1,3,REGULAR,2,A. Mohamed,1,rebound,586,584,[],offensive,0,7,Abdul,Mohamed,Abdul,Mohamed,A,M,A,M,A. Mohamed
+00:57,00:57:90,49,52,-3,1,3,REGULAR,6,E. Bandoumel,0,3pt,584,,[],jumpshot,1,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+01:01,01:01:00,49,52,-3,1,3,REGULAR,12,S. Teel,1,rebound,583,582,[],defensive,0,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+01:03,01:03:00,49,52,-3,2,3,REGULAR,2,J. Tilmon Jr.,0,2pt,582,,"['2ndchance', 'pointsinthepaint']",jumpshot,1,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+01:04,01:04:00,49,52,-3,2,3,REGULAR,2,J. Tilmon Jr.,1,rebound,581,580,[],offensive,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+01:09,01:09:00,49,52,-3,2,3,REGULAR,3,T. Allen,0,3pt,580,,[],jumpshot,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+01:26,01:26:00,49,52,-3,1,3,REGULAR,12,S. Teel,1,3pt,579,,['fromturnover'],jumpshot,1,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+01:29,01:29:00,46,52,-6,2,3,REGULAR,6,E. Akot,1,substitution,576,,[],out,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+01:29,01:29:00,46,52,-6,2,3,REGULAR,11,M. Kraus,1,substitution,577,,[],in,0,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+01:29,01:29:00,46,52,-6,1,3,REGULAR,7,T. Donald,1,substitution,574,,[],out,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+01:29,01:29:00,46,52,-6,1,3,REGULAR,6,E. Bandoumel,1,substitution,575,,[],in,0,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+01:29,01:29:00,46,52,-6,1,3,REGULAR,13,I. Jack,1,substitution,572,,[],out,0,14,Isaac,Jack,Isaac,Jack,I,J,I,J,I. Jack
+01:29,01:29:00,46,52,-6,1,3,REGULAR,10,T. King,1,substitution,573,,[],in,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+01:29,01:29:00,46,52,-6,1,3,REGULAR,2,A. Mohamed,1,foulon,571,570,[],,0,7,Abdul,Mohamed,Abdul,Mohamed,A,M,A,M,A. Mohamed
+01:29,01:29:00,46,52,-6,2,3,REGULAR,6,E. Akot,1,foul,570,,[],personal,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+01:30,01:30:00,46,52,-6,1,3,REGULAR,2,A. Mohamed,1,steal,569,567,[],,0,7,Abdul,Mohamed,Abdul,Mohamed,A,M,A,M,A. Mohamed
+01:30,01:30:00,46,52,-6,2,3,REGULAR,13,A. Chaney,1,turnover,567,,[],badpass,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+01:31,01:31:00,46,52,-6,2,3,REGULAR,13,A. Chaney,1,rebound,566,565,[],defensive,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+01:34,01:34:00,46,52,-6,1,3,REGULAR,3,A. Rhooms,0,3pt,565,,[],jumpshot,1,12,Aaron,Rhooms,Aaron,Rhooms,A,R,A,R,A. Rhooms
+01:48,01:48:00,46,52,-6,2,3,REGULAR,6,E. Akot,1,2pt,564,,"['2ndchance', 'fromturnover', 'pointsinthepaint']",tipinlayup,1,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+01:48,01:48:00,46,50,-4,2,3,REGULAR,6,E. Akot,1,rebound,563,562,[],offensive,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+01:53,01:53:00,46,50,-4,2,3,REGULAR,3,T. Allen,0,3pt,562,,['fromturnover'],jumpshot,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+01:58,01:58:00,46,50,-4,2,3,REGULAR,5,D. Walker,1,steal,561,560,[],,0,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+01:58,01:58:00,46,50,-4,1,3,REGULAR,3,A. Rhooms,1,turnover,560,,[],ballhandling,0,12,Aaron,Rhooms,Aaron,Rhooms,A,R,A,R,A. Rhooms
+02:11,02:11:00,46,50,-4,2,3,REGULAR,5,D. Walker,1,assist,559,558,[],,0,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+02:11,02:11:00,46,50,-4,2,3,REGULAR,3,T. Allen,1,3pt,558,,['fromturnover'],jumpshot,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+02:21,02:21:00,46,47,-1,2,3,REGULAR,3,T. Allen,1,steal,557,556,[],,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+02:21,02:21:00,46,47,-1,1,3,REGULAR,2,A. Mohamed,1,turnover,556,,[],ballhandling,0,7,Abdul,Mohamed,Abdul,Mohamed,A,M,A,M,A. Mohamed
+02:31,02:31:00,46,47,-1,1,3,REGULAR,13,I. Jack,1,rebound,555,554,[],defensive,0,14,Isaac,Jack,Isaac,Jack,I,J,I,J,I. Jack
+02:33,02:33:00,46,47,-1,2,3,REGULAR,3,T. Allen,0,3pt,554,,['2ndchance'],jumpshot,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+02:39,02:39:00,46,47,-1,2,3,REGULAR,14,K. Cross,1,substitution,551,,[],out,0,24,Kevin,Cross,Kevin,Cross,K,C,K,C,K. Cross
+02:39,02:39:00,46,47,-1,2,3,REGULAR,2,J. Tilmon Jr.,1,substitution,552,,[],in,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+02:39,02:39:00,46,47,-1,2,3,REGULAR,0,,1,rebound,550,548,['team'],offensive,0,,,,,,,,,,
+02:39,02:39:00,46,47,-1,1,3,REGULAR,13,I. Jack,1,block,549,548,[],,0,14,Isaac,Jack,Isaac,Jack,I,J,I,J,I. Jack
+02:39,02:39:00,46,47,-1,2,3,REGULAR,5,D. Walker,0,2pt,548,,"['pointsinthepaint', 'blocked']",layup,1,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+03:01,03:01:00,46,47,-1,1,3,REGULAR,12,S. Teel,1,3pt,546,,[],jumpshot,1,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+03:11,03:11:00,43,47,-4,2,3,REGULAR,3,T. Allen,1,substitution,542,,[],in,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+03:11,03:11:00,43,47,-4,2,3,REGULAR,5,D. Walker,1,substitution,541,,[],in,0,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+03:11,03:11:00,43,47,-4,2,3,REGULAR,9,D. Warren,1,substitution,539,,[],out,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+03:11,03:11:00,43,47,-4,2,3,REGULAR,11,M. Kraus,1,substitution,540,,[],out,0,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+03:11,03:11:00,43,47,-4,1,3,REGULAR,11,A. Toney,1,substitution,537,,[],out,0,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+03:11,03:11:00,43,47,-4,1,3,REGULAR,2,A. Mohamed,1,substitution,538,,[],in,0,7,Abdul,Mohamed,Abdul,Mohamed,A,M,A,M,A. Mohamed
+03:11,03:11:00,43,47,-4,2,3,REGULAR,9,D. Warren,1,freethrow,536,,"['2ndchance', 'fromturnover']",2of2,1,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+03:11,03:11:00,43,46,-3,2,3,REGULAR,9,D. Warren,0,freethrow,535,,"['2ndchance', 'fromturnover']",1of2,1,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+03:11,03:11:00,43,46,-3,2,3,REGULAR,9,D. Warren,1,foulon,534,533,[],,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+03:11,03:11:00,43,46,-3,1,3,REGULAR,13,I. Jack,1,foul,533,,"['shooting', '2freethrow']",personal,0,14,Isaac,Jack,Isaac,Jack,I,J,I,J,I. Jack
+03:20,03:20:00,43,46,-3,2,3,REGULAR,0,,1,rebound,530,528,['team'],offensive,0,,,,,,,,,,
+03:23,03:23:00,43,46,-3,2,3,REGULAR,6,E. Akot,0,2pt,528,,['fromturnover'],fadeaway,1,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+03:39,03:39:00,43,46,-3,1,3,REGULAR,13,I. Jack,1,turnover,526,,[],travel,0,14,Isaac,Jack,Isaac,Jack,I,J,I,J,I. Jack
+03:40,03:40:00,43,46,-3,1,3,REGULAR,13,I. Jack,1,rebound,524,523,[],offensive,0,14,Isaac,Jack,Isaac,Jack,I,J,I,J,I. Jack
+03:43,03:43:00,43,46,-3,1,3,REGULAR,3,A. Rhooms,0,3pt,523,,[],jumpshot,1,12,Aaron,Rhooms,Aaron,Rhooms,A,R,A,R,A. Rhooms
+03:54,03:54:00,43,46,-3,2,3,REGULAR,14,K. Cross,1,substitution,521,,[],in,0,24,Kevin,Cross,Kevin,Cross,K,C,K,C,K. Cross
+03:54,03:54:00,43,46,-3,2,3,REGULAR,13,A. Chaney,1,substitution,520,,[],in,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+03:54,03:54:00,43,46,-3,2,3,REGULAR,2,J. Tilmon Jr.,1,substitution,518,,[],out,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+03:54,03:54:00,43,46,-3,2,3,REGULAR,6,E. Akot,1,substitution,519,,[],in,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+03:54,03:54:00,43,46,-3,2,3,REGULAR,3,T. Allen,1,substitution,516,,[],out,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+03:54,03:54:00,43,46,-3,2,3,REGULAR,4,S. Hildebrandt,1,substitution,517,,[],out,0,15,Simon,Hildebrandt,Simon,Hildebrandt,S,H,S,H,S. Hildebrandt
+03:54,03:54:00,43,46,-3,1,3,REGULAR,3,A. Rhooms,1,substitution,515,,[],in,0,12,Aaron,Rhooms,Aaron,Rhooms,A,R,A,R,A. Rhooms
+03:54,03:54:00,43,46,-3,1,3,REGULAR,12,S. Teel,1,substitution,514,,[],in,0,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+03:54,03:54:00,43,46,-3,1,3,REGULAR,10,T. King,1,substitution,512,,[],out,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+03:54,03:54:00,43,46,-3,1,3,REGULAR,6,E. Bandoumel,1,substitution,513,,[],out,0,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+03:54,03:54:00,43,46,-3,0,3,REGULAR,0,,1,timeout,511,,[],officials,0,,,,,,,,,,
+04:02,04:02:00,43,46,-3,1,3,REGULAR,0,,1,rebound,508,506,['team'],defensive,0,,,,,,,,,,
+04:04,04:04:00,43,46,-3,2,3,REGULAR,9,D. Warren,0,3pt,506,,[],jumpshot,1,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+04:11,04:11:00,43,46,-3,2,3,REGULAR,3,T. Allen,1,rebound,505,504,[],defensive,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+04:14,04:14:00,43,46,-3,1,3,REGULAR,6,E. Bandoumel,0,3pt,504,,['fromturnover'],pullupjumpshot,1,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+04:19,04:19:00,43,46,-3,1,3,REGULAR,7,T. Donald,1,steal,503,502,[],,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+04:19,04:19:00,43,46,-3,2,3,REGULAR,3,T. Allen,1,turnover,502,,[],ballhandling,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+04:24,04:24:00,43,46,-3,2,3,REGULAR,3,T. Allen,1,rebound,501,500,[],defensive,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+04:26,04:26:00,43,46,-3,1,3,REGULAR,10,T. King,0,3pt,500,,[],jumpshot,1,0,Tre,King,Tre,King,T,K,T,K,T. King
+04:40,04:40:00,43,46,-3,2,3,REGULAR,9,D. Warren,1,assist,499,498,[],,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+04:40,04:40:00,43,46,-3,2,3,REGULAR,2,J. Tilmon Jr.,1,2pt,498,,['pointsinthepaint'],layup,1,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+05:02,05:02:00,43,44,-1,1,3,REGULAR,6,E. Bandoumel,1,assist,497,496,[],,0,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+05:02,05:02:00,43,44,-1,1,3,REGULAR,10,T. King,1,3pt,496,,[],jumpshot,1,0,Tre,King,Tre,King,T,K,T,K,T. King
+05:16,05:16:00,40,44,-4,2,3,REGULAR,3,T. Allen,1,assist,495,494,[],,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+05:16,05:16:00,40,44,-4,2,3,REGULAR,4,S. Hildebrandt,1,2pt,494,,['pointsinthepaint'],layup,1,15,Simon,Hildebrandt,Simon,Hildebrandt,S,H,S,H,S. Hildebrandt
+05:20,05:20:00,40,42,-2,2,3,REGULAR,3,T. Allen,1,rebound,493,492,[],defensive,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+05:23,05:23:00,40,42,-2,1,3,REGULAR,10,T. King,0,2pt,492,,[],fadeaway,1,0,Tre,King,Tre,King,T,K,T,K,T. King
+05:40,05:40:00,40,42,-2,2,3,REGULAR,9,D. Warren,1,freethrow,490,,['fastbreak'],2of2,1,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+05:40,05:40:00,40,41,-1,2,3,REGULAR,3,T. Allen,1,assist,489,488,[],,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+05:40,05:40:00,40,41,-1,2,3,REGULAR,9,D. Warren,1,freethrow,488,,['fastbreak'],1of2,1,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+05:40,05:40:00,40,40,0,2,3,REGULAR,9,D. Warren,1,foulon,487,486,[],,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+05:40,05:40:00,40,40,0,1,3,REGULAR,10,T. King,1,foul,486,,"['shooting', '2freethrow']",personal,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+05:42,05:42:00,40,40,0,2,3,REGULAR,3,T. Allen,1,rebound,484,483,[],defensive,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+05:44,05:44:00,40,40,0,1,3,REGULAR,7,T. Donald,0,2pt,483,,[],jumpshot,1,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+05:46,05:46:00,40,40,0,2,3,REGULAR,13,A. Chaney,1,substitution,480,,[],out,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+05:46,05:46:00,40,40,0,2,3,REGULAR,9,D. Warren,1,substitution,481,,[],in,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+05:46,05:46:00,40,40,0,2,3,REGULAR,4,S. Hildebrandt,1,substitution,479,,[],in,0,15,Simon,Hildebrandt,Simon,Hildebrandt,S,H,S,H,S. Hildebrandt
+05:46,05:46:00,40,40,0,2,3,REGULAR,11,M. Kraus,1,substitution,478,,[],in,0,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+05:46,05:46:00,40,40,0,2,3,REGULAR,5,D. Walker,1,substitution,476,,[],out,0,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+05:46,05:46:00,40,40,0,2,3,REGULAR,6,E. Akot,1,substitution,477,,[],out,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+05:46,05:46:00,40,40,0,1,3,REGULAR,7,T. Donald,1,foulon,475,474,[],,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+05:46,05:46:00,40,40,0,2,3,REGULAR,13,A. Chaney,1,foul,474,,[],personal,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+05:59,05:59:00,40,40,0,2,3,REGULAR,6,E. Akot,1,assist,470,469,[],,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+05:59,05:59:00,40,40,0,2,3,REGULAR,2,J. Tilmon Jr.,1,2pt,469,,['pointsinthepaint'],layup,1,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+06:09,06:09:00,40,38,2,1,3,REGULAR,10,T. King,1,2pt,468,,['pointsinthepaint'],layup,1,0,Tre,King,Tre,King,T,K,T,K,T. King
+06:23,06:23:00,38,38,0,1,3,REGULAR,7,T. Donald,1,foulon,464,463,[],,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+06:23,06:23:00,38,38,0,2,3,REGULAR,13,A. Chaney,1,foul,463,,[],personal,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+06:23,06:23:00,38,38,0,2,3,REGULAR,2,J. Tilmon Jr.,1,freethrow,462,,[],2of2,1,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+06:23,06:23:00,38,37,1,2,3,REGULAR,3,T. Allen,1,assist,461,460,[],,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+06:23,06:23:00,38,37,1,2,3,REGULAR,2,J. Tilmon Jr.,1,freethrow,460,,[],1of2,1,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+06:23,06:23:00,38,36,2,1,3,REGULAR,14,D. Dainja,1,substitution,458,,[],out,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+06:23,06:23:00,38,36,2,1,3,REGULAR,13,I. Jack,1,substitution,459,,[],in,0,14,Isaac,Jack,Isaac,Jack,I,J,I,J,I. Jack
+06:23,06:23:00,38,36,2,2,3,REGULAR,2,J. Tilmon Jr.,1,foulon,457,456,[],,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+06:23,06:23:00,38,36,2,1,3,REGULAR,14,D. Dainja,1,foul,456,,"['shooting', '2freethrow']",personal,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+06:41,06:41:00,38,36,2,1,3,REGULAR,1,M. Bourcier,1,substitution,450,,[],out,0,13,Mason,Bourcier,Mason,Bourcier,M,B,M,B,M. Bourcier
+06:41,06:41:00,38,36,2,1,3,REGULAR,7,T. Donald,1,substitution,451,,[],in,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+06:41,06:41:00,38,36,2,2,3,REGULAR,2,J. Tilmon Jr.,1,foulon,449,448,[],,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+06:41,06:41:00,38,36,2,1,3,REGULAR,14,D. Dainja,1,foul,448,,[],personal,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+06:41,06:41:00,38,36,2,2,3,REGULAR,2,J. Tilmon Jr.,1,rebound,447,445,[],defensive,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+06:42,06:42:00,38,36,2,1,3,REGULAR,11,A. Toney,0,2pt,445,,['2ndchance'],stepbackjumpshot,1,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+06:44,06:44:00,38,36,2,1,3,REGULAR,11,A. Toney,1,rebound,444,443,[],offensive,0,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+06:48,06:48:00,38,36,2,1,3,REGULAR,6,E. Bandoumel,0,3pt,443,,[],jumpshot,1,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+07:08,07:08:00,38,36,2,2,3,REGULAR,6,E. Akot,1,assist,442,441,[],,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+07:08,07:08:00,38,36,2,2,3,REGULAR,13,A. Chaney,1,2pt,441,,"['fromturnover', 'pointsinthepaint', 'fastbreak']",drivinglayup,1,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+07:11,07:11:00,38,34,4,2,3,REGULAR,6,E. Akot,1,steal,440,439,[],,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+07:11,07:11:00,38,34,4,1,3,REGULAR,1,M. Bourcier,1,turnover,439,,[],ballhandling,0,13,Mason,Bourcier,Mason,Bourcier,M,B,M,B,M. Bourcier
+07:30,07:30:00,38,34,4,2,3,REGULAR,13,A. Chaney,1,3pt,438,,[],jumpshot,1,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+07:45,07:45:00,38,31,7,2,3,REGULAR,6,E. Akot,1,rebound,437,436,[],defensive,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+07:48,07:48:00,38,31,7,1,3,REGULAR,14,D. Dainja,0,2pt,436,,['fromturnover'],jumpshot,1,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+07:55,07:55:00,38,31,7,1,3,REGULAR,11,A. Toney,1,foulon,434,433,[],,0,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+07:55,07:55:00,38,31,7,2,3,REGULAR,5,D. Walker,1,foul,433,,[],personal,0,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+08:00,08:00:00,38,31,7,2,3,REGULAR,3,T. Allen,1,turnover,429,,[],outofbounds,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+08:23,08:23:00,38,31,7,1,3,REGULAR,14,D. Dainja,1,2pt,427,,['pointsinthepaint'],drivinglayup,1,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+08:28,08:28:00,36,31,5,1,3,REGULAR,14,D. Dainja,1,rebound,426,425,[],defensive,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+08:31,08:31:00,36,31,5,2,3,REGULAR,3,T. Allen,0,2pt,425,,[],stepbackjumpshot,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+08:54,08:54:00,36,31,5,1,3,REGULAR,14,D. Dainja,1,assist,424,423,[],,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+08:54,08:54:00,36,31,5,1,3,REGULAR,11,A. Toney,1,2pt,423,,['pointsinthepaint'],layup,1,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+09:10,09:10:00,34,31,3,2,3,REGULAR,5,D. Walker,1,assist,422,421,[],,0,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+09:10,09:10:00,34,31,3,2,3,REGULAR,6,E. Akot,1,3pt,421,,['fromturnover'],jumpshot,1,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+09:23,09:23:00,34,28,6,2,3,REGULAR,3,T. Allen,1,steal,420,419,[],,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+09:23,09:23:00,34,28,6,1,3,REGULAR,14,D. Dainja,1,turnover,419,,[],ballhandling,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+09:36,09:36:00,34,28,6,2,3,REGULAR,6,E. Akot,1,assist,417,416,[],,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+09:36,09:36:00,34,28,6,2,3,REGULAR,3,T. Allen,1,freethrow,416,,['fromturnover'],2of2,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+09:36,09:36:00,34,27,7,2,3,REGULAR,3,T. Allen,0,freethrow,415,,['fromturnover'],1of2,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+09:36,09:36:00,34,27,7,2,3,REGULAR,3,T. Allen,1,foulon,414,413,[],,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+09:36,09:36:00,34,27,7,1,3,REGULAR,6,E. Bandoumel,1,foul,413,,"['shooting', '2freethrow']",personal,0,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+09:46,09:46:00,34,27,7,2,3,REGULAR,5,D. Walker,1,steal,410,409,[],,0,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+09:46,09:46:00,34,27,7,1,3,REGULAR,1,M. Bourcier,1,turnover,409,,[],ballhandling,0,13,Mason,Bourcier,Mason,Bourcier,M,B,M,B,M. Bourcier
+10:00,10:00:00,34,27,7,0,3,REGULAR,0,,1,period,403,,[],start,0,,,,,,,,,,
+10:00,10:00:00,34,27,7,2,3,REGULAR,13,A. Chaney,1,substitution,402,,[],in,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+10:00,10:00:00,34,27,7,2,3,REGULAR,5,D. Walker,1,substitution,401,,[],in,0,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+10:00,10:00:00,34,27,7,2,3,REGULAR,9,D. Warren,1,substitution,399,,[],out,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+10:00,10:00:00,34,27,7,2,3,REGULAR,11,M. Kraus,1,substitution,400,,[],out,0,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+10:00,10:00:00,34,27,7,1,3,REGULAR,14,D. Dainja,1,substitution,398,,[],in,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+10:00,10:00:00,34,27,7,1,3,REGULAR,1,M. Bourcier,1,substitution,397,,[],in,0,13,Mason,Bourcier,Mason,Bourcier,M,B,M,B,M. Bourcier
+10:00,10:00:00,34,27,7,1,3,REGULAR,13,I. Jack,1,substitution,395,,[],out,0,14,Isaac,Jack,Isaac,Jack,I,J,I,J,I. Jack
+10:00,10:00:00,34,27,7,1,3,REGULAR,10,T. King,1,substitution,396,,[],in,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+10:00,10:00:00,34,27,7,1,3,REGULAR,12,S. Teel,1,substitution,393,,[],out,0,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+10:00,10:00:00,34,27,7,1,3,REGULAR,3,A. Rhooms,1,substitution,394,,[],out,0,12,Aaron,Rhooms,Aaron,Rhooms,A,R,A,R,A. Rhooms
+00:00,00:00:00,34,27,7,0,2,REGULAR,0,,1,period,392,,['confirmed'],end,0,,,,,,,,,,
+00:17,00:17:70,34,27,7,1,2,REGULAR,11,A. Toney,1,2pt,390,,"['2ndchance', 'pointsinthepaint']",tipinlayup,1,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+00:17,00:17:70,32,27,5,1,2,REGULAR,11,A. Toney,1,rebound,389,388,[],offensive,0,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+00:21,00:21:10,32,27,5,1,2,REGULAR,3,A. Rhooms,0,3pt,388,,['2ndchance'],jumpshot,1,12,Aaron,Rhooms,Aaron,Rhooms,A,R,A,R,A. Rhooms
+00:22,00:22:50,32,27,5,1,2,REGULAR,3,A. Rhooms,1,rebound,387,386,[],offensive,0,12,Aaron,Rhooms,Aaron,Rhooms,A,R,A,R,A. Rhooms
+00:25,00:25:30,32,27,5,1,2,REGULAR,6,E. Bandoumel,0,2pt,386,,['pointsinthepaint'],drivinglayup,1,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+00:34,00:34:80,32,27,5,1,2,REGULAR,12,S. Teel,1,rebound,385,384,[],defensive,0,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+00:37,00:37:60,32,27,5,2,2,REGULAR,9,D. Warren,0,3pt,384,,[],jumpshot,1,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+00:44,00:44:20,32,27,5,2,2,REGULAR,6,E. Akot,1,rebound,383,382,[],defensive,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+00:46,00:46:50,32,27,5,1,2,REGULAR,6,E. Bandoumel,0,3pt,382,,"['2ndchance', 'fromturnover']",jumpshot,1,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+00:48,00:48:80,32,27,5,1,2,REGULAR,6,E. Bandoumel,1,rebound,381,379,[],offensive,0,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+00:52,00:52:00,32,27,5,2,2,REGULAR,2,J. Tilmon Jr.,1,block,380,379,[],,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+00:52,00:52:00,32,27,5,1,2,REGULAR,12,S. Teel,0,2pt,379,,"['fromturnover', 'pointsinthepaint', 'blocked']",jumpshot,1,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+01:06,01:06:00,32,27,5,1,2,REGULAR,1,M. Bourcier,1,substitution,376,,[],out,0,13,Mason,Bourcier,Mason,Bourcier,M,B,M,B,M. Bourcier
+01:06,01:06:00,32,27,5,1,2,REGULAR,12,S. Teel,1,substitution,377,,[],in,0,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+01:06,01:06:00,32,27,5,1,2,REGULAR,0,,1,timeout,375,,[],full,0,,,,,,,,,,
+01:06,01:06:00,32,27,5,1,2,REGULAR,6,E. Bandoumel,1,foulon,374,372,[],,0,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+01:06,01:06:00,32,27,5,2,2,REGULAR,6,E. Akot,1,turnover,373,372,[],offensive,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+01:06,01:06:00,32,27,5,2,2,REGULAR,6,E. Akot,1,foul,372,,[],offensive,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+01:10,01:10:00,32,27,5,2,2,REGULAR,6,E. Akot,1,steal,370,369,[],,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+01:10,01:10:00,32,27,5,1,2,REGULAR,1,M. Bourcier,1,turnover,369,,[],badpass,0,13,Mason,Bourcier,Mason,Bourcier,M,B,M,B,M. Bourcier
+01:18,01:18:00,32,27,5,2,2,REGULAR,9,D. Warren,1,turnover,367,,[],ballhandling,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+01:32,01:32:00,32,27,5,1,2,REGULAR,6,E. Bandoumel,1,2pt,363,,['pointsinthepaint'],turnaroundjumpshot,1,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+01:46,01:46:00,30,27,3,1,2,REGULAR,3,A. Rhooms,1,rebound,362,361,[],defensive,0,12,Aaron,Rhooms,Aaron,Rhooms,A,R,A,R,A. Rhooms
+01:49,01:49:00,30,27,3,2,2,REGULAR,11,M. Kraus,0,3pt,361,,['2ndchance'],jumpshot,1,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+02:00,02:00:00,30,27,3,2,2,REGULAR,2,J. Tilmon Jr.,1,foulon,359,358,[],,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+02:00,02:00:00,30,27,3,1,2,REGULAR,13,I. Jack,1,foul,358,,[],personal,0,14,Isaac,Jack,Isaac,Jack,I,J,I,J,I. Jack
+02:00,02:00:00,30,27,3,2,2,REGULAR,2,J. Tilmon Jr.,1,rebound,357,355,[],offensive,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+02:02,02:02:00,30,27,3,2,2,REGULAR,6,E. Akot,0,3pt,355,,['2ndchance'],jumpshot,1,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+02:04,02:04:00,30,27,3,2,2,REGULAR,6,E. Akot,1,rebound,354,353,[],offensive,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+02:07,02:07:00,30,27,3,2,2,REGULAR,9,D. Warren,0,2pt,353,,['pointsinthepaint'],fadeaway,1,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+02:22,02:22:00,30,27,3,1,2,REGULAR,6,E. Bandoumel,1,substitution,351,,[],in,0,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+02:22,02:22:00,30,27,3,1,2,REGULAR,11,A. Toney,1,substitution,350,,[],in,0,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+02:22,02:22:00,30,27,3,1,2,REGULAR,10,T. King,1,substitution,348,,[],out,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+02:22,02:22:00,30,27,3,1,2,REGULAR,7,T. Donald,1,substitution,349,,[],out,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+02:31,02:31:00,30,27,3,2,2,REGULAR,2,J. Tilmon Jr.,1,rebound,346,345,[],defensive,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+02:31,02:31:00,30,27,3,1,2,REGULAR,7,T. Donald,0,freethrow,345,,[],2of2,1,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+02:32,02:32:00,30,27,3,1,2,REGULAR,7,T. Donald,1,freethrow,343,,[],1of2,1,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+02:32,02:32:00,29,27,2,1,2,REGULAR,7,T. Donald,1,foulon,342,341,[],,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+02:32,02:32:00,29,27,2,2,2,REGULAR,9,D. Warren,1,foul,341,,"['shooting', '2freethrow']",personal,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+02:46,02:46:00,29,27,2,2,2,REGULAR,11,M. Kraus,1,substitution,338,,[],in,0,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+02:46,02:46:00,29,27,2,2,2,REGULAR,9,D. Warren,1,substitution,337,,[],in,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+02:46,02:46:00,29,27,2,2,2,REGULAR,13,A. Chaney,1,substitution,335,,[],out,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+02:46,02:46:00,29,27,2,2,2,REGULAR,4,S. Hildebrandt,1,substitution,336,,[],out,0,15,Simon,Hildebrandt,Simon,Hildebrandt,S,H,S,H,S. Hildebrandt
+02:46,02:46:00,29,27,2,1,2,REGULAR,2,A. Mohamed,1,substitution,333,,[],out,0,7,Abdul,Mohamed,Abdul,Mohamed,A,M,A,M,A. Mohamed
+02:46,02:46:00,29,27,2,1,2,REGULAR,10,T. King,1,substitution,334,,[],in,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+02:46,02:46:00,29,27,2,1,2,REGULAR,3,A. Rhooms,1,rebound,331,330,[],defensive,0,12,Aaron,Rhooms,Aaron,Rhooms,A,R,A,R,A. Rhooms
+02:48,02:48:00,29,27,2,2,2,REGULAR,2,J. Tilmon Jr.,0,2pt,330,,['fromturnover'],jumpshot,1,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+02:55,02:55:00,29,27,2,1,2,REGULAR,12,S. Teel,1,substitution,327,,[],out,0,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+02:55,02:55:00,29,27,2,1,2,REGULAR,1,M. Bourcier,1,substitution,328,,[],in,0,13,Mason,Bourcier,Mason,Bourcier,M,B,M,B,M. Bourcier
+03:12,03:12:00,29,27,2,2,2,REGULAR,2,J. Tilmon Jr.,1,foulon,324,322,[],,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+03:12,03:12:00,29,27,2,1,2,REGULAR,13,I. Jack,1,turnover,323,322,[],offensive,0,14,Isaac,Jack,Isaac,Jack,I,J,I,J,I. Jack
+03:12,03:12:00,29,27,2,1,2,REGULAR,13,I. Jack,1,foul,322,,[],offensive,0,14,Isaac,Jack,Isaac,Jack,I,J,I,J,I. Jack
+03:23,03:23:00,29,27,2,1,2,REGULAR,2,A. Mohamed,1,rebound,317,316,[],offensive,0,7,Abdul,Mohamed,Abdul,Mohamed,A,M,A,M,A. Mohamed
+03:29,03:29:00,29,27,2,1,2,REGULAR,3,A. Rhooms,0,3pt,316,,[],jumpshot,1,12,Aaron,Rhooms,Aaron,Rhooms,A,R,A,R,A. Rhooms
+03:38,03:38:00,29,27,2,2,2,REGULAR,3,T. Allen,1,2pt,315,,"['fromturnover', 'pointsinthepaint', 'fastbreak']",layup,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+03:42,03:42:00,29,25,4,2,2,REGULAR,3,T. Allen,1,steal,314,313,[],,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+03:42,03:42:00,29,25,4,1,2,REGULAR,12,S. Teel,1,turnover,313,,[],ballhandling,0,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+03:48,03:48:00,29,25,4,1,2,REGULAR,0,,1,rebound,311,310,['team'],defensive,0,,,,,,,,,,
+03:48,03:48:00,29,25,4,2,2,REGULAR,3,T. Allen,0,3pt,310,,[],jumpshot,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+04:11,04:11:00,29,25,4,1,2,REGULAR,10,T. King,1,substitution,304,,[],out,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+04:11,04:11:00,29,25,4,1,2,REGULAR,2,A. Mohamed,1,substitution,305,,[],in,0,7,Abdul,Mohamed,Abdul,Mohamed,A,M,A,M,A. Mohamed
+04:11,04:11:00,29,25,4,2,2,REGULAR,0,,1,timeout,303,,[],full,0,,,,,,,,,,
+04:11,04:11:00,29,25,4,1,2,REGULAR,10,T. King,1,2pt,302,,['pointsinthepaint'],turnaroundjumpshot,1,0,Tre,King,Tre,King,T,K,T,K,T. King
+04:23,04:23:00,27,25,2,1,2,REGULAR,7,T. Donald,1,rebound,298,297,[],defensive,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+04:26,04:26:00,27,25,2,2,2,REGULAR,4,S. Hildebrandt,0,3pt,297,,['fromturnover'],jumpshot,1,15,Simon,Hildebrandt,Simon,Hildebrandt,S,H,S,H,S. Hildebrandt
+04:46,04:46:00,27,25,2,1,2,REGULAR,14,D. Dainja,1,substitution,294,,[],out,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+04:46,04:46:00,27,25,2,1,2,REGULAR,13,I. Jack,1,substitution,295,,[],in,0,14,Isaac,Jack,Isaac,Jack,I,J,I,J,I. Jack
+04:46,04:46:00,27,25,2,2,2,REGULAR,6,E. Akot,1,foulon,293,291,[],,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+04:46,04:46:00,27,25,2,1,2,REGULAR,14,D. Dainja,1,turnover,292,291,[],offensive,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+04:46,04:46:00,27,25,2,1,2,REGULAR,14,D. Dainja,1,foul,291,,[],offensive,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+05:02,05:02:00,27,25,2,2,2,REGULAR,4,S. Hildebrandt,1,turnover,288,,[],outofbounds,0,15,Simon,Hildebrandt,Simon,Hildebrandt,S,H,S,H,S. Hildebrandt
+05:09,05:09:00,27,25,2,1,2,REGULAR,14,D. Dainja,1,freethrow,285,,['2ndchance'],2of2,1,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+05:09,05:09:00,26,25,1,1,2,REGULAR,14,D. Dainja,1,freethrow,284,,['2ndchance'],1of2,1,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+05:09,05:09:00,25,25,0,2,2,REGULAR,9,D. Warren,1,substitution,282,,[],out,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+05:09,05:09:00,25,25,0,2,2,REGULAR,2,J. Tilmon Jr.,1,substitution,283,,[],in,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+05:09,05:09:00,25,25,0,1,2,REGULAR,11,A. Toney,1,substitution,280,,[],out,0,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+05:09,05:09:00,25,25,0,1,2,REGULAR,10,T. King,1,substitution,281,,[],in,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+05:09,05:09:00,25,25,0,1,2,REGULAR,14,D. Dainja,1,foulon,279,278,[],,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+05:09,05:09:00,25,25,0,2,2,REGULAR,4,S. Hildebrandt,1,foul,278,,"['shooting', '2freethrow']",personal,0,15,Simon,Hildebrandt,Simon,Hildebrandt,S,H,S,H,S. Hildebrandt
+05:21,05:21:00,25,25,0,1,2,REGULAR,0,,1,rebound,275,273,['team'],offensive,0,,,,,,,,,,
+05:22,05:22:00,25,25,0,1,2,REGULAR,14,D. Dainja,0,2pt,273,,['pointsinthepaint'],turnaroundjumpshot,1,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+05:36,05:36:00,25,25,0,1,2,REGULAR,14,D. Dainja,1,rebound,272,271,[],defensive,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+05:39,05:39:00,25,25,0,2,2,REGULAR,3,T. Allen,0,2pt,271,,['pointsinthepaint'],floatingjumpshot,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+06:04,06:04:00,25,25,0,1,2,REGULAR,7,T. Donald,1,3pt,270,,[],stepbackjumpshot,1,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+06:27,06:27:00,22,25,-3,2,2,REGULAR,13,A. Chaney,1,substitution,268,,[],in,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+06:27,06:27:00,22,25,-3,2,2,REGULAR,6,E. Akot,1,substitution,267,,[],in,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+06:27,06:27:00,22,25,-3,2,2,REGULAR,11,M. Kraus,1,substitution,265,,[],out,0,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+06:27,06:27:00,22,25,-3,2,2,REGULAR,2,J. Tilmon Jr.,1,substitution,266,,[],out,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+06:27,06:27:00,22,25,-3,1,2,REGULAR,6,E. Bandoumel,1,substitution,263,,[],out,0,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+06:27,06:27:00,22,25,-3,1,2,REGULAR,3,A. Rhooms,1,substitution,264,,[],in,0,12,Aaron,Rhooms,Aaron,Rhooms,A,R,A,R,A. Rhooms
+06:27,06:27:00,22,25,-3,1,2,REGULAR,0,,1,timeout,262,,[],full,0,,,,,,,,,,
+06:30,06:30:00,22,25,-3,2,2,REGULAR,9,D. Warren,1,assist,261,259,[],,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+06:30,06:30:00,22,25,-3,2,2,REGULAR,11,M. Kraus,1,3pt,259,,['fromturnover'],jumpshot,1,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+06:36,06:36:00,22,22,0,2,2,REGULAR,3,T. Allen,1,steal,258,257,[],,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+06:36,06:36:00,22,22,0,1,2,REGULAR,12,S. Teel,1,turnover,257,,[],badpass,0,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+06:45,06:45:00,22,22,0,2,2,REGULAR,9,D. Warren,1,2pt,256,,['pointsinthepaint'],drivinglayup,1,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+07:10,07:10:00,22,20,2,1,2,REGULAR,7,T. Donald,1,2pt,255,,['pointsinthepaint'],drivinglayup,1,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+07:18,07:18:00,20,20,0,1,2,REGULAR,7,T. Donald,1,rebound,254,253,[],defensive,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+07:22,07:22:00,20,20,0,2,2,REGULAR,3,T. Allen,0,3pt,253,,['fromturnover'],jumpshot,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+07:31,07:31:00,20,20,0,1,2,REGULAR,1,M. Bourcier,1,substitution,250,,[],out,0,13,Mason,Bourcier,Mason,Bourcier,M,B,M,B,M. Bourcier
+07:31,07:31:00,20,20,0,1,2,REGULAR,12,S. Teel,1,substitution,251,,[],in,0,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+07:31,07:31:00,20,20,0,1,2,REGULAR,6,E. Bandoumel,1,turnover,249,,[],travel,0,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+07:42,07:42:00,20,20,0,2,2,REGULAR,2,J. Tilmon Jr.,1,assist,247,246,[],,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+07:42,07:42:00,20,20,0,2,2,REGULAR,3,T. Allen,1,2pt,246,,"['fromturnover', 'pointsinthepaint']",reverselayup,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+07:56,07:56:00,20,18,2,1,2,REGULAR,2,A. Mohamed,1,substitution,243,,[],out,0,7,Abdul,Mohamed,Abdul,Mohamed,A,M,A,M,A. Mohamed
+07:56,07:56:00,20,18,2,1,2,REGULAR,7,T. Donald,1,substitution,244,,[],in,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+07:56,07:56:00,20,18,2,2,2,REGULAR,9,D. Warren,1,foulon,242,240,[],,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+07:56,07:56:00,20,18,2,1,2,REGULAR,14,D. Dainja,1,turnover,241,240,[],offensive,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+07:56,07:56:00,20,18,2,1,2,REGULAR,14,D. Dainja,1,foul,240,,[],offensive,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+08:04,08:04:00,20,18,2,1,2,REGULAR,14,D. Dainja,1,steal,238,237,[],,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+08:04,08:04:00,20,18,2,2,2,REGULAR,9,D. Warren,1,turnover,237,,[],badpass,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+08:29,08:29:00,20,18,2,1,2,REGULAR,1,M. Bourcier,1,2pt,236,,[],jumpshot,1,13,Mason,Bourcier,Mason,Bourcier,M,B,M,B,M. Bourcier
+08:34,08:34:00,18,18,0,2,2,REGULAR,6,E. Akot,1,substitution,233,,[],out,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+08:34,08:34:00,18,18,0,2,2,REGULAR,4,S. Hildebrandt,1,substitution,234,,[],in,0,15,Simon,Hildebrandt,Simon,Hildebrandt,S,H,S,H,S. Hildebrandt
+08:46,08:46:00,18,18,0,1,2,REGULAR,1,M. Bourcier,1,rebound,231,230,[],defensive,0,13,Mason,Bourcier,Mason,Bourcier,M,B,M,B,M. Bourcier
+08:48,08:48:00,18,18,0,2,2,REGULAR,3,T. Allen,0,2pt,230,,['pointsinthepaint'],turnaroundjumpshot,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+08:59,08:59:00,18,18,0,2,2,REGULAR,9,D. Warren,1,rebound,229,228,[],defensive,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+09:02,09:02:00,18,18,0,1,2,REGULAR,1,M. Bourcier,0,2pt,228,,[],jumpshot,1,13,Mason,Bourcier,Mason,Bourcier,M,B,M,B,M. Bourcier
+09:19,09:19:00,18,18,0,1,2,REGULAR,2,A. Mohamed,1,rebound,225,224,[],defensive,0,7,Abdul,Mohamed,Abdul,Mohamed,A,M,A,M,A. Mohamed
+09:22,09:22:00,18,18,0,2,2,REGULAR,9,D. Warren,0,3pt,224,,[],jumpshot,1,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+09:31,09:31:00,18,18,0,2,2,REGULAR,11,M. Kraus,1,rebound,223,222,[],defensive,0,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+09:34,09:34:00,18,18,0,1,2,REGULAR,14,D. Dainja,0,2pt,222,,"['fromturnover', 'pointsinthepaint']",jumpshot,1,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+09:46,09:46:00,18,18,0,2,2,REGULAR,5,D. Walker,1,substitution,219,,[],out,0,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+09:46,09:46:00,18,18,0,2,2,REGULAR,9,D. Warren,1,substitution,220,,[],in,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+09:46,09:46:00,18,18,0,1,2,REGULAR,2,A. Mohamed,1,foulon,218,216,[],,0,7,Abdul,Mohamed,Abdul,Mohamed,A,M,A,M,A. Mohamed
+09:46,09:46:00,18,18,0,2,2,REGULAR,5,D. Walker,1,turnover,217,216,[],offensive,0,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+09:46,09:46:00,18,18,0,2,2,REGULAR,5,D. Walker,1,foul,216,,[],offensive,0,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+10:00,10:00:00,18,18,0,0,2,REGULAR,0,,1,period,213,,[],start,0,,,,,,,,,,
+10:00,10:00:00,18,18,0,2,2,REGULAR,14,K. Cross,1,substitution,211,,[],out,0,24,Kevin,Cross,Kevin,Cross,K,C,K,C,K. Cross
+10:00,10:00:00,18,18,0,2,2,REGULAR,2,J. Tilmon Jr.,1,substitution,212,,[],in,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+00:00,00:00:00,18,18,0,0,1,REGULAR,0,,1,period,209,,['confirmed'],end,0,,,,,,,,,,
+00:00,00:00:10,18,18,0,2,1,REGULAR,11,M. Kraus,0,3pt,206,,[],jumpshot,1,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+00:00,00:00:20,18,18,0,2,1,REGULAR,11,M. Kraus,1,rebound,203,202,[],defensive,0,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+00:03,00:03:90,18,18,0,1,1,REGULAR,11,A. Toney,0,3pt,202,,[],jumpshot,1,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+00:19,00:19:70,18,18,0,2,1,REGULAR,5,D. Walker,1,assist,201,200,[],,0,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+00:19,00:19:70,18,18,0,2,1,REGULAR,11,M. Kraus,1,3pt,200,,['fromturnover'],jumpshot,1,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+00:38,00:38:40,18,15,3,2,1,REGULAR,13,A. Chaney,1,substitution,197,,[],out,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+00:38,00:38:40,18,15,3,2,1,REGULAR,11,M. Kraus,1,substitution,198,,[],in,0,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+00:38,00:38:40,18,15,3,1,1,REGULAR,6,E. Bandoumel,1,turnover,196,,[],badpass,0,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+00:38,00:38:40,18,15,3,1,1,REGULAR,6,E. Bandoumel,1,steal,194,193,[],,0,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+00:38,00:38:40,18,15,3,2,1,REGULAR,13,A. Chaney,1,turnover,193,,[],badpass,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+00:53,00:53:00,18,15,3,2,1,REGULAR,13,A. Chaney,1,rebound,188,187,[],defensive,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+00:57,00:57:50,18,15,3,1,1,REGULAR,1,M. Bourcier,0,3pt,187,,[],jumpshot,1,13,Mason,Bourcier,Mason,Bourcier,M,B,M,B,M. Bourcier
+01:00,01:00:00,18,15,3,1,1,REGULAR,2,A. Mohamed,1,rebound,186,184,[],defensive,0,7,Abdul,Mohamed,Abdul,Mohamed,A,M,A,M,A. Mohamed
+01:04,01:04:00,18,15,3,1,1,REGULAR,11,A. Toney,1,block,185,184,[],,0,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+01:04,01:04:00,18,15,3,2,1,REGULAR,13,A. Chaney,0,2pt,184,,"['fromturnover', 'pointsinthepaint', 'blocked']",layup,1,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+01:07,01:07:00,18,15,3,2,1,REGULAR,6,E. Akot,1,steal,183,182,[],,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+01:07,01:07:00,18,15,3,1,1,REGULAR,1,M. Bourcier,1,turnover,182,,[],badpass,0,13,Mason,Bourcier,Mason,Bourcier,M,B,M,B,M. Bourcier
+01:15,01:15:00,18,15,3,1,1,REGULAR,3,A. Rhooms,1,substitution,179,,[],out,0,12,Aaron,Rhooms,Aaron,Rhooms,A,R,A,R,A. Rhooms
+01:15,01:15:00,18,15,3,1,1,REGULAR,2,A. Mohamed,1,substitution,180,,[],in,0,7,Abdul,Mohamed,Abdul,Mohamed,A,M,A,M,A. Mohamed
+01:15,01:15:00,18,15,3,1,1,REGULAR,1,M. Bourcier,1,steal,178,177,[],,0,13,Mason,Bourcier,Mason,Bourcier,M,B,M,B,M. Bourcier
+01:15,01:15:00,18,15,3,2,1,REGULAR,13,A. Chaney,1,turnover,177,,[],ballhandling,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+01:17,01:17:00,18,15,3,2,1,REGULAR,2,J. Tilmon Jr.,1,substitution,173,,[],out,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+01:17,01:17:00,18,15,3,2,1,REGULAR,14,K. Cross,1,substitution,174,,[],in,0,24,Kevin,Cross,Kevin,Cross,K,C,K,C,K. Cross
+01:17,01:17:00,18,15,3,1,1,REGULAR,1,M. Bourcier,1,substitution,172,,[],in,0,13,Mason,Bourcier,Mason,Bourcier,M,B,M,B,M. Bourcier
+01:17,01:17:00,18,15,3,1,1,REGULAR,11,A. Toney,1,substitution,171,,[],in,0,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+01:17,01:17:00,18,15,3,1,1,REGULAR,10,T. King,1,substitution,169,,[],out,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+01:17,01:17:00,18,15,3,1,1,REGULAR,12,S. Teel,1,substitution,170,,[],out,0,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+01:17,01:17:00,18,15,3,2,1,REGULAR,3,T. Allen,1,foulon,168,167,[],,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+01:17,01:17:00,18,15,3,1,1,REGULAR,10,T. King,1,foul,167,,[],personal,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+01:17,01:17:00,18,15,3,2,1,REGULAR,3,T. Allen,1,rebound,166,164,[],defensive,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+01:21,01:21:00,18,15,3,1,1,REGULAR,3,A. Rhooms,0,3pt,164,,[],jumpshot,1,12,Aaron,Rhooms,Aaron,Rhooms,A,R,A,R,A. Rhooms
+01:23,01:23:00,18,15,3,1,1,REGULAR,12,S. Teel,1,rebound,163,161,[],defensive,0,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+01:27,01:27:00,18,15,3,1,1,REGULAR,14,D. Dainja,1,block,162,161,[],,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+01:27,01:27:00,18,15,3,2,1,REGULAR,2,J. Tilmon Jr.,0,2pt,161,,"['2ndchance', 'pointsinthepaint', 'blocked']",layup,1,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+01:29,01:29:00,18,15,3,2,1,REGULAR,6,E. Akot,1,rebound,160,159,[],offensive,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+01:31,01:31:00,18,15,3,2,1,REGULAR,13,A. Chaney,0,3pt,159,,[],jumpshot,1,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+01:38,01:38:00,18,15,3,2,1,REGULAR,3,T. Allen,1,rebound,158,157,[],defensive,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+01:40,01:40:00,18,15,3,1,1,REGULAR,12,S. Teel,0,3pt,157,,[],jumpshot,1,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+01:45,01:45:00,18,15,3,1,1,REGULAR,12,S. Teel,1,rebound,156,155,[],defensive,0,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+01:48,01:48:00,18,15,3,2,1,REGULAR,6,E. Akot,0,3pt,155,,[],jumpshot,1,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+02:04,02:04:00,18,15,3,1,1,REGULAR,7,T. Donald,1,substitution,152,,[],out,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+02:04,02:04:00,18,15,3,1,1,REGULAR,6,E. Bandoumel,1,substitution,153,,[],in,0,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+02:04,02:04:00,18,15,3,1,1,REGULAR,7,T. Donald,1,freethrow,151,,[],2of2,1,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+02:04,02:04:00,17,15,2,1,1,REGULAR,7,T. Donald,1,freethrow,150,,[],1of2,1,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+02:04,02:04:00,16,15,1,1,1,REGULAR,13,I. Jack,1,substitution,148,,[],out,0,14,Isaac,Jack,Isaac,Jack,I,J,I,J,I. Jack
+02:04,02:04:00,16,15,1,1,1,REGULAR,14,D. Dainja,1,substitution,149,,[],in,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+02:04,02:04:00,16,15,1,1,1,REGULAR,7,T. Donald,1,foulon,147,146,[],,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+02:04,02:04:00,16,15,1,2,1,REGULAR,5,D. Walker,1,foul,146,,"['shooting', '2freethrow']",personal,0,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+02:15,02:15:00,16,15,1,2,1,REGULAR,13,A. Chaney,1,assist,210,142,[],,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+02:15,02:15:00,16,15,1,2,1,REGULAR,5,D. Walker,1,2pt,142,,['pointsinthepaint'],jumpshot,1,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+02:22,02:22:00,16,13,3,2,1,REGULAR,6,E. Akot,1,rebound,141,140,[],defensive,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+02:24,02:24:00,16,13,3,1,1,REGULAR,12,S. Teel,0,2pt,140,,[],jumpshot,1,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+02:32,02:32:00,16,13,3,2,1,REGULAR,13,A. Chaney,1,substitution,138,,[],in,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+02:32,02:32:00,16,13,3,2,1,REGULAR,5,D. Walker,1,substitution,137,,[],in,0,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+02:32,02:32:00,16,13,3,2,1,REGULAR,9,D. Warren,1,substitution,135,,[],out,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+02:32,02:32:00,16,13,3,2,1,REGULAR,11,M. Kraus,1,substitution,136,,[],out,0,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+02:44,02:44:00,16,13,3,2,1,REGULAR,9,D. Warren,1,2pt,133,,['pointsinthepaint'],turnaroundjumpshot,1,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+03:03,03:03:00,16,11,5,1,1,REGULAR,13,I. Jack,1,assist,132,131,[],,0,14,Isaac,Jack,Isaac,Jack,I,J,I,J,I. Jack
+03:03,03:03:00,16,11,5,1,1,REGULAR,7,T. Donald,1,3pt,131,,"['2ndchance', 'fromturnover']",jumpshot,1,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+03:06,03:06:00,13,11,2,1,1,REGULAR,3,A. Rhooms,1,rebound,130,129,[],offensive,0,12,Aaron,Rhooms,Aaron,Rhooms,A,R,A,R,A. Rhooms
+03:11,03:11:00,13,11,2,1,1,REGULAR,10,T. King,0,2pt,129,,['fromturnover'],jumpshot,1,0,Tre,King,Tre,King,T,K,T,K,T. King
+03:25,03:25:00,13,11,2,2,1,REGULAR,4,S. Hildebrandt,1,substitution,124,,[],out,0,15,Simon,Hildebrandt,Simon,Hildebrandt,S,H,S,H,S. Hildebrandt
+03:25,03:25:00,13,11,2,2,1,REGULAR,2,J. Tilmon Jr.,1,substitution,125,,[],in,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+03:25,03:25:00,13,11,2,2,1,REGULAR,6,E. Akot,1,turnover,123,,[],backcourt,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+03:30,03:30:00,13,11,2,2,1,REGULAR,0,,1,rebound,120,119,['team'],defensive,0,,,,,,,,,,
+03:30,03:30:00,13,11,2,1,1,REGULAR,7,T. Donald,0,freethrow,119,,[],2of2,1,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+03:30,03:30:00,13,11,2,1,1,REGULAR,7,T. Donald,1,freethrow,118,,[],1of2,1,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+03:30,03:30:00,12,11,1,1,1,REGULAR,7,T. Donald,1,foulon,117,116,[],,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+03:30,03:30:00,12,11,1,2,1,REGULAR,11,M. Kraus,1,foul,116,,"['shooting', '2freethrow']",personal,0,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+03:43,03:43:00,12,11,1,2,1,REGULAR,9,D. Warren,1,freethrow,111,,[],2of2,1,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+03:43,03:43:00,12,10,2,2,1,REGULAR,9,D. Warren,0,freethrow,110,,[],1of2,1,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+03:43,03:43:00,12,10,2,2,1,REGULAR,3,T. Allen,1,substitution,109,,[],in,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+03:43,03:43:00,12,10,2,2,1,REGULAR,11,M. Kraus,1,substitution,108,,[],in,0,5,Mason,Kraus,Mason,Kraus,M,K,M,K,M. Kraus
+03:43,03:43:00,12,10,2,2,1,REGULAR,13,A. Chaney,1,substitution,106,,[],out,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+03:43,03:43:00,12,10,2,2,1,REGULAR,14,K. Cross,1,substitution,107,,[],out,0,24,Kevin,Cross,Kevin,Cross,K,C,K,C,K. Cross
+03:43,03:43:00,12,10,2,1,1,REGULAR,11,A. Toney,1,substitution,104,,[],out,0,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+03:43,03:43:00,12,10,2,1,1,REGULAR,10,T. King,1,substitution,105,,[],in,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+03:43,03:43:00,12,10,2,2,1,REGULAR,9,D. Warren,1,foulon,103,102,[],,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+03:43,03:43:00,12,10,2,1,1,REGULAR,12,S. Teel,1,foul,102,,"['shooting', '2freethrow']",personal,0,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+03:45,03:45:00,12,10,2,2,1,REGULAR,4,S. Hildebrandt,1,rebound,100,98,[],defensive,0,15,Simon,Hildebrandt,Simon,Hildebrandt,S,H,S,H,S. Hildebrandt
+03:49,03:49:00,12,10,2,2,1,REGULAR,9,D. Warren,1,block,99,98,[],,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+03:49,03:49:00,12,10,2,1,1,REGULAR,7,T. Donald,0,2pt,98,,"['fromturnover', 'pointsinthepaint', 'blocked']",drivinglayup,1,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+03:53,03:53:00,12,10,2,1,1,REGULAR,7,T. Donald,1,steal,97,96,[],,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+03:53,03:53:00,12,10,2,2,1,REGULAR,9,D. Warren,1,turnover,96,,[],ballhandling,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+04:12,04:12:00,12,10,2,1,1,REGULAR,13,I. Jack,1,assist,95,94,[],,0,14,Isaac,Jack,Isaac,Jack,I,J,I,J,I. Jack
+04:12,04:12:00,12,10,2,1,1,REGULAR,12,S. Teel,1,2pt,94,,"['fromturnover', 'pointsinthepaint', 'fastbreak']",drivinglayup,1,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+04:17,04:17:00,10,10,0,1,1,REGULAR,13,I. Jack,1,steal,93,92,[],,0,14,Isaac,Jack,Isaac,Jack,I,J,I,J,I. Jack
+04:17,04:17:00,10,10,0,2,1,REGULAR,14,K. Cross,1,turnover,92,,[],badpass,0,24,Kevin,Cross,Kevin,Cross,K,C,K,C,K. Cross
+04:23,04:23:00,10,10,0,2,1,REGULAR,14,K. Cross,1,rebound,91,90,[],defensive,0,24,Kevin,Cross,Kevin,Cross,K,C,K,C,K. Cross
+04:26,04:26:00,10,10,0,1,1,REGULAR,7,T. Donald,0,3pt,90,,[],jumpshot,1,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+04:30,04:30:00,10,10,0,1,1,REGULAR,14,D. Dainja,1,substitution,87,,[],out,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+04:30,04:30:00,10,10,0,1,1,REGULAR,13,I. Jack,1,substitution,88,,[],in,0,14,Isaac,Jack,Isaac,Jack,I,J,I,J,I. Jack
+04:30,04:30:00,10,10,0,0,1,REGULAR,0,,1,timeout,85,,[],officials,0,,,,,,,,,,
+04:53,04:53:00,10,10,0,2,1,REGULAR,9,D. Warren,1,assist,83,82,[],,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+04:53,04:53:00,10,10,0,2,1,REGULAR,14,K. Cross,1,2pt,82,,['pointsinthepaint'],layup,1,24,Kevin,Cross,Kevin,Cross,K,C,K,C,K. Cross
+05:09,05:09:00,10,8,2,2,1,REGULAR,3,T. Allen,1,substitution,79,,[],out,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+05:09,05:09:00,10,8,2,2,1,REGULAR,9,D. Warren,1,substitution,80,,[],in,0,3,Davion,Warren,Davion,Warren,D,W,D,W,D. Warren
+05:09,05:09:00,10,8,2,1,1,REGULAR,7,T. Donald,1,assist,78,77,[],,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+05:09,05:09:00,10,8,2,1,1,REGULAR,14,D. Dainja,1,2pt,77,,"['pointsinthepaint', 'fastbreak']",layup,1,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+05:13,05:13:00,8,8,0,1,1,REGULAR,7,T. Donald,1,rebound,75,74,[],defensive,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+05:16,05:16:00,8,8,0,2,1,REGULAR,14,K. Cross,0,3pt,74,,[],jumpshot,1,24,Kevin,Cross,Kevin,Cross,K,C,K,C,K. Cross
+05:29,05:29:00,8,8,0,1,1,REGULAR,7,T. Donald,1,assist,73,72,[],,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+05:29,05:29:00,8,8,0,1,1,REGULAR,3,A. Rhooms,1,2pt,72,,"['fromturnover', 'pointsinthepaint']",jumpshot,1,12,Aaron,Rhooms,Aaron,Rhooms,A,R,A,R,A. Rhooms
+05:36,05:36:00,6,8,-2,1,1,REGULAR,7,T. Donald,1,steal,71,70,[],,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+05:36,05:36:00,6,8,-2,2,1,REGULAR,13,A. Chaney,1,turnover,70,,[],ballhandling,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+05:41,05:41:00,6,8,-2,2,1,REGULAR,3,T. Allen,1,steal,69,68,[],,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+05:41,05:41:00,6,8,-2,1,1,REGULAR,11,A. Toney,1,turnover,68,,[],badpass,0,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+05:56,05:56:00,6,8,-2,2,1,REGULAR,14,K. Cross,1,substitution,67,,[],in,0,24,Kevin,Cross,Kevin,Cross,K,C,K,C,K. Cross
+05:56,05:56:00,6,8,-2,2,1,REGULAR,6,E. Akot,1,substitution,66,,[],in,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+05:56,05:56:00,6,8,-2,2,1,REGULAR,5,D. Walker,1,substitution,64,,[],out,0,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+05:56,05:56:00,6,8,-2,2,1,REGULAR,2,J. Tilmon Jr.,1,substitution,65,,[],out,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+05:56,05:56:00,6,8,-2,1,1,REGULAR,3,A. Rhooms,1,substitution,63,,[],in,0,12,Aaron,Rhooms,Aaron,Rhooms,A,R,A,R,A. Rhooms
+05:56,05:56:00,6,8,-2,1,1,REGULAR,7,T. Donald,1,substitution,62,,[],in,0,3,Taye,Donald,Taye,Donald,T,D,T,D,T. Donald
+05:56,05:56:00,6,8,-2,1,1,REGULAR,1,M. Bourcier,1,substitution,60,,[],out,0,13,Mason,Bourcier,Mason,Bourcier,M,B,M,B,M. Bourcier
+05:56,05:56:00,6,8,-2,1,1,REGULAR,12,S. Teel,1,substitution,61,,[],in,0,2,Samage,Teel,Samage,Teel,S,T,S,T,S. Teel
+05:56,05:56:00,6,8,-2,1,1,REGULAR,10,T. King,1,substitution,58,,[],out,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+05:56,05:56:00,6,8,-2,1,1,REGULAR,6,E. Bandoumel,1,substitution,59,,[],out,0,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+05:56,05:56:00,6,8,-2,1,1,REGULAR,1,M. Bourcier,1,foulon,56,54,[],,0,13,Mason,Bourcier,Mason,Bourcier,M,B,M,B,M. Bourcier
+05:56,05:56:00,6,8,-2,2,1,REGULAR,2,J. Tilmon Jr.,1,turnover,55,54,[],offensive,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+05:56,05:56:00,6,8,-2,2,1,REGULAR,2,J. Tilmon Jr.,1,foul,54,,[],offensive,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+06:07,06:07:00,6,8,-2,1,1,REGULAR,6,E. Bandoumel,1,turnover,51,,[],badpass,0,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+06:28,06:28:00,6,8,-2,2,1,REGULAR,2,J. Tilmon Jr.,1,2pt,47,,"['2ndchance', 'pointsinthepaint']",dunk,1,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+06:29,06:29:00,6,6,0,2,1,REGULAR,2,J. Tilmon Jr.,1,rebound,46,45,[],offensive,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+06:34,06:34:00,6,6,0,2,1,REGULAR,3,T. Allen,0,2pt,45,,['pointsinthepaint'],layup,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+06:55,06:55:00,6,6,0,1,1,REGULAR,11,A. Toney,1,assist,44,43,[],,0,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+06:55,06:55:00,6,6,0,1,1,REGULAR,10,T. King,1,2pt,43,,"['2ndchance', 'fromturnover', 'pointsinthepaint']",layup,1,0,Tre,King,Tre,King,T,K,T,K,T. King
+06:57,06:57:00,4,6,-2,2,1,REGULAR,6,E. Akot,1,substitution,40,,[],out,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+06:57,06:57:00,4,6,-2,2,1,REGULAR,4,S. Hildebrandt,1,substitution,41,,[],in,0,15,Simon,Hildebrandt,Simon,Hildebrandt,S,H,S,H,S. Hildebrandt
+06:57,06:57:00,4,6,-2,1,1,REGULAR,0,,1,rebound,39,37,['team'],offensive,0,,,,,,,,,,
+06:57,06:57:00,4,6,-2,2,1,REGULAR,2,J. Tilmon Jr.,1,block,38,37,[],,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+06:57,06:57:00,4,6,-2,1,1,REGULAR,14,D. Dainja,0,2pt,37,,"['fromturnover', 'pointsinthepaint', 'blocked']",layup,1,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+07:14,07:14:00,4,6,-2,2,1,REGULAR,13,A. Chaney,1,turnover,34,,[],badpass,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+07:16,07:16:00,4,6,-2,2,1,REGULAR,3,T. Allen,1,rebound,32,31,[],defensive,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+07:19,07:19:00,4,6,-2,1,1,REGULAR,10,T. King,0,2pt,31,,['pointsinthepaint'],jumpshot,1,0,Tre,King,Tre,King,T,K,T,K,T. King
+07:35,07:35:00,4,6,-2,2,1,REGULAR,13,A. Chaney,1,assist,86,30,[],,0,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+07:35,07:35:00,4,6,-2,2,1,REGULAR,3,T. Allen,1,2pt,30,,['fromturnover'],floatingjumpshot,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+07:48,07:48:00,4,4,0,2,1,REGULAR,3,T. Allen,1,foulon,28,27,[],,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+07:48,07:48:00,4,4,0,1,1,REGULAR,10,T. King,1,foul,27,,[],personal,0,0,Tre,King,Tre,King,T,K,T,K,T. King
+07:51,07:51:00,4,4,0,2,1,REGULAR,3,T. Allen,1,steal,25,24,[],,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+07:51,07:51:00,4,4,0,1,1,REGULAR,14,D. Dainja,1,turnover,24,,[],ballhandling,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+08:13,08:13:00,4,4,0,2,1,REGULAR,3,T. Allen,1,2pt,23,,['pointsinthepaint'],turnaroundjumpshot,1,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+08:27,08:27:00,4,2,2,1,1,REGULAR,10,T. King,1,2pt,22,,"['pointsinthepaint', 'fastbreak']",layup,1,0,Tre,King,Tre,King,T,K,T,K,T. King
+08:32,08:32:00,2,2,0,1,1,REGULAR,11,A. Toney,1,rebound,21,20,[],defensive,0,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+08:36,08:36:00,2,2,0,2,1,REGULAR,13,A. Chaney,0,3pt,20,,[],jumpshot,1,11,Armani,Chaney,Armani,Chaney,A,C,A,C,A. Chaney
+08:45,08:45:00,2,2,0,2,1,REGULAR,6,E. Akot,1,rebound,19,18,[],defensive,0,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+08:48,08:48:00,2,2,0,1,1,REGULAR,10,T. King,0,3pt,18,,['fromturnover'],jumpshot,1,0,Tre,King,Tre,King,T,K,T,K,T. King
+09:09,09:09:00,2,2,0,1,1,REGULAR,11,A. Toney,1,steal,15,14,[],,0,5,Au'diese,Toney,Au'Diese,Toney,A,T,A,T,A. Toney
+09:09,09:09:00,2,2,0,2,1,REGULAR,5,D. Walker,1,turnover,14,,[],badpass,0,1,David,Walker,David,Walker,D,W,D,W,D. Walker
+09:13,09:13:00,2,2,0,2,1,REGULAR,3,T. Allen,1,rebound,13,12,[],defensive,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+09:16,09:16:00,2,2,0,1,1,REGULAR,1,M. Bourcier,0,2pt,12,,['pointsinthepaint'],floatingjumpshot,1,13,Mason,Bourcier,Mason,Bourcier,M,B,M,B,M. Bourcier
+09:28,09:28:00,2,2,0,2,1,REGULAR,3,T. Allen,1,assist,11,10,[],,0,8,Teddy,Allen,Teddy,Allen,T,A,T,A,T. Allen
+09:28,09:28:00,2,2,0,2,1,REGULAR,6,E. Akot,1,2pt,10,,['pointsinthepaint'],reverselayup,1,7,Emmanuel,Akot,Emmanuel,Akot,E,A,E,A,E. Akot
+09:38,09:38:00,2,0,2,1,1,REGULAR,14,D. Dainja,1,2pt,9,,"['2ndchance', 'pointsinthepaint']",tipinlayup,1,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+09:38,09:38:00,0,0,0,1,1,REGULAR,14,D. Dainja,1,rebound,8,7,[],offensive,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+09:45,09:45:00,0,0,0,1,1,REGULAR,6,E. Bandoumel,0,2pt,7,,['pointsinthepaint'],floatingjumpshot,1,8,Emmanuel,Bandoumel,Emmanuel,Bandoumel,E,B,E,B,E. Bandoumel
+09:59,09:59:00,0,0,0,2,1,REGULAR,2,J. Tilmon Jr.,1,jumpball,6,4,[],lost,0,35,Jeremiah,Tilmon Jr.,Jeremiah,Tilmon Jr.,J,T,J,T,J. Tilmon Jr.
+09:59,09:59:00,0,0,0,1,1,REGULAR,14,D. Dainja,1,jumpball,5,4,[],won,0,42,Dain,Dainja,Dain,Dainja,D,D,D,D,D. Dainja
+10:00,10:00:00,0,0,0,0,1,REGULAR,0,,1,jumpball,4,,[],startperiod,0,,,,,,,,,,
+10:00,10:00:00,0,0,0,0,1,REGULAR,0,,1,period,2,,[],start,0,,,,,,,,,,
+10:00,10:00:00,0,0,0,0,1,REGULAR,0,,1,game,1,,[],start,0,,,,,,,,,,

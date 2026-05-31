@@ -1,0 +1,9 @@
+﻿game_id,team_slot,team_name,quarter,events,fgm,fga,two_pm,two_pa,three_pm,three_pa,ftm,fta,turnovers,fouls,rebounds,assists,steals,blocks,fg_pct,two_p_pct,three_p_pct,ft_pct
+2798717,1,Edmonton Stingers,1,77,7,20,6,13,1,7,3,4,5,6,8,5,6,2,35.0,46.2,14.3,75.0
+2798717,1,Edmonton Stingers,2,72,6,14,5,10,1,4,3,4,7,8,14,0,1,0,42.9,50.0,25.0,75.0
+2798717,1,Edmonton Stingers,3,75,6,17,3,7,3,10,2,3,6,11,7,2,2,1,35.3,42.9,30.0,66.7
+2798717,1,Edmonton Stingers,4,71,10,19,9,14,1,5,3,5,2,8,10,6,2,0,52.6,64.3,20.0,60.0
+2798717,2,Winnipeg Sea Bears,1,79,8,16,7,10,1,6,1,2,9,6,13,5,3,2,50.0,70.0,16.7,50.0
+2798717,2,Winnipeg Sea Bears,2,57,4,15,3,7,1,8,0,0,5,8,6,2,3,1,26.7,42.9,12.5,0.0
+2798717,2,Winnipeg Sea Bears,3,97,8,17,5,9,3,8,6,8,4,12,12,9,5,0,47.1,55.6,37.5,75.0
+2798717,2,Winnipeg Sea Bears,4,65,8,20,6,9,2,11,7,7,2,8,11,5,2,1,40.0,66.7,18.2,100.0
