@@ -555,35 +555,71 @@ function runTeamQuery() {
     resultsBox.innerHTML = `<p>No games matched this query.</p>`;
     return;
   }
+const gameRows = sortTeamRows(filteredRows);
 
-  resultsBox.innerHTML = `
-    <table>
-      <thead>
-        <tr>
-          <th>Team</th>
-          <th>Games</th>
-          <th>Wins</th>
-          <th>Losses</th>
-          <th>Win %</th>
-        </tr>
-      </thead>
-      <tbody>
-        ${summaryRows
-          .map(
-            row => `
-              <tr>
-                <td>${row.team}</td>
-                <td>${row.games}</td>
-                <td>${row.wins}</td>
-                <td>${row.losses}</td>
-                <td>${(row.winPct * 100).toFixed(1)}%</td>
-              </tr>
-            `
-          )
-          .join("")}
-      </tbody>
-    </table>
-  `;
+resultsBox.innerHTML = `
+  <h3>Query Summary</h3>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Team</th>
+        <th>Games</th>
+        <th>Wins</th>
+        <th>Losses</th>
+        <th>Win %</th>
+      </tr>
+    </thead>
+    <tbody>
+      ${summaryRows
+        .map(
+          row => `
+            <tr>
+              <td>${row.team}</td>
+              <td>${row.games}</td>
+              <td>${row.wins}</td>
+              <td>${row.losses}</td>
+              <td>${(row.winPct * 100).toFixed(1)}%</td>
+            </tr>
+          `
+        )
+        .join("")}
+    </tbody>
+  </table>
+
+  <h3>Matching Games</h3>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Game #</th>
+        <th>Team</th>
+        <th>Opponent</th>
+        <th>Result</th>
+        <th>Team Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      ${gameRows
+        .map(row => {
+          const result = getTeamResult(row) || "-";
+
+          return `
+            <tr>
+              <td>${row.game_date || ""}</td>
+              <td>${row.game_number || ""}</td>
+              <td>${row.team_name || ""}</td>
+              <td>${row.opponent_name || ""}</td>
+              <td>${result}</td>
+              <td>${row.team_score ?? ""}</td>
+            </tr>
+          `;
+        })
+        .join("")}
+    </tbody>
+  </table>
+`;
 }
 
 function clearQuery() {
