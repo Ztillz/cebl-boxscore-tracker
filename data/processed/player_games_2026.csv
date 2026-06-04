@@ -64,6 +64,17 @@ game_id,fiba_id,season,team_name,team_code,player_id,player_name,first_name,fami
 2798744,2798744,2026,Brampton Honey Badgers,BHB,1,P. Oduro,Prince,Oduro,8,F,1,15:39,1,2,50,1,2,50,0,0,0,0,0,0,0,2,2,0,0,0,0,3,0,2,0,0,-5,2,brampton honey badgers,Vancouver Bandits,2026-05-30T23:00:00Z,6
 2798744,2798744,2026,Brampton Honey Badgers,BHB,16,J. Martindale,Judson,Martindale,9,F,0,0:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,brampton honey badgers,Vancouver Bandits,2026-05-30T23:00:00Z,6
 2798744,2798744,2026,Brampton Honey Badgers,BHB,2,D. Djuricic,Danilo,Djuricic,33,F,0,0:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,brampton honey badgers,Vancouver Bandits,2026-05-30T23:00:00Z,6
+2798737,2798737,2026,Brampton Honey Badgers,BHB,15,J. Martindale,Judson,Martindale,9,F,0,4:57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-10,0,brampton honey badgers,Edmonton Stingers,2026-06-03T23:30:00Z,7
+2798737,2798737,2026,Brampton Honey Badgers,BHB,2,D. Djuricic,Danilo,Djuricic,33,F,0,3:60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-10,0,brampton honey badgers,Edmonton Stingers,2026-06-03T23:30:00Z,7
+2798737,2798737,2026,Brampton Honey Badgers,BHB,4,S. East Ii,Sean,East Ii,55,G,1,35:21,7,17,41,6,11,54,1,6,16,7,7,100,1,1,2,7,1,4,0,4,6,22,7,2,-3,6,brampton honey badgers,Edmonton Stingers,2026-06-03T23:30:00Z,7
+2798737,2798737,2026,Brampton Honey Badgers,BHB,11,M. Moncrieffe,Matthew,Moncrieffe,12,F,1,34:03,5,7,71,5,6,83,0,1,0,1,6,16,3,13,16,1,3,2,0,4,7,11,0,2,15,10,brampton honey badgers,Edmonton Stingers,2026-06-03T23:30:00Z,7
+2798737,2798737,2026,Brampton Honey Badgers,BHB,12,C. Tyson,Cameron,Tyson,5,G,1,33:44,8,19,42,2,5,40,6,14,42,5,5,100,0,2,2,3,1,2,0,3,2,27,0,6,13,0,brampton honey badgers,Edmonton Stingers,2026-06-03T23:30:00Z,7
+2798737,2798737,2026,Brampton Honey Badgers,BHB,8,J. Omojafo,Joshua,Omojafo,4,G,1,28:21,2,6,33,2,3,66,0,3,0,5,5,100,2,4,6,2,2,2,0,2,4,9,2,0,12,4,brampton honey badgers,Edmonton Stingers,2026-06-03T23:30:00Z,7
+2798737,2798737,2026,Brampton Honey Badgers,BHB,14,T. Hunter,Tyrese,Hunter,0,G,0,23:22,1,6,16,1,2,50,0,4,0,4,4,100,0,4,4,6,0,1,0,1,4,6,0,0,-12,2,brampton honey badgers,Edmonton Stingers,2026-06-03T23:30:00Z,7
+2798737,2798737,2026,Brampton Honey Badgers,BHB,5,K. Ambrose-Hylton,Keon,Ambrose-Hylton,22,F,1,18:35,3,5,60,3,4,75,0,1,0,2,4,50,1,1,2,4,0,1,0,4,2,8,0,2,17,6,brampton honey badgers,Edmonton Stingers,2026-06-03T23:30:00Z,7
+2798737,2798737,2026,Brampton Honey Badgers,BHB,1,P. Oduro,Prince,Oduro,8,F,0,17:37,2,2,100,2,2,100,0,0,0,0,0,0,1,1,2,2,1,1,0,2,0,4,0,0,-17,2,brampton honey badgers,Edmonton Stingers,2026-06-03T23:30:00Z,7
+2798737,2798737,2026,Brampton Honey Badgers,BHB,6,D. Jackson,Dj,Jackson,2,G,0,0:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,brampton honey badgers,Edmonton Stingers,2026-06-03T23:30:00Z,7
+2798737,2798737,2026,Brampton Honey Badgers,BHB,9,T. Izay,Tegra,Izay,20,F,0,0:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,brampton honey badgers,Edmonton Stingers,2026-06-03T23:30:00Z,7
 2798718,2798718,2026,Calgary Surge,CGY,9,C. Swanton-Rodger,Caelum,Swanton-Rodger,35,F,0,8:43,2,3,66,2,3,66,0,0,0,1,2,50,2,1,3,0,0,0,0,3,3,5,1,2,1,4,calgary surge,Ottawa BlackJacks,2026-05-12T23:30:00Z,1
 2798718,2798718,2026,Calgary Surge,CGY,14,C. Gunn,Cj,Gunn,11,G,0,7:53,0,3,0,0,1,0,0,2,0,2,3,66,1,0,1,1,2,0,0,0,1,2,0,0,-2,0,calgary surge,Ottawa BlackJacks,2026-05-12T23:30:00Z,1
 2798718,2798718,2026,Calgary Surge,CGY,3,D. Ejim,Deon,Ejim,22,F,1,6:45,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,1,0,0,0,-1,0,calgary surge,Ottawa BlackJacks,2026-05-12T23:30:00Z,1
@@ -114,6 +125,16 @@ game_id,fiba_id,season,team_name,team_code,player_id,player_name,first_name,fami
 2798750,2798750,2026,Calgary Surge,CGY,4,J. Brown,Javonté,Brown,31,C,0,10:51,2,3,66,2,3,66,0,0,0,2,4,50,1,3,4,1,0,0,0,1,2,6,0,0,0,4,calgary surge,Edmonton Stingers,2026-05-31T22:00:00Z,5
 2798750,2798750,2026,Calgary Surge,CGY,14,D. Chijioke,Daniel,Chijioke,12,F,0,0:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,calgary surge,Edmonton Stingers,2026-05-31T22:00:00Z,5
 2798750,2798750,2026,Calgary Surge,CGY,9,C. Swanton-Rodger,Caelum,Swanton-Rodger,35,F,0,0:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,calgary surge,Edmonton Stingers,2026-05-31T22:00:00Z,5
+2798754,2798754,2026,Calgary Surge,CGY,2,D. Ejim,Deon,Ejim,22,F,0,7:33,1,3,33,1,2,50,0,1,0,0,0,0,0,2,2,0,0,0,1,1,0,2,0,0,-11,2,calgary surge,Niagara River Lions,2026-06-03T23:00:00Z,6
+2798754,2798754,2026,Calgary Surge,CGY,1,S. Miller-Moore,Sean,Miller-Moore,00,G,1,33:35,9,14,64,9,11,81,0,3,0,2,2,100,0,8,8,4,1,1,1,3,2,20,0,6,-1,14,calgary surge,Niagara River Lions,2026-06-03T23:00:00Z,6
+2798754,2798754,2026,Calgary Surge,CGY,3,O. Adelodun,Olumide,Adelodun,23,F,1,33:08,3,8,37,3,4,75,0,4,0,2,3,66,1,5,6,2,0,2,0,3,3,8,3,0,-20,6,calgary surge,Niagara River Lions,2026-06-03T23:00:00Z,6
+2798754,2798754,2026,Calgary Surge,CGY,12,A. Patterson,Addison,Patterson,9,F,1,30:32,6,10,60,5,7,71,1,3,33,2,2,100,2,5,7,1,1,3,0,2,3,15,4,0,-3,10,calgary surge,Niagara River Lions,2026-06-03T23:00:00Z,6
+2798754,2798754,2026,Calgary Surge,CGY,5,E. Gilyard Ii,Evan,Gilyard Ii,30,G,1,29:31,4,13,30,4,8,50,0,5,0,0,0,0,2,2,4,7,0,0,0,2,1,8,2,0,-5,2,calgary surge,Niagara River Lions,2026-06-03T23:00:00Z,6
+2798754,2798754,2026,Calgary Surge,CGY,11,G. Levin,Gabe,Levin,19,F,1,23:14,5,5,100,5,5,100,0,0,0,0,1,0,1,3,4,2,0,2,1,4,2,10,0,0,-6,10,calgary surge,Niagara River Lions,2026-06-03T23:00:00Z,6
+2798754,2798754,2026,Calgary Surge,CGY,15,D. Baugh,Damion,Baugh,12,G,0,22:05,2,6,33,2,3,66,0,3,0,4,4,100,0,0,0,7,2,5,0,2,5,8,0,0,-5,0,calgary surge,Niagara River Lions,2026-06-03T23:00:00Z,6
+2798754,2798754,2026,Calgary Surge,CGY,4,J. Brown,Javonté,Brown,31,C,0,20:22,2,3,66,2,3,66,0,0,0,1,2,50,1,2,3,2,0,1,1,1,3,5,0,0,-9,4,calgary surge,Niagara River Lions,2026-06-03T23:00:00Z,6
+2798754,2798754,2026,Calgary Surge,CGY,10,B. Muntu,Brandon,Muntu,1,G,0,0:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,calgary surge,Niagara River Lions,2026-06-03T23:00:00Z,6
+2798754,2798754,2026,Calgary Surge,CGY,9,C. Swanton-Rodger,Caelum,Swanton-Rodger,35,F,0,0:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,calgary surge,Niagara River Lions,2026-06-03T23:00:00Z,6
 2798717,2798717,2026,Edmonton Stingers,EDM,2,A. Mohamed,Abdul,Mohamed,7,F,0,9:16,0,1,0,0,1,0,0,0,0,2,2,100,2,2,4,1,1,1,0,0,4,2,2,0,-3,0,edmonton stingers,Winnipeg Sea Bears,2026-05-09T19:30:00Z,1
 2798717,2798717,2026,Edmonton Stingers,EDM,6,E. Bandoumel,Emmanuel,Bandoumel,8,G,1,28:58,3,10,30,2,5,40,1,5,20,0,0,0,1,0,1,2,1,4,0,3,1,7,0,0,-8,4,edmonton stingers,Winnipeg Sea Bears,2026-05-09T19:30:00Z,1
 2798717,2798717,2026,Edmonton Stingers,EDM,11,A. Toney,Au'diese,Toney,5,G,1,28:45,4,7,57,4,5,80,0,2,0,0,1,0,2,1,3,2,1,1,1,1,2,8,4,2,-16,8,edmonton stingers,Winnipeg Sea Bears,2026-05-09T19:30:00Z,1
@@ -172,6 +193,18 @@ game_id,fiba_id,season,team_name,team_code,player_id,player_name,first_name,fami
 2798750,2798750,2026,Edmonton Stingers,EDM,1,M. Bourcier,Mason,Bourcier,13,G,0,16:05,2,6,33,1,2,50,1,4,25,0,0,0,0,2,2,2,0,1,0,1,0,5,0,0,8,2,edmonton stingers,Calgary Surge,2026-05-31T22:00:00Z,5
 2798750,2798750,2026,Edmonton Stingers,EDM,14,I. Jack,Isaac,Jack,14,F,0,15:23,3,4,75,3,4,75,0,0,0,0,0,0,2,0,2,0,0,0,1,2,0,6,2,0,0,6,edmonton stingers,Calgary Surge,2026-05-31T22:00:00Z,5
 2798750,2798750,2026,Edmonton Stingers,EDM,3,S. Lindsey,Scottie,Lindsey,20,G,0,12:44,4,5,80,2,2,100,2,3,66,6,6,100,0,2,2,0,0,0,0,4,2,16,0,0,1,2,edmonton stingers,Calgary Surge,2026-05-31T22:00:00Z,5
+2798737,2798737,2026,Edmonton Stingers,EDM,1,M. Bourcier,Mason,Bourcier,13,G,0,6:32,0,2,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,-2,0,edmonton stingers,Brampton Honey Badgers,2026-06-03T23:30:00Z,6
+2798737,2798737,2026,Edmonton Stingers,EDM,4,A. Rhooms,Aaron,Rhooms,12,F,0,5:39,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,2,0,1,0,0,0,0,-1,0,edmonton stingers,Brampton Honey Badgers,2026-06-03T23:30:00Z,6
+2798737,2798737,2026,Edmonton Stingers,EDM,2,A. Mohamed,Abdul,Mohamed,7,F,0,4:43,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,1,0,edmonton stingers,Brampton Honey Badgers,2026-06-03T23:30:00Z,6
+2798737,2798737,2026,Edmonton Stingers,EDM,7,E. Bandoumel,Emmanuel,Bandoumel,8,G,1,27:09,7,14,50,2,4,50,5,10,50,1,1,100,3,4,7,2,2,1,1,1,6,20,6,5,-11,4,edmonton stingers,Brampton Honey Badgers,2026-06-03T23:30:00Z,6
+2798737,2798737,2026,Edmonton Stingers,EDM,16,S. Davis Jr.,Stanley,Davis Jr.,98,G,0,22:42,5,12,41,5,8,62,0,4,0,0,2,0,1,3,4,5,0,1,0,2,1,10,2,4,19,10,edmonton stingers,Brampton Honey Badgers,2026-06-03T23:30:00Z,6
+2798737,2798737,2026,Edmonton Stingers,EDM,8,T. Donald,Taye,Donald,3,G,0,22:40,3,8,37,1,4,25,2,4,50,3,7,42,1,3,4,8,1,2,1,3,6,11,0,3,11,2,edmonton stingers,Brampton Honey Badgers,2026-06-03T23:30:00Z,6
+2798737,2798737,2026,Edmonton Stingers,EDM,9,I. Moore,Isaih,Moore,00,F,1,22:14,2,6,33,1,3,33,1,3,33,0,0,0,0,2,2,2,1,1,1,3,2,5,3,0,-14,2,edmonton stingers,Brampton Honey Badgers,2026-06-03T23:30:00Z,6
+2798737,2798737,2026,Edmonton Stingers,EDM,11,T. King,Tre,King,0,F,1,20:45,3,9,33,0,1,0,3,8,37,3,4,75,0,3,3,1,0,1,0,4,3,12,0,1,0,0,edmonton stingers,Brampton Honey Badgers,2026-06-03T23:30:00Z,6
+2798737,2798737,2026,Edmonton Stingers,EDM,3,S. Lindsey,Scottie,Lindsey,20,G,0,19:11,4,8,50,4,5,80,0,3,0,2,2,100,1,3,4,2,2,3,1,5,1,10,2,0,9,4,edmonton stingers,Brampton Honey Badgers,2026-06-03T23:30:00Z,6
+2798737,2798737,2026,Edmonton Stingers,EDM,14,I. Jack,Isaac,Jack,14,F,0,18:12,3,4,75,3,4,75,0,0,0,2,2,100,4,6,10,1,1,2,0,1,2,8,6,0,12,6,edmonton stingers,Brampton Honey Badgers,2026-06-03T23:30:00Z,6
+2798737,2798737,2026,Edmonton Stingers,EDM,5,M. Nuga,Michael,Nuga,1,G,1,15:16,1,5,20,1,2,50,0,3,0,0,0,0,0,1,1,3,0,1,0,0,0,2,0,0,-14,2,edmonton stingers,Brampton Honey Badgers,2026-06-03T23:30:00Z,6
+2798737,2798737,2026,Edmonton Stingers,EDM,13,S. Teel,Samage,Teel,2,G,1,14:58,3,6,50,1,2,50,2,4,50,0,0,0,0,2,2,2,0,0,0,2,0,8,0,0,-15,2,edmonton stingers,Brampton Honey Badgers,2026-06-03T23:30:00Z,6
 2798722,2798722,2026,Montréal Alliance,MTL,6,N. Tshimanga,Nathan,Tshimanga,21,C,0,6:53,0,1,0,0,1,0,0,0,0,0,0,0,1,0,1,2,0,0,1,1,0,0,0,0,-2,0,montreal alliance,Scarborough Shooting Stars,2026-05-15T23:30:00Z,1
 2798722,2798722,2026,Montréal Alliance,MTL,16,J. Freeman-Liberty,Javon,Freeman-Liberty,25,G,1,32:50,12,19,63,8,13,61,4,6,66,3,4,75,2,4,6,4,1,3,0,2,4,31,8,3,1,16,montreal alliance,Scarborough Shooting Stars,2026-05-15T23:30:00Z,1
 2798722,2798722,2026,Montréal Alliance,MTL,3,B. Stevens,Ben,Stevens,8,F,0,2:53,0,1,0,0,1,0,0,0,0,0,0,0,1,0,1,1,0,1,0,4,0,0,0,0,2,0,montreal alliance,Scarborough Shooting Stars,2026-05-15T23:30:00Z,1
@@ -286,6 +319,17 @@ game_id,fiba_id,season,team_name,team_code,player_id,player_name,first_name,fami
 2798740,2798740,2026,Niagara River Lions,NRL,3,C. Long,Cole,Long,15,F,0,13:29,3,7,42,2,3,66,1,4,25,4,4,100,1,2,3,0,1,0,0,3,1,11,0,4,5,4,niagara river lions,Vancouver Bandits,2026-05-29T23:00:00Z,5
 2798740,2798740,2026,Niagara River Lions,NRL,13,B. Tchoukuiegno,Blondeau,Tchoukuiegno,9,G,0,13:27,2,2,100,2,2,100,0,0,0,0,0,0,0,1,1,1,0,0,0,2,1,4,2,0,0,4,niagara river lions,Vancouver Bandits,2026-05-29T23:00:00Z,5
 2798740,2798740,2026,Niagara River Lions,NRL,7,A. Nurhussien,Ayub,Nurhussien,2,F,0,0:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,niagara river lions,Vancouver Bandits,2026-05-29T23:00:00Z,5
+2798754,2798754,2026,Niagara River Lions,NRL,5,P. Tchuente,Phil Jordan,Tchuente,1,F,0,6:28,1,1,100,1,1,100,0,0,0,2,3,66,2,0,2,0,1,1,0,3,2,4,3,1,2,2,niagara river lions,Calgary Surge,2026-06-03T23:00:00Z,6
+2798754,2798754,2026,Niagara River Lions,NRL,6,E. Lufile,Elijah,Lufile,22,F,1,3:52,1,1,100,1,1,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,-9,2,niagara river lions,Calgary Surge,2026-06-03T23:00:00Z,6
+2798754,2798754,2026,Niagara River Lions,NRL,10,N. Cayo,Nathan,Cayo,13,F,1,28:51,2,7,28,1,4,25,1,3,33,2,2,100,0,6,6,1,1,2,0,2,3,7,0,2,1,2,niagara river lions,Calgary Surge,2026-06-03T23:00:00Z,6
+2798754,2798754,2026,Niagara River Lions,NRL,16,D. Carey Jr,Donald,Carey Jr,17,G,1,28:33,3,11,27,3,5,60,0,6,0,2,2,100,0,1,1,8,1,1,0,2,1,8,0,0,9,4,niagara river lions,Calgary Surge,2026-06-03T23:00:00Z,6
+2798754,2798754,2026,Niagara River Lions,NRL,11,C. Hollis,Curtis,Hollis,0,F,1,28:09,4,14,28,2,8,25,2,6,33,3,4,75,4,5,9,7,2,0,0,2,2,13,7,3,-2,4,niagara river lions,Calgary Surge,2026-06-03T23:00:00Z,6
+2798754,2798754,2026,Niagara River Lions,NRL,8,J. Muila,Jean-David,Muila,21,F,0,25:12,4,8,50,4,8,50,0,0,0,1,1,100,3,2,5,1,1,3,0,3,3,9,4,0,16,8,niagara river lions,Calgary Surge,2026-06-03T23:00:00Z,6
+2798754,2798754,2026,Niagara River Lions,NRL,15,K. Kennedy,Keonte,Kennedy,23,G,1,24:54,7,16,43,6,10,60,1,6,16,3,4,75,1,2,3,1,1,1,1,0,3,18,3,6,9,10,niagara river lions,Calgary Surge,2026-06-03T23:00:00Z,6
+2798754,2798754,2026,Niagara River Lions,NRL,13,B. Tchoukuiegno,Blondeau,Tchoukuiegno,9,G,0,19:03,2,4,50,0,0,0,2,4,50,3,5,60,1,2,3,6,0,0,0,1,4,9,3,0,9,0,niagara river lions,Calgary Surge,2026-06-03T23:00:00Z,6
+2798754,2798754,2026,Niagara River Lions,NRL,14,K. Warrens,Kameron,Warrens,10,G,0,17:47,4,6,66,4,5,80,0,1,0,0,0,0,0,2,2,0,0,0,0,3,0,8,0,6,13,6,niagara river lions,Calgary Surge,2026-06-03T23:00:00Z,6
+2798754,2798754,2026,Niagara River Lions,NRL,3,C. Long,Cole,Long,15,F,0,17:11,4,8,50,2,3,66,2,5,40,0,0,0,1,1,2,2,1,0,1,3,0,10,0,0,12,4,niagara river lions,Calgary Surge,2026-06-03T23:00:00Z,6
+2798754,2798754,2026,Niagara River Lions,NRL,7,A. Nurhussien,Ayub,Nurhussien,2,F,0,0:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,niagara river lions,Calgary Surge,2026-06-03T23:00:00Z,6
 2798718,2798718,2026,Ottawa BlackJacks,OTT,11,C. Martynov,Cyril,Martynov,22,C,0,7:21,0,3,0,0,3,0,0,0,0,1,2,50,2,0,2,0,1,0,0,2,1,1,0,0,-4,0,ottawa blackjacks,Calgary Surge,2026-05-12T23:30:00Z,1
 2798718,2798718,2026,Ottawa BlackJacks,OTT,1,C. Rohlehr,Christian,Rohlehr,17,F,0,4:45,0,0,0,0,0,0,0,0,0,1,2,50,0,0,0,0,0,1,0,1,1,1,0,0,-7,0,ottawa blackjacks,Calgary Surge,2026-05-12T23:30:00Z,1
 2798718,2798718,2026,Ottawa BlackJacks,OTT,7,J. Smart,Javonte,Smart,1,G,1,33:08,10,19,52,6,10,60,4,9,44,6,6,100,1,8,9,9,0,3,0,2,3,30,2,4,0,12,ottawa blackjacks,Calgary Surge,2026-05-12T23:30:00Z,1
