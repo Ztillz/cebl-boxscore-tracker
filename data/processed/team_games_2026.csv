@@ -6,6 +6,7 @@ game_id,fiba_id,season,team_name,short_name,team_code,team_score,field_goals_mad
 2798736,2798736,2026,Brampton Honey Badgers,,BHB,82,31,77,40,22,47,46,9,30,30,11,17,64,18,29,47,21,11,12,8,14,15,44,10,20,16,10,brampton honey badgers,Montreal Alliance,2026-05-28T15:00:00Z,5,19,11-17
 2798744,2798744,2026,Brampton Honey Badgers,,BHB,87,29,67,43,18,40,45,11,27,40,18,24,75,12,28,40,17,3,9,1,15,16,30,9,9,27,3,brampton honey badgers,Vancouver Bandits,2026-05-30T23:00:00Z,6,4,18-24
 2798737,2798737,2026,Brampton Honey Badgers,,BHB,87,28,62,45,21,33,63,7,29,24,24,31,77,8,29,37,25,8,13,0,21,25,30,9,15,10,12,brampton honey badgers,Edmonton Stingers,2026-06-03T23:30:00Z,7,8,24-31
+2798741,2798741,2026,Brampton Honey Badgers,,BHB,97,36,77,46,23,44,52,13,33,39,12,16,75,12,42,54,19,10,24,5,22,19,44,14,14,10,15,brampton honey badgers,Niagara River Lions,2026-06-05T23:00:00Z,8,15,12-16
 2798718,2798718,2026,Calgary Surge,,CGY,88,29,84,34,18,42,42,11,42,26,19,22,86,16,26,42,24,10,7,3,15,16,30,12,24,30,14,calgary surge,Ottawa BlackJacks,2026-05-12T23:30:00Z,1,13,19-22
 2798730,2798730,2026,Calgary Surge,,CGY,72,26,77,33,20,37,54,6,40,15,14,18,77,18,23,41,21,7,9,3,17,17,36,11,14,20,13,calgary surge,Brampton Honey Badgers,2026-05-17T20:00:00Z,2,10,14-18
 2798731,2798731,2026,Calgary Surge,,CGY,101,39,71,54,28,43,65,11,28,39,12,17,70,11,21,32,25,11,20,4,15,16,52,12,27,33,24,calgary surge,Vancouver Bandits,2026-05-25T00:00:00Z,3,15,12-17
@@ -24,19 +25,21 @@ game_id,fiba_id,season,team_name,short_name,team_code,team_score,field_goals_mad
 2798735,2798735,2026,Montréal Alliance,,MTL,72,25,57,43,18,42,42,7,15,46,15,25,60,5,25,30,20,5,13,5,9,21,36,5,13,10,14,montreal alliance,Niagara River Lions,2026-05-26T23:30:00Z,4,10,15-25
 2798736,2798736,2026,Montréal Alliance,,MTL,80,30,68,44,22,43,51,8,25,32,12,15,80,12,30,42,22,10,13,10,15,14,44,11,9,21,20,montreal alliance,Brampton Honey Badgers,2026-05-28T15:00:00Z,5,20,12-15
 2798747,2798747,2026,Montréal Alliance,,MTL,79,30,68,44,24,44,54,6,24,25,13,19,68,11,19,30,16,10,10,2,13,16,44,11,14,25,12,montreal alliance,Ottawa BlackJacks,2026-05-31T20:00:00Z,6,12,13-19
+2798743,2798743,2026,Montréal Alliance,,MTL,97,34,66,51,27,43,62,7,23,30,22,33,66,6,32,38,29,14,20,4,23,23,52,5,18,39,19,montreal alliance,Winnipeg Sea Bears,2026-06-05T23:30:00Z,7,18,22-33
 2798732,2798732,2026,Niagara River Lions,,NRL,85,31,78,39,21,50,42,10,28,35,13,22,59,16,35,51,21,4,11,6,19,16,36,17,9,36,11,niagara river lions,Ottawa BlackJacks,2026-05-18T23:00:00Z,1,10,13-22
 2798723,2798723,2026,Niagara River Lions,,NRL,71,22,65,33,12,35,34,10,30,33,17,21,80,14,25,39,6,5,17,1,17,20,22,6,10,40,4,niagara river lions,Winnipeg Sea Bears,2026-05-23T00:00:00Z,2,6,17-21
 2798729,2798729,2026,Niagara River Lions,,NRL,101,35,69,50,22,37,59,13,32,40,18,24,75,14,24,38,16,7,14,2,22,20,38,12,15,17,7,niagara river lions,Edmonton Stingers,2026-05-24T22:00:00Z,3,9,18-24
 2798735,2798735,2026,Niagara River Lions,,NRL,87,33,66,50,22,36,61,11,30,36,10,14,71,8,29,37,20,11,12,4,21,9,36,15,22,15,11,niagara river lions,Montreal Alliance,2026-05-26T23:30:00Z,4,15,10-14
 2798740,2798740,2026,Niagara River Lions,,NRL,100,39,71,54,29,40,72,10,31,32,12,19,63,9,21,30,27,10,12,3,18,15,56,16,16,43,8,niagara river lions,Vancouver Bandits,2026-05-29T23:00:00Z,5,13,12-19
 2798754,2798754,2026,Niagara River Lions,,NRL,88,32,76,42,24,45,53,8,31,25,16,21,76,17,23,40,26,8,8,2,19,18,42,20,21,40,18,niagara river lions,Calgary Surge,2026-06-03T23:00:00Z,6,10,16-21
+2798741,2798741,2026,Niagara River Lions,,NRL,86,32,93,34,23,52,44,9,41,21,13,19,68,20,30,50,13,11,11,8,19,22,40,19,21,22,13,niagara river lions,Brampton Honey Badgers,2026-06-05T23:00:00Z,7,19,13-19
 2798718,2798718,2026,Ottawa BlackJacks,,OTT,93,33,67,49,26,46,56,7,21,33,20,24,83,8,39,47,17,4,16,6,16,15,48,10,6,24,20,ottawa blackjacks,Calgary Surge,2026-05-12T23:30:00Z,1,10,20-24
 2798724,2798724,2026,Ottawa BlackJacks,,OTT,86,27,66,40,20,39,51,7,27,25,25,29,86,11,26,37,22,13,14,3,14,22,38,9,23,22,31,ottawa blackjacks,Brampton Honey Badgers,2026-05-15T23:30:00Z,2,16,25-29
 2798732,2798732,2026,Ottawa BlackJacks,,OTT,91,30,72,41,20,45,44,10,27,37,21,33,63,11,36,47,20,8,10,7,16,19,38,10,12,25,19,ottawa blackjacks,Niagara River Lions,2026-05-18T23:00:00Z,3,15,21-33
 2798721,2798721,2026,Ottawa BlackJacks,,OTT,90,31,74,41,21,38,55,10,36,27,18,26,69,15,29,44,24,6,15,10,17,19,38,11,18,21,28,ottawa blackjacks,Brampton Honey Badgers,2026-05-21T23:30:00Z,4,16,18-26
 2798726,2798726,2026,Ottawa BlackJacks,,OTT,87,33,71,46,31,47,65,2,24,8,19,23,82,10,27,37,14,10,11,7,17,19,52,8,19,26,21,ottawa blackjacks,Montreal Alliance,2026-05-23T23:00:00Z,5,17,19-23
 2798747,2798747,2026,Ottawa BlackJacks,,OTT,90,33,63,52,23,37,62,10,26,38,14,17,82,10,29,39,24,6,16,7,16,13,40,11,19,19,18,ottawa blackjacks,Montreal Alliance,2026-05-31T20:00:00Z,6,13,14-17
-2798752,2798752,2026,Ottawa BlackJacks,,OTT,114,45,74,60,33,50,66,12,24,50,12,16,75,11,35,46,21,5,21,6,25,18,50,14,14,11,23,ottawa blackjacks,Vancouver Bandits,2026-06-02T23:30:00Z,7,11,12-16
+2798752,2798752,2026,Ottawa BlackJacks,,OTT,114,45,74,60,33,50,66,12,24,50,12,16,75,11,35,46,21,5,21,6,26,18,50,16,16,11,23,ottawa blackjacks,Vancouver Bandits,2026-06-02T23:30:00Z,7,11,12-16
 2798739,2798739,2026,Ottawa BlackJacks,,OTT,88,30,65,46,21,39,53,9,26,34,19,26,73,10,23,33,16,8,15,4,15,20,34,12,20,27,24,ottawa blackjacks,Winnipeg Sea Bears,2026-06-04T23:30:00Z,8,12,19-26
 2798720,2798720,2026,Saskatoon Mamba,,SSK,95,36,72,50,25,42,59,11,30,36,12,17,70,12,25,37,15,5,21,5,17,16,42,8,16,38,11,saskatoon mamba,Vancouver Bandits,2026-05-14T16:30:00Z,1,10,12-17
 2798727,2798727,2026,Saskatoon Mamba,,SSK,96,37,75,49,24,45,53,13,30,43,9,12,75,15,26,41,17,5,18,5,16,18,40,19,11,30,20,saskatoon mamba,Winnipeg Sea Bears,2026-05-17T00:00:00Z,2,10,9-12
@@ -55,7 +58,7 @@ game_id,fiba_id,season,team_name,short_name,team_code,team_score,field_goals_mad
 2798731,2798731,2026,Vancouver Bandits,,VAN,111,41,74,55,25,45,55,16,29,55,13,15,86,12,25,37,22,9,21,2,16,15,46,15,24,40,22,vancouver bandits,Calgary Surge,2026-05-25T00:00:00Z,4,11,13-15
 2798740,2798740,2026,Vancouver Bandits,,VAN,110,41,74,55,27,45,60,14,29,48,14,15,93,10,25,35,24,6,15,0,16,18,42,17,19,40,16,vancouver bandits,Niagara River Lions,2026-05-29T23:00:00Z,5,6,14-15
 2798744,2798744,2026,Vancouver Bandits,,VAN,93,33,71,46,21,46,45,12,25,48,15,18,83,12,28,40,22,2,9,4,17,15,38,18,9,33,9,vancouver bandits,Brampton Honey Badgers,2026-05-30T23:00:00Z,6,6,15-18
-2798752,2798752,2026,Vancouver Bandits,,VAN,105,32,74,43,22,45,48,10,29,34,31,37,83,7,20,27,23,14,10,2,20,24,40,6,24,43,22,vancouver bandits,Ottawa BlackJacks,2026-06-02T23:30:00Z,7,16,31-37
+2798752,2798752,2026,Vancouver Bandits,,VAN,105,32,74,43,22,45,48,10,29,34,31,37,83,7,20,27,23,14,11,2,19,26,40,6,24,43,22,vancouver bandits,Ottawa BlackJacks,2026-06-02T23:30:00Z,7,16,31-37
 2798717,2798717,2026,Winnipeg Sea Bears,,WPG,77,28,68,41,21,35,60,7,33,21,14,17,82,14,28,42,21,13,20,4,17,17,40,12,26,25,10,winnipeg sea bears,Edmonton Stingers,2026-05-09T19:30:00Z,1,17,14-17
 2798727,2798727,2026,Winnipeg Sea Bears,,WPG,108,41,81,50,34,58,58,7,23,30,19,21,90,15,25,40,20,7,9,5,18,16,66,20,19,43,24,winnipeg sea bears,Saskatoon Mamba,2026-05-17T00:00:00Z,2,12,19-21
 2798734,2798734,2026,Winnipeg Sea Bears,,WPG,101,33,71,46,20,42,47,13,29,44,22,27,81,9,26,35,24,8,12,4,21,21,40,16,27,28,25,winnipeg sea bears,Scarborough Shooting Stars,2026-05-19T15:00:00Z,3,12,22-27
@@ -63,3 +66,4 @@ game_id,fiba_id,season,team_name,short_name,team_code,team_score,field_goals_mad
 2798733,2798733,2026,Winnipeg Sea Bears,,WPG,92,37,66,56,28,49,57,9,17,52,9,11,81,10,19,29,24,8,18,6,16,15,54,4,18,24,18,winnipeg sea bears,Brampton Honey Badgers,2026-05-25T23:30:00Z,5,14,9-11
 2798742,2798742,2026,Winnipeg Sea Bears,,WPG,98,36,78,46,22,45,48,14,33,42,12,19,63,15,25,40,18,5,13,6,22,19,44,22,21,31,10,winnipeg sea bears,Saskatoon Mamba,2026-05-30T01:30:00Z,6,11,12-19
 2798739,2798739,2026,Winnipeg Sea Bears,,WPG,117,39,75,52,21,41,51,18,34,52,21,24,87,14,27,41,26,10,13,1,20,15,40,10,23,34,24,winnipeg sea bears,Ottawa BlackJacks,2026-06-04T23:30:00Z,7,11,21-24
+2798743,2798743,2026,Winnipeg Sea Bears,,WPG,91,31,72,43,26,41,63,5,31,16,24,27,88,9,31,40,21,14,20,2,24,22,48,10,24,17,17,winnipeg sea bears,Montreal Alliance,2026-06-05T23:30:00Z,8,16,24-27
