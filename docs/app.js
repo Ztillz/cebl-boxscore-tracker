@@ -52,6 +52,7 @@ let teamGames = [];
 let teamDiffRows = [];
 let teamOrder = [];
 let queryConditions = [];
+let teamComparisonRows = [];
 
 async function loadCSV(url) {
   return new Promise((resolve, reject) => {
@@ -67,7 +68,12 @@ async function loadCSV(url) {
 }
 
 function numberOrNull(value) {
+  if (value === null || value === undefined || value === "") {
+    return null;
+  }
+
   const num = Number(value);
+
   return Number.isFinite(num) ? num : null;
 }
 
@@ -435,27 +441,65 @@ function getTeamResult(row) {
 
   return teamScore > opponentScore ? "W" : "L";
 }
-
-function populateQueryControls(availableStats) {
+function populateQueryControls() {
   const teamSelect = document.getElementById("queryTeamSelect");
-  const statSelect = document.getElementById("queryStatSelect");
+  const statTypeSelect = document.getElementById("queryStatTypeSelect");
 
-  if (!teamSelect || !statSelect) return;
+  if (!teamSelect || !statTypeSelect) return;
 
   teamSelect.innerHTML = `<option value="ALL">All Teams</option>`;
-  statSelect.innerHTML = "";
 
-  teamOrder.forEach(team => {
+  const queryTeams = [...new Set(teamComparisonRows.map(row => row.team_name))]
+    .filter(Boolean)
+    .sort();
+
+  queryTeams.forEach(team => {
     const option = document.createElement("option");
     option.value = team;
     option.textContent = team;
     teamSelect.appendChild(option);
   });
 
-  Object.entries(availableStats).forEach(([label, col]) => {
+  statTypeSelect.innerHTML = `
+    <option value="self">Team Stats</option>
+    <option value="opp">Opponent Stats</option>
+  `;
+
+  updateQueryStatDropdown();
+}
+
+function updateQueryStatDropdown() {
+  const statTypeSelect = document.getElementById("queryStatTypeSelect");
+  const statSelect = document.getElementById("queryStatSelect");
+
+  if (!statTypeSelect || !statSelect) return;
+
+  const statType = statTypeSelect.value;
+  const firstRow = teamComparisonRows[0] || {};
+
+  statSelect.innerHTML = "";
+
+  Object.keys(firstRow).forEach(col => {
+    if (statType === "self" && !col.startsWith("self_")) return;
+    if (statType === "opp" && !col.startsWith("opp_")) return;
+
+    const hasNumericValue = teamComparisonRows.some(row => {
+      const value = numberOrNull(row[col]);
+      return value !== null;
+    });
+
+    if (!hasNumericValue) return;
+
+    const label = col
+      .replace("self_", "")
+      .replace("opp_", "")
+      .replaceAll("_", " ")
+      .replace(/\b\w/g, char => char.toUpperCase());
+
     const option = document.createElement("option");
     option.value = col;
     option.textContent = label;
+
     statSelect.appendChild(option);
   });
 }
@@ -470,19 +514,22 @@ function renderActiveConditions() {
   }
 
   box.innerHTML = queryConditions
-    .map(
-      condition =>
-        `<span>${condition.label} ${condition.operator} ${condition.value}</span>`
-    )
+    .map(condition => {
+      const sideLabel =
+        condition.statSide === "opp" ? "Opponent" : "Team";
+
+      return `<span>${sideLabel} ${condition.label} ${condition.operator} ${condition.value}</span>`;
+    })
     .join(" AND ");
 }
 
 function addQueryCondition() {
+  const statTypeSelect = document.getElementById("queryStatTypeSelect");
   const statSelect = document.getElementById("queryStatSelect");
   const operatorSelect = document.getElementById("queryOperatorSelect");
   const valueInput = document.getElementById("queryValueInput");
 
-  if (!statSelect || !operatorSelect || !valueInput) return;
+  if (!statTypeSelect || !statSelect || !operatorSelect || !valueInput) return;
 
   if (valueInput.value === "") {
     alert("Enter a value before adding the condition.");
@@ -492,6 +539,7 @@ function addQueryCondition() {
   const selectedOption = statSelect.options[statSelect.selectedIndex];
 
   queryConditions.push({
+    statSide: statTypeSelect.value,
     label: selectedOption.textContent,
     col: statSelect.value,
     operator: operatorSelect.value,
@@ -502,6 +550,15 @@ function addQueryCondition() {
   renderActiveConditions();
 }
 
+function getTeamResultFromComparison(row) {
+  const teamScore = numberOrNull(row.self_team_score);
+  const opponentScore = numberOrNull(row.opp_team_score);
+
+  if (teamScore === null || opponentScore === null) return "-";
+
+  return teamScore > opponentScore ? "W" : "L";
+}
+
 function runTeamQuery() {
   const teamSelect = document.getElementById("queryTeamSelect");
   const resultsBox = document.getElementById("queryResults");
@@ -510,14 +567,17 @@ function runTeamQuery() {
 
   const selectedTeam = teamSelect.value;
 
-  let filteredRows = [...teamGames];
-
-  if (selectedTeam !== "ALL") {
-    filteredRows = filteredRows.filter(row => row.team_name === selectedTeam);
+  if (queryConditions.length === 0) {
+    resultsBox.innerHTML = `<p>Add at least one condition before running the query.</p>`;
+    return;
   }
 
-  queryConditions.forEach(condition => {
-    filteredRows = filteredRows.filter(row => {
+  let filteredRows = teamComparisonRows.filter(row => {
+    if (selectedTeam !== "ALL" && row.team_name !== selectedTeam) {
+      return false;
+    }
+
+    return queryConditions.every(condition => {
       const actual = numberOrNull(row[condition.col]);
       return compareValues(actual, condition.operator, condition.value);
     });
@@ -527,18 +587,18 @@ function runTeamQuery() {
 
   filteredRows.forEach(row => {
     const team = row.team_name;
-    const result = getTeamResult(row);
+    const result = getTeamResultFromComparison(row);
 
     if (!grouped[team]) {
       grouped[team] = {
         team,
-        games: 0,
+        games: [],
         wins: 0,
         losses: 0,
       };
     }
 
-    grouped[team].games += 1;
+    grouped[team].games.push(row);
 
     if (result === "W") grouped[team].wins += 1;
     if (result === "L") grouped[team].losses += 1;
@@ -547,7 +607,8 @@ function runTeamQuery() {
   const summaryRows = Object.values(grouped)
     .map(row => ({
       ...row,
-      winPct: row.games > 0 ? row.wins / row.games : 0,
+      gameCount: row.games.length,
+      winPct: row.games.length > 0 ? row.wins / row.games.length : 0,
     }))
     .sort((a, b) => b.winPct - a.winPct);
 
@@ -555,34 +616,30 @@ function runTeamQuery() {
     resultsBox.innerHTML = `<p>No games matched this query.</p>`;
     return;
   }
-const gameRows = sortTeamRows(filteredRows);
 
-resultsBox.innerHTML = `
-  <div class="query-results-card">
-    <table class="query-results-table">
-      <thead>
-        <tr>
-          <th></th>
-          <th>Team</th>
-          <th>Games</th>
-          <th>Wins</th>
-          <th>Losses</th>
-          <th>Win %</th>
-        </tr>
-      </thead>
-      <tbody>
-        ${summaryRows
-          .map(row => {
+  resultsBox.innerHTML = `
+    <div class="query-results-card">
+      <table class="query-results-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Team</th>
+            <th>Games</th>
+            <th>Wins</th>
+            <th>Losses</th>
+            <th>Win %</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${summaryRows.map(row => {
             const safeId = row.team.replaceAll(" ", "-").replaceAll("'", "");
-            const teamGamesForQuery = sortTeamRows(
-              filteredRows.filter(game => game.team_name === row.team)
-            );
+            const teamGamesForQuery = sortTeamRows(row.games);
 
             return `
               <tr class="query-team-row" onclick="toggleQueryGames('${row.team.replaceAll("'", "\\'")}')">
                 <td class="expand-arrow">▶</td>
                 <td><span class="query-team-name">${row.team}</span></td>
-                <td>${row.games}</td>
+                <td>${row.gameCount}</td>
                 <td>${row.wins}</td>
                 <td>${row.losses}</td>
                 <td>${(row.winPct * 100).toFixed(1)}%</td>
@@ -598,39 +655,38 @@ resultsBox.innerHTML = `
                         <th>Opponent</th>
                         <th>Result</th>
                         <th>Team Score</th>
+                        <th>Opponent Score</th>
                       </tr>
                     </thead>
                     <tbody>
-                      ${teamGamesForQuery
-                        .map(game => `
-                          <tr>
-                            <td>
-                              <a
-                                class="game-detail-link"
-                                href="./game.html?game_id=${encodeURIComponent(game.game_id)}"
-                                target="_blank"
-                              >
-                                ${game.game_date || ""} — Game ${game.game_number || ""}
-                              </a>
-                            </td>
-                            <td>${game.game_number || ""}</td>
-                            <td>${game.opponent_name || ""}</td>
-                            <td>${getTeamResult(game) || "-"}</td>
-                            <td>${game.team_score ?? ""}</td>
-                          </tr>
-                        `)
-                        .join("")}
+                      ${teamGamesForQuery.map(game => `
+                        <tr>
+                          <td>
+                            <a
+                              class="game-detail-link"
+                              href="./game.html?game_id=${encodeURIComponent(game.game_id)}"
+                              target="_blank"
+                            >
+                              ${game.game_date || ""} — Game ${game.game_number || ""}
+                            </a>
+                          </td>
+                          <td>${game.game_number || ""}</td>
+                          <td>${game.opponent_name || ""}</td>
+                          <td>${getTeamResultFromComparison(game)}</td>
+                          <td>${game.self_team_score ?? ""}</td>
+                          <td>${game.opp_team_score ?? ""}</td>
+                        </tr>
+                      `).join("")}
                     </tbody>
                   </table>
                 </td>
               </tr>
             `;
-          })
-          .join("")}
-      </tbody>
-    </table>
-  </div>
-`;
+          }).join("")}
+        </tbody>
+      </table>
+    </div>
+  `;
 }
 
 function toggleQueryGames(teamName) {
@@ -677,7 +733,11 @@ async function initDashboard() {
   const status = document.getElementById("statusMessage");
 
   try {
+    // For charting (original team data)
     teamGames = await loadCSV(CSV_URLS.team_games);
+
+    // For queries (self + opponent stats)
+    teamComparisonRows = await loadCSV(CSV_URLS.team_comparison);
 
     const availableStats = getAvailableStats(teamGames, ALL_STATS);
 
@@ -691,12 +751,10 @@ async function initDashboard() {
       .filter(Boolean)
       .sort();
 
-    const queryStats = getAllNumericQueryStats(teamGames);
-
-    populateStatDropdown(availableStats);
-    populateQueryControls(queryStats);
-    setupQueryButtons();
-    renderActiveConditions();
+    populateStatDropdown(availableStats); // charts
+    populateQueryControls();             // query dropdowns
+    setupQueryButtons();                 // query buttons
+    renderActiveConditions();            // show active conditions
 
     const firstStatLabel = Object.keys(availableStats)[0];
     renderTeamStatChart(firstStatLabel, availableStats[firstStatLabel]);

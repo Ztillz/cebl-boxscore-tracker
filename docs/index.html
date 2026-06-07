@@ -10,15 +10,16 @@
 
     gtag('config', 'G-9R05N1EJ08');
   </script>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>CEBL Analytics Dashboard</title>
 
   <link rel="stylesheet" href="./styles.css" />
-  
 
   <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 </head>
 
 <body>
@@ -35,28 +36,43 @@
     <section class="chart-card">
       <div id="teamTrendChart"></div>
     </section>
+
     <section class="query-card">
-  <h2>Team Query Tool</h2>
+      <h2>Team Query Tool</h2>
 
-  <div class="query-controls">
-    <select id="queryTeamSelect"></select>
-    <select id="queryStatSelect"></select>
-    <select id="queryOperatorSelect">
-      <option value="<">under</option>
-      <option value="<=">under or equal</option>
-      <option value=">">over</option>
-      <option value=">=">over or equal</option>
-      <option value="==">equal to</option>
-    </select>
-    <input id="queryValueInput" type="number" step="0.1" placeholder="Value" />
-    <button id="addConditionBtn">Add Condition</button>
-    <button id="runQueryBtn">Run Query</button>
-    <button id="clearQueryBtn">Clear</button>
-  </div>
+      <div class="query-controls">
+        <select id="queryTeamSelect"></select>
 
-  <div id="activeConditions"></div>
-  <div id="queryResults"></div>
-</section>
+        <select id="queryStatTypeSelect" onchange="updateQueryStatDropdown()">
+          <option value="self">Team Stats</option>
+          <option value="opp">Opponent Stats</option>
+        </select>
+
+        <select id="queryStatSelect"></select>
+
+        <select id="queryOperatorSelect">
+          <option value="<">under</option>
+          <option value="<=">under or equal</option>
+          <option value=">">over</option>
+          <option value=">=">over or equal</option>
+          <option value="==">equal to</option>
+        </select>
+
+        <input
+          id="queryValueInput"
+          type="number"
+          step="0.1"
+          placeholder="Value"
+        />
+
+        <button id="addConditionBtn">Add Condition</button>
+        <button id="runQueryBtn">Run Query</button>
+        <button id="clearQueryBtn">Clear</button>
+      </div>
+
+      <div id="activeConditions"></div>
+      <div id="queryResults"></div>
+    </section>
   </main>
 
   <script src="./app.js"></script>
