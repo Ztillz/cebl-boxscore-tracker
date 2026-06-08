@@ -226,6 +226,18 @@ game_id,fiba_id,season,team_name,team_code,player_id,player_name,first_name,fami
 2798737,2798737,2026,Edmonton Stingers,EDM,14,I. Jack,Isaac,Jack,14,F,0,18:12,3,4,75,3,4,75,0,0,0,2,2,100,4,6,10,1,1,2,0,1,2,8,6,0,12,6,edmonton stingers,Brampton Honey Badgers,2026-06-03T23:30:00Z,6
 2798737,2798737,2026,Edmonton Stingers,EDM,5,M. Nuga,Michael,Nuga,1,G,1,15:16,1,5,20,1,2,50,0,3,0,0,0,0,0,1,1,3,0,1,0,0,0,2,0,0,-14,2,edmonton stingers,Brampton Honey Badgers,2026-06-03T23:30:00Z,6
 2798737,2798737,2026,Edmonton Stingers,EDM,13,S. Teel,Samage,Teel,2,G,1,14:58,3,6,50,1,2,50,2,4,50,0,0,0,0,2,2,2,0,0,0,2,0,8,0,0,-15,2,edmonton stingers,Brampton Honey Badgers,2026-06-03T23:30:00Z,6
+2798749,2798749,2026,Edmonton Stingers,EDM,13,I. Jack,Isaac,Jack,14,F,0,9:08,1,2,50,1,2,50,0,0,0,0,2,0,3,2,5,0,0,0,0,3,3,2,2,0,4,2,edmonton stingers,Montreal Alliance,2026-06-07T20:00:00Z,7
+2798749,2798749,2026,Edmonton Stingers,EDM,4,A. Rhooms,Aaron,Rhooms,12,F,0,3:27,1,2,50,0,1,0,1,1,100,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,-1,0,edmonton stingers,Montreal Alliance,2026-06-07T20:00:00Z,7
+2798749,2798749,2026,Edmonton Stingers,EDM,2,A. Mohamed,Abdul,Mohamed,7,F,0,2:16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,-1,0,edmonton stingers,Montreal Alliance,2026-06-07T20:00:00Z,7
+2798749,2798749,2026,Edmonton Stingers,EDM,1,M. Bourcier,Mason,Bourcier,13,G,0,2:08,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2,0,edmonton stingers,Montreal Alliance,2026-06-07T20:00:00Z,7
+2798749,2798749,2026,Edmonton Stingers,EDM,9,I. Moore,Isaih,Moore,00,F,1,29:38,10,12,83,9,10,90,1,2,50,6,7,85,7,8,15,0,1,3,0,3,4,27,9,6,19,16,edmonton stingers,Montreal Alliance,2026-06-07T20:00:00Z,7
+2798749,2798749,2026,Edmonton Stingers,EDM,7,E. Bandoumel,Emmanuel,Bandoumel,8,G,1,28:13,1,9,11,0,4,0,1,5,20,0,0,0,1,3,4,4,2,1,1,1,0,3,0,0,8,0,edmonton stingers,Montreal Alliance,2026-06-07T20:00:00Z,7
+2798749,2798749,2026,Edmonton Stingers,EDM,5,M. Nuga,Michael,Nuga,1,G,1,24:33,7,11,63,6,7,85,1,4,25,0,0,0,0,6,6,1,1,0,0,3,0,15,0,4,27,12,edmonton stingers,Montreal Alliance,2026-06-07T20:00:00Z,7
+2798749,2798749,2026,Edmonton Stingers,EDM,11,T. King,Tre,King,0,F,1,24:24,2,13,15,1,10,10,1,3,33,3,3,100,2,4,6,2,2,4,0,4,2,8,0,1,10,2,edmonton stingers,Montreal Alliance,2026-06-07T20:00:00Z,7
+2798749,2798749,2026,Edmonton Stingers,EDM,8,T. Donald,Taye,Donald,3,G,0,21:29,4,8,50,1,4,25,3,4,75,0,1,0,0,2,2,2,2,2,0,1,2,11,0,2,13,2,edmonton stingers,Montreal Alliance,2026-06-07T20:00:00Z,7
+2798749,2798749,2026,Edmonton Stingers,EDM,12,S. Teel,Samage,Teel,2,G,1,18:31,1,6,16,1,3,33,0,3,0,0,0,0,0,1,1,5,2,5,0,0,0,2,0,0,7,0,edmonton stingers,Montreal Alliance,2026-06-07T20:00:00Z,7
+2798749,2798749,2026,Edmonton Stingers,EDM,15,S. Davis Jr.,Stanley,Davis Jr.,98,G,0,18:13,4,9,44,2,5,40,2,4,50,0,0,0,1,1,2,5,3,2,0,1,1,10,3,0,6,4,edmonton stingers,Montreal Alliance,2026-06-07T20:00:00Z,7
+2798749,2798749,2026,Edmonton Stingers,EDM,3,S. Lindsey,Scottie,Lindsey,20,G,0,17:59,6,10,60,1,3,33,5,7,71,0,0,0,0,3,3,1,2,0,1,3,0,17,5,3,10,2,edmonton stingers,Montreal Alliance,2026-06-07T20:00:00Z,7
 2798722,2798722,2026,Montréal Alliance,MTL,6,N. Tshimanga,Nathan,Tshimanga,21,C,0,6:53,0,1,0,0,1,0,0,0,0,0,0,0,1,0,1,2,0,0,1,1,0,0,0,0,-2,0,montreal alliance,Scarborough Shooting Stars,2026-05-15T23:30:00Z,1
 2798722,2798722,2026,Montréal Alliance,MTL,16,J. Freeman-Liberty,Javon,Freeman-Liberty,25,G,1,32:50,12,19,63,8,13,61,4,6,66,3,4,75,2,4,6,4,1,3,0,2,4,31,8,3,1,16,montreal alliance,Scarborough Shooting Stars,2026-05-15T23:30:00Z,1
 2798722,2798722,2026,Montréal Alliance,MTL,3,B. Stevens,Ben,Stevens,8,F,0,2:53,0,1,0,0,1,0,0,0,0,0,0,0,1,0,1,1,0,1,0,4,0,0,0,0,2,0,montreal alliance,Scarborough Shooting Stars,2026-05-15T23:30:00Z,1
@@ -296,6 +308,16 @@ game_id,fiba_id,season,team_name,team_code,player_id,player_name,first_name,fami
 2798743,2798743,2026,Montréal Alliance,MTL,17,J. Freeman-Liberty,Javon,Freeman-Liberty,25,G,1,22:41,2,9,22,0,2,0,2,7,28,5,7,71,0,4,4,4,1,7,0,3,4,11,0,0,6,0,montreal alliance,Winnipeg Sea Bears,2026-06-05T23:30:00Z,7
 2798743,2798743,2026,Montréal Alliance,MTL,11,M. Hughes Ii,Michael,Hughes Ii,2,F,1,19:54,3,3,100,3,3,100,0,0,0,5,6,83,2,1,3,0,1,3,1,4,4,11,3,0,3,6,montreal alliance,Winnipeg Sea Bears,2026-06-05T23:30:00Z,7
 2798743,2798743,2026,Montréal Alliance,MTL,15,T. Johnson,Trent,Johnson,31,F,0,11:56,0,2,0,0,1,0,0,1,0,0,0,0,0,2,2,2,2,0,0,1,0,0,0,0,-1,0,montreal alliance,Winnipeg Sea Bears,2026-06-05T23:30:00Z,7
+2798749,2798749,2026,Montréal Alliance,MTL,12,J. Anderson,Jalin,Anderson,1,G,0,3:46,0,3,0,0,2,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,-6,0,montreal alliance,Edmonton Stingers,2026-06-07T20:00:00Z,8
+2798749,2798749,2026,Montréal Alliance,MTL,4,B. Stevens,Ben,Stevens,8,F,0,3:30,1,1,100,1,1,100,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,2,0,0,4,2,montreal alliance,Edmonton Stingers,2026-06-07T20:00:00Z,8
+2798749,2798749,2026,Montréal Alliance,MTL,17,J. Freeman-Liberty,Javon,Freeman-Liberty,25,G,1,31:51,4,12,33,4,8,50,0,4,0,3,7,42,2,5,7,7,2,3,0,1,4,11,0,2,-18,6,montreal alliance,Edmonton Stingers,2026-06-07T20:00:00Z,8
+2798749,2798749,2026,Montréal Alliance,MTL,5,Q. Guerrier,Quincy,Guerrier,6,F,1,30:24,7,16,43,6,11,54,1,5,20,1,8,12,3,7,10,2,1,4,0,2,6,16,0,2,-8,12,montreal alliance,Edmonton Stingers,2026-06-07T20:00:00Z,8
+2798749,2798749,2026,Montréal Alliance,MTL,11,M. Hughes Ii,Michael,Hughes Ii,2,F,1,24:10,5,6,83,4,5,80,1,1,100,2,5,40,1,10,11,2,1,4,4,2,4,13,1,2,-20,8,montreal alliance,Edmonton Stingers,2026-06-07T20:00:00Z,8
+2798749,2798749,2026,Montréal Alliance,MTL,19,A. Nelson,Ant,Nelson,55,G,1,23:37,3,5,60,1,2,50,2,3,66,2,2,100,0,2,2,3,1,3,1,3,2,10,0,4,-7,2,montreal alliance,Edmonton Stingers,2026-06-07T20:00:00Z,8
+2798749,2798749,2026,Montréal Alliance,MTL,15,T. Johnson,Trent,Johnson,31,F,0,21:58,1,3,33,1,1,100,0,2,0,0,0,0,0,3,3,1,1,0,0,0,0,2,0,2,-8,2,montreal alliance,Edmonton Stingers,2026-06-07T20:00:00Z,8
+2798749,2798749,2026,Montréal Alliance,MTL,3,D. Warren,Davion,Warren,13,G,0,21:47,3,10,30,3,6,50,0,4,0,0,0,0,0,2,2,2,2,4,0,1,0,6,0,2,-10,6,montreal alliance,Edmonton Stingers,2026-06-07T20:00:00Z,8
+2798749,2798749,2026,Montréal Alliance,MTL,1,G. Boucard,Guillaume,Boucard,9,F,0,21:23,5,6,83,5,6,83,0,0,0,4,4,100,2,2,4,2,2,1,1,2,2,14,4,2,-17,10,montreal alliance,Edmonton Stingers,2026-06-07T20:00:00Z,8
+2798749,2798749,2026,Montréal Alliance,MTL,6,K. Osawe,Kevin,Osawe,0,F,1,17:34,2,6,33,2,3,66,0,3,0,0,0,0,3,0,3,0,0,2,0,0,0,4,4,0,-10,4,montreal alliance,Edmonton Stingers,2026-06-07T20:00:00Z,8
 2798732,2798732,2026,Niagara River Lions,NRL,9,C. Vreeken,Connor,Vreeken,14,G,0,7:04,2,3,66,1,1,100,1,2,50,0,0,0,1,0,1,0,0,0,0,0,0,5,5,0,0,2,niagara river lions,Ottawa BlackJacks,2026-05-18T23:00:00Z,1
 2798732,2798732,2026,Niagara River Lions,NRL,5,J. Tchuente,Jordan,Tchuente,1,F,0,6:20,1,2,50,1,2,50,0,0,0,0,2,0,0,3,3,1,0,0,0,3,2,2,0,0,3,2,niagara river lions,Ottawa BlackJacks,2026-05-18T23:00:00Z,1
 2798732,2798732,2026,Niagara River Lions,NRL,14,K. Warrens,Kameron,Warrens,10,G,1,31:41,3,12,25,2,6,33,1,6,16,3,4,75,1,5,6,2,1,5,1,2,3,10,0,1,-1,2,niagara river lions,Ottawa BlackJacks,2026-05-18T23:00:00Z,1
