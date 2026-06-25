@@ -33,6 +33,7 @@ game_id,fiba_id,season,team_name,short_name,team_code,team_score,field_goals_mad
 2798760,2798760,2026,Edmonton Stingers,,EDM,78,28,72,38,20,42,47,8,30,26,14,16,87,9,27,36,20,11,13,1,17,20,38,6,21,33,16,edmonton stingers,Scarborough Shooting Stars,2026-06-14T01:00:00Z,8,12,14-16
 2798772,2798772,2026,Edmonton Stingers,,EDM,76,31,87,35,26,59,44,5,28,17,9,12,75,18,29,47,15,7,13,4,21,15,46,14,11,25,17,edmonton stingers,Montreal Alliance,2026-06-18T01:00:00Z,9,11,9-12
 2798763,2798763,2026,Edmonton Stingers,,EDM,86,33,66,50,25,44,56,8,22,36,12,21,57,6,34,40,14,4,21,2,22,19,48,4,15,27,13,edmonton stingers,Winnipeg Sea Bears,2026-06-20T20:00:00Z,10,6,12-21
+2798775,2798775,2026,Edmonton Stingers,,EDM,115,44,87,50,33,56,58,11,31,35,16,22,72,13,23,36,26,12,8,3,28,16,58,17,24,40,27,edmonton stingers,Saskatoon Mamba,2026-06-25T01:30:00Z,11,15,16-22
 2798722,2798722,2026,Montréal Alliance,,MTL,87,34,75,45,25,48,52,9,27,33,10,18,55,14,32,46,19,9,19,2,25,16,46,20,18,25,5,montreal alliance,Scarborough Shooting Stars,2026-05-15T23:30:00Z,1,11,10-18
 2798716,2798716,2026,Montréal Alliance,,MTL,93,36,76,47,32,56,57,4,20,20,17,25,68,18,33,51,23,11,16,4,19,19,62,26,21,21,22,montreal alliance,Saskatoon Mamba,2026-05-19T23:30:00Z,2,15,17-25
 2798726,2798726,2026,Montréal Alliance,,MTL,96,39,80,48,29,51,56,10,29,34,8,16,50,18,31,49,22,3,16,3,20,15,54,21,11,24,13,montreal alliance,Ottawa BlackJacks,2026-05-23T23:00:00Z,3,6,8-16
@@ -81,6 +82,7 @@ game_id,fiba_id,season,team_name,short_name,team_code,team_score,field_goals_mad
 2798768,2798768,2026,Saskatoon Mamba,,SSK,96,36,80,45,28,44,63,8,36,22,16,25,64,14,32,46,18,5,8,2,14,17,48,22,13,33,20,saskatoon mamba,Ottawa BlackJacks,2026-06-16T01:30:00Z,9,7,16-25
 2798759,2798759,2026,Saskatoon Mamba,,SSK,104,38,68,55,22,40,55,16,28,57,12,14,85,9,27,36,23,5,10,5,15,17,38,6,18,18,20,saskatoon mamba,Niagara River Lions,2026-06-19T15:00:00Z,10,10,12-14
 2798771,2798771,2026,Saskatoon Mamba,,SSK,101,36,79,45,23,43,53,13,36,36,16,20,80,15,26,41,21,7,8,3,16,20,40,13,20,25,17,saskatoon mamba,Ottawa BlackJacks,2026-06-21T23:00:00Z,11,10,16-20
+2798775,2798775,2026,Saskatoon Mamba,,SSK,108,34,70,48,20,36,55,14,34,41,26,32,81,15,32,47,26,3,19,1,18,28,38,18,6,39,18,saskatoon mamba,Edmonton Stingers,2026-06-25T01:30:00Z,12,4,26-32
 2798722,2798722,2026,Scarborough Shooting Stars,,SSS,91,30,73,41,23,47,48,7,26,26,24,31,77,13,30,43,22,8,15,3,16,25,46,11,23,21,9,scarborough shooting stars,Montreal Alliance,2026-05-15T23:30:00Z,1,11,24-31
 2798734,2798734,2026,Scarborough Shooting Stars,,SSS,103,38,76,50,26,50,52,12,26,46,15,26,57,14,30,44,20,5,14,5,22,21,46,27,16,24,15,scarborough shooting stars,Winnipeg Sea Bears,2026-05-19T15:00:00Z,2,10,15-26
 2798719,2798719,2026,Scarborough Shooting Stars,,SSS,107,38,86,44,28,53,52,10,33,30,21,28,75,22,37,59,15,9,16,5,19,17,52,25,19,25,23,scarborough shooting stars,Saskatoon Mamba,2026-05-21T15:00:00Z,3,14,21-28
