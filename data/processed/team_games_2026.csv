@@ -46,6 +46,7 @@ game_id,fiba_id,season,team_name,short_name,team_code,team_score,field_goals_mad
 2798758,2798758,2026,Montréal Alliance,,MTL,75,30,58,51,25,40,62,5,18,27,10,14,71,11,23,34,19,3,21,5,18,18,42,16,9,35,2,montreal alliance,Niagara River Lions,2026-06-13T23:00:00Z,10,8,10-14
 2798772,2798772,2026,Montréal Alliance,,MTL,95,36,81,44,30,56,53,6,25,24,17,24,70,18,39,57,25,8,15,4,16,20,48,16,17,40,20,montreal alliance,Edmonton Stingers,2026-06-18T01:00:00Z,11,12,17-24
 2798766,2798766,2026,Montréal Alliance,,MTL,93,37,71,52,35,55,63,2,16,12,17,24,70,12,34,46,23,8,17,2,18,17,58,16,20,37,8,montreal alliance,Calgary Surge,2026-06-20T23:00:00Z,12,10,17-24
+2798776,2798776,2026,Montréal Alliance,,MTL,96,32,64,50,21,42,50,11,22,50,21,28,75,8,24,32,22,7,13,5,16,18,38,7,15,38,17,montreal alliance,Niagara River Lions,2026-06-26T23:30:00Z,13,12,21-28
 2798732,2798732,2026,Niagara River Lions,,NRL,85,31,78,39,21,50,42,10,28,35,13,22,59,16,35,51,21,4,11,6,19,16,36,17,9,36,11,niagara river lions,Ottawa BlackJacks,2026-05-18T23:00:00Z,1,10,13-22
 2798723,2798723,2026,Niagara River Lions,,NRL,71,22,65,33,12,35,34,10,30,33,17,21,80,14,25,39,6,5,17,1,17,20,22,6,10,40,4,niagara river lions,Winnipeg Sea Bears,2026-05-23T00:00:00Z,2,6,17-21
 2798729,2798729,2026,Niagara River Lions,,NRL,101,35,69,50,22,37,59,13,32,40,18,24,75,14,24,38,16,7,14,2,22,20,38,12,15,17,7,niagara river lions,Edmonton Stingers,2026-05-24T22:00:00Z,3,9,18-24
@@ -58,6 +59,7 @@ game_id,fiba_id,season,team_name,short_name,team_code,team_score,field_goals_mad
 2798765,2798765,2026,Niagara River Lions,,NRL,101,36,78,46,18,38,47,18,40,45,11,13,84,13,35,48,24,10,14,3,26,12,28,10,15,26,12,niagara river lions,Brampton Honey Badgers,2026-06-15T23:30:00Z,10,13,11-13
 2798759,2798759,2026,Niagara River Lions,,NRL,77,26,71,36,15,40,37,11,31,35,14,16,87,18,19,37,19,5,12,2,17,13,28,9,16,41,9,niagara river lions,Saskatoon Mamba,2026-06-19T15:00:00Z,11,7,14-16
 2798769,2798769,2026,Niagara River Lions,,NRL,69,25,72,34,20,39,51,5,33,15,14,15,93,11,35,46,17,10,21,3,22,16,36,7,6,27,21,niagara river lions,Scarborough Shooting Stars,2026-06-21T20:00:00Z,12,13,14-15
+2798776,2798776,2026,Niagara River Lions,,NRL,86,31,67,46,26,49,53,5,18,27,19,23,82,11,26,37,19,9,13,2,20,16,44,12,23,54,18,niagara river lions,Montreal Alliance,2026-06-26T23:30:00Z,13,11,19-23
 2798718,2798718,2026,Ottawa BlackJacks,,OTT,93,33,67,49,26,46,56,7,21,33,20,24,83,8,39,47,17,4,16,6,16,15,48,10,6,24,20,ottawa blackjacks,Calgary Surge,2026-05-12T23:30:00Z,1,10,20-24
 2798724,2798724,2026,Ottawa BlackJacks,,OTT,86,27,66,40,20,39,51,7,27,25,25,29,86,11,26,37,22,13,14,3,14,22,38,9,23,22,31,ottawa blackjacks,Brampton Honey Badgers,2026-05-15T23:30:00Z,2,16,25-29
 2798732,2798732,2026,Ottawa BlackJacks,,OTT,91,30,72,41,20,45,44,10,27,37,21,33,63,11,36,47,20,8,10,7,16,19,38,10,12,25,19,ottawa blackjacks,Niagara River Lions,2026-05-18T23:00:00Z,3,15,21-33
