@@ -213,6 +213,22 @@ function buildTrace(team, statLabel, statCol, mode) {
       ? teamRows.map(row => row[diffCol])
       : teamRows.map(row => row[statCol]);
 
+  const validValues = yValues
+    .map(value => numberOrNull(value))
+    .filter(value => value !== null);
+
+  const average =
+    validValues.length > 0
+      ? validValues.reduce((sum, value) => sum + value, 0) / validValues.length
+      : null;
+
+  const averageLabel =
+    average === null
+      ? "N/A"
+      : mode === "Differential"
+        ? `${average >= 0 ? "+" : ""}${average.toFixed(1)}`
+        : average.toFixed(1);
+
   const customData = teamRows.map(row => [
     row.game_date,
     row.opponent_name,
@@ -245,7 +261,7 @@ function buildTrace(team, statLabel, statCol, mode) {
     customdata: customData,
     type: "scatter",
     mode: "lines+markers",
-    name: team,
+    name: `${team} (${averageLabel})`,
     line: {
       color: TEAM_COLORS[team] || "#999999",
       width: 3,
@@ -336,7 +352,7 @@ function renderTeamStatChart(statLabel, statCol, mode = "Differential") {
       b: 70,
     },
     shapes: getZeroLineShape(mode),
-    updatemenus: [
+     updatemenus: [
       {
         type: "buttons",
         direction: "right",
@@ -352,6 +368,9 @@ function renderTeamStatChart(statLabel, statCol, mode = "Differential") {
               {
                 y: buildTraces(statLabel, statCol, "Differential").map(
                   trace => trace.y
+                ),
+                name: buildTraces(statLabel, statCol, "Differential").map(
+                  trace => trace.name
                 ),
                 customdata: buildTraces(statLabel, statCol, "Differential").map(
                   trace => trace.customdata
@@ -376,6 +395,9 @@ function renderTeamStatChart(statLabel, statCol, mode = "Differential") {
               {
                 y: buildTraces(statLabel, statCol, "Total").map(
                   trace => trace.y
+                ),
+                name: buildTraces(statLabel, statCol, "Total").map(
+                  trace => trace.name
                 ),
                 customdata: buildTraces(statLabel, statCol, "Total").map(
                   trace => trace.customdata
