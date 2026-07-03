@@ -12,6 +12,7 @@ game_id,fiba_id,season,team_name,short_name,team_code,team_score,field_goals_mad
 2798774,2798774,2026,Brampton Honey Badgers,,BHB,99,33,64,51,20,42,47,13,22,59,20,28,71,11,31,42,12,10,19,3,20,21,38,19,16,22,15,brampton honey badgers,Calgary Surge,2026-06-18T01:30:00Z,11,13,20-28
 2798767,2798767,2026,Brampton Honey Badgers,,BHB,81,32,83,38,24,49,48,8,34,23,9,10,90,24,27,51,17,6,19,2,21,15,42,19,20,16,8,brampton honey badgers,Vancouver Bandits,2026-06-21T01:00:00Z,12,8,9-10
 2798777,2798777,2026,Brampton Honey Badgers,,BHB,69,24,85,28,16,48,33,8,37,21,13,19,68,19,32,51,17,10,13,5,22,19,24,10,15,31,10,brampton honey badgers,Scarborough Shooting Stars,2026-06-27T23:00:00Z,13,15,13-19
+2798784,2798784,2026,Brampton Honey Badgers,,BHB,81,32,83,38,21,49,42,11,34,32,6,11,54,15,28,43,22,6,11,1,17,12,36,10,17,31,11,brampton honey badgers,Ottawa BlackJacks,2026-07-02T23:30:00Z,14,7,6-11
 2798718,2798718,2026,Calgary Surge,,CGY,88,29,84,34,18,42,42,11,42,26,19,22,86,16,26,42,24,10,7,3,15,16,30,12,24,30,14,calgary surge,Ottawa BlackJacks,2026-05-12T23:30:00Z,1,13,19-22
 2798730,2798730,2026,Calgary Surge,,CGY,72,26,77,33,20,37,54,6,40,15,14,18,77,18,23,41,21,7,9,3,17,17,36,11,14,20,13,calgary surge,Brampton Honey Badgers,2026-05-17T20:00:00Z,2,10,14-18
 2798731,2798731,2026,Calgary Surge,,CGY,101,39,71,54,28,43,65,11,28,39,12,17,70,11,21,32,25,11,20,4,15,16,52,12,27,33,24,calgary surge,Vancouver Bandits,2026-05-25T00:00:00Z,3,15,12-17
@@ -80,6 +81,7 @@ game_id,fiba_id,season,team_name,short_name,team_code,team_score,field_goals_mad
 2798771,2798771,2026,Ottawa BlackJacks,,OTT,98,37,74,50,26,53,49,11,21,52,13,17,76,13,28,41,25,5,11,8,21,15,40,13,10,15,20,ottawa blackjacks,Saskatoon Mamba,2026-06-21T23:00:00Z,12,13,13-17
 2798773,2798773,2026,Ottawa BlackJacks,,OTT,88,33,76,43,25,47,53,8,29,27,14,22,63,17,33,50,21,4,15,12,18,19,34,20,8,36,23,ottawa blackjacks,Scarborough Shooting Stars,2026-06-23T23:30:00Z,13,16,14-22
 2798779,2798779,2026,Ottawa BlackJacks,,OTT,92,34,67,50,21,36,58,13,31,41,11,13,84,10,32,42,22,7,16,3,16,15,38,5,14,23,16,ottawa blackjacks,Niagara River Lions,2026-06-28T17:00:00Z,14,10,11-13
+2798784,2798784,2026,Ottawa BlackJacks,,OTT,76,26,62,41,19,34,55,7,28,25,17,21,80,7,37,44,18,8,16,8,12,17,34,5,18,19,31,ottawa blackjacks,Brampton Honey Badgers,2026-07-02T23:30:00Z,15,16,17-21
 2798720,2798720,2026,Saskatoon Mamba,,SSK,95,36,72,50,25,42,59,11,30,36,12,17,70,12,25,37,15,5,21,5,17,16,42,8,16,38,11,saskatoon mamba,Vancouver Bandits,2026-05-14T16:30:00Z,1,10,12-17
 2798727,2798727,2026,Saskatoon Mamba,,SSK,96,37,75,49,24,45,53,13,30,43,9,12,75,15,26,41,17,5,18,5,16,18,40,19,11,30,20,saskatoon mamba,Winnipeg Sea Bears,2026-05-17T00:00:00Z,2,10,9-12
 2798716,2798716,2026,Saskatoon Mamba,,SSK,80,27,71,38,16,44,36,11,27,40,15,25,60,15,23,38,13,8,16,7,19,19,32,18,21,33,14,saskatoon mamba,Montreal Alliance,2026-05-19T23:30:00Z,3,15,15-25
