@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>CEBL Payroll Tracker</title>
+
+  <link
+    rel="stylesheet"
+    href="./styles.css"
+  >
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"
+  ></script>
+</head>
+
+<body>
+
+  <header class="page-header">
+    <div>
+      <h1>CEBL Payroll Tracker</h1>
+
+      <p>
+        2026 active-game payroll analysis
+      </p>
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- =====================================================
+         LEAGUE SUMMARY
+    ====================================================== -->
+
+    <section class="summary-grid">
+
+      <div class="summary-card">
+        <span class="summary-label">
+          League Average Game Payroll
+        </span>
+
+        <strong
+          class="summary-value"
+          id="leagueAverage"
+        >
+          —
+        </strong>
+      </div>
+
+
+      <div class="summary-card">
+        <span class="summary-label">
+          Highest Payroll Faced
+        </span>
+
+        <strong
+          class="summary-value"
+          id="highestPayroll"
+        >
+          —
+        </strong>
+      </div>
+
+
+      <div class="summary-card">
+        <span class="summary-label">
+          Lowest Payroll Faced
+        </span>
+
+        <strong
+          class="summary-value"
+          id="lowestPayroll"
+        >
+          —
+        </strong>
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         MONEY FACED HEATMAP
+    ====================================================== -->
+
+    <section class="dashboard-card">
+
+      <div class="section-heading">
+
+        <div>
+          <h2>
+            Money Faced by Game
+          </h2>
+
+          <p>
+            Each square is the opponent active payroll faced
+            by that team in that game.
+          </p>
+        </div>
+
+
+        <div class="legend">
+
+          <span>
+            Below Average
+          </span>
+
+          <div class="legend-bar"></div>
+
+          <span>
+            Above Average
+          </span>
+
+        </div>
+
+      </div>
+
+
+      <div class="heatmap-scroll">
+
+        <div
+          id="payrollHeatmap"
+          class="payroll-heatmap"
+        ></div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         TEAM PAYROLL METRICS
+    ====================================================== -->
+
+    <section class="dashboard-card">
+
+      <div class="section-heading">
+
+        <div>
+          <h2>
+            Team Payroll Metrics
+          </h2>
+
+          <p>
+            Money faced ranking and spending efficiency by result.
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="ranking-wrapper">
+
+        <table class="ranking-table payroll-metrics-table">
+
+          <thead>
+
+            <tr>
+
+              <th>
+                Money Faced Rank
+              </th>
+
+              <th>
+                Team
+              </th>
+
+              <th>
+                W-L
+              </th>
+
+              <th>
+                Game Spending<br>in Wins
+              </th>
+
+              <th>
+                Game Spending<br>in Losses
+              </th>
+
+              <th>
+                Total Spending<br>/ Season Wins
+              </th>
+
+              <th>
+                Avg Money<br>Faced
+              </th>
+
+              <th>
+                Total Money<br>Faced
+              </th>
+
+            </tr>
+
+          </thead>
+
+
+          <tbody id="teamMetricsBody"></tbody>
+
+        </table>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =======================================================
+       HEATMAP TOOLTIP
+  ======================================================== -->
+
+  <div
+    id="heatmapTooltip"
+    class="heatmap-tooltip"
+  ></div>
+
+
+  <script src="./app.js"></script>
+
+</body>
+</html>
