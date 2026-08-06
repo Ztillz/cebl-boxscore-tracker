@@ -829,6 +829,28 @@ function renderHeatmap(rows) {
 // TEAM METRIC TABLE
 // ============================================================
 
+// ============================================================
+// TEAM METRIC TABLE
+// ============================================================
+
+let teamMetricsSortKey = "money_faced_rank";
+let teamMetricsSortDirection = "asc";
+
+
+function getTeamMetricSortValue(row, key, type) {
+
+  if (type === "text") {
+    return String(row[key] || "").toLowerCase();
+  }
+
+  const value = Number(row[key]);
+
+  return Number.isFinite(value)
+    ? value
+    : 0;
+}
+
+
 function renderTeamMetrics(rows) {
 
   const body =
@@ -840,10 +862,60 @@ function renderTeamMetrics(rows) {
   body.innerHTML = "";
 
 
+  const activeHeader =
+    document.querySelector(
+      `.sortable-header[data-sort-key="${teamMetricsSortKey}"]`
+    );
+
+
+  const sortType =
+    activeHeader?.dataset.sortType ||
+    "number";
+
+
   const sortedRows = [...rows].sort(
-    (a, b) =>
-      Number(a.money_faced_rank) -
-      Number(b.money_faced_rank)
+    (a, b) => {
+
+      const aValue =
+        getTeamMetricSortValue(
+          a,
+          teamMetricsSortKey,
+          sortType
+        );
+
+      const bValue =
+        getTeamMetricSortValue(
+          b,
+          teamMetricsSortKey,
+          sortType
+        );
+
+
+      let comparison = 0;
+
+
+      if (sortType === "text") {
+
+        comparison =
+          aValue.localeCompare(
+            bValue
+          );
+
+      }
+
+      else {
+
+        comparison =
+          aValue - bValue;
+
+      }
+
+
+      return teamMetricsSortDirection === "asc"
+        ? comparison
+        : -comparison;
+
+    }
   );
 
 
@@ -945,6 +1017,111 @@ function renderTeamMetrics(rows) {
       `;
 
     }).join("");
+
+
+  updateTeamMetricSortIndicators();
+
+}
+
+
+function updateTeamMetricSortIndicators() {
+
+  document
+    .querySelectorAll(
+      ".sortable-header"
+    )
+    .forEach(header => {
+
+      const indicator =
+        header.querySelector(
+          ".sort-indicator"
+        );
+
+
+      if (!indicator) {
+        return;
+      }
+
+
+      if (
+        header.dataset.sortKey ===
+        teamMetricsSortKey
+      ) {
+
+        indicator.textContent =
+          teamMetricsSortDirection === "asc"
+            ? " ▲"
+            : " ▼";
+
+      }
+
+      else {
+
+        indicator.textContent = "";
+
+      }
+
+    });
+
+}
+
+
+function setupTeamMetricSorting() {
+
+  const headers =
+    document.querySelectorAll(
+      ".sortable-header"
+    );
+
+
+  headers.forEach(header => {
+
+    header.addEventListener(
+      "click",
+      () => {
+
+        const sortKey =
+          header.dataset.sortKey;
+
+
+        if (
+          teamMetricsSortKey ===
+          sortKey
+        ) {
+
+          teamMetricsSortDirection =
+            teamMetricsSortDirection === "asc"
+              ? "desc"
+              : "asc";
+
+        }
+
+        else {
+
+          teamMetricsSortKey =
+            sortKey;
+
+
+          teamMetricsSortDirection =
+            header.dataset.sortType === "text"
+              ? "asc"
+              : "desc";
+
+        }
+
+
+        renderTeamMetrics(
+          teamSummaryRows
+        );
+
+      }
+    );
+
+  });
+
+
+  updateTeamMetricSortIndicators();
+
 }
 
 
@@ -1002,6 +1179,7 @@ async function init() {
     renderTeamMetrics(
       teamSummaryRows
     );
+    setupTeamMetricSorting();
 
   }
 

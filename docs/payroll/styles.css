@@ -485,6 +485,32 @@ main {
   line-height: 1.4;
 }
 
+.sortable-header {
+  cursor: pointer;
+  user-select: none;
+
+  transition:
+    color 0.15s ease,
+    background-color 0.15s ease;
+}
+
+
+.sortable-header:hover {
+  color: #ffffff;
+  background: #273244;
+}
+
+
+.sort-indicator {
+  display: inline-block;
+
+  margin-left: 4px;
+
+  color: #60a5fa;
+
+  font-size: 9px;
+}
+
 
 .ranking-table th:first-child,
 .ranking-table td:first-child {
