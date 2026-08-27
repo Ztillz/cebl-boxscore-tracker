@@ -25,4 +25,5 @@ game_id,fiba_id,season,team_name,short_name,team_code,team_score,field_goals_mad
 2798834,2798834,2026,Brampton Honey Badgers,,BHB,77,31,92,33,19,46,41,12,46,26,3,8,37,22,34,56,19,6,15,3,17,15,36,15,12,29,4,brampton honey badgers,Scarborough Shooting Stars,2026-08-03T20:00:00Z,24,9,3-8
 2876548,2876548,2026,Brampton Honey Badgers,,BHB,95,35,73,47,28,47,59,7,26,26,18,24,75,13,30,43,19,6,5,3,14,18,46,15,11,12,15,brampton honey badgers,Ottawa BlackJacks,2026-08-06T23:00:00Z,25,9,18-24
 2878251,2878251,2026,Brampton Honey Badgers,,BHB,91,32,78,41,22,52,42,10,26,38,17,21,80,19,30,49,15,5,9,5,21,23,30,28,13,17,5,brampton honey badgers,Niagara River Lions,2026-08-08T17:00:00Z,26,10,17-21
-2879495,2879495,2026,Brampton Honey Badgers,,BHB,84,32,66,48,27,48,56,5,18,27,15,23,65,11,31,42,15,3,19,2,17,17,52,12,10,16,13,brampton honey badgers,Winnipeg Sea Bears,2026-08-15T19:30:00Z,27,5,15-23
+2879494,2879494,2026,Brampton Honey Badgers,,BHB,6,2,3,66,1,1,100,1,2,50,1,1,100,0,1,1,1,0,0,0,1,2,0,0,0,0,0,brampton honey badgers,Winnipeg Sea Bears,2026-08-12T23:00:00Z,27,0,1-1
+2879495,2879495,2026,Brampton Honey Badgers,,BHB,84,32,66,48,27,48,56,5,18,27,15,23,65,11,31,42,15,3,19,2,17,17,52,12,10,16,13,brampton honey badgers,Winnipeg Sea Bears,2026-08-15T19:30:00Z,28,5,15-23
